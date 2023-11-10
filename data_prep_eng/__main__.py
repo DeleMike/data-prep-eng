@@ -1,7 +1,7 @@
-from data_prep_eng.prepare import run
+from data_prep_eng.prepare import train
 
 def main():
-   run()
+   train()
 
 if __name__ == "__main__":
     main()

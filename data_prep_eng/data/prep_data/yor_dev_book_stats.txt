@@ -1,0 +1,6 @@
+Counters:
+total_sentences: 1006
+accents_and_underdots: 603
+only_accents: 403
+accents_and_underdots_percentage: 59.940357852882705
+only_accents_percentage: 40.059642147117295
