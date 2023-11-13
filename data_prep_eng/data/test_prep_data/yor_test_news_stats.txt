@@ -1,0 +1,8 @@
+Counters:
+total_sentences: 3103
+remove_accents_and_underdots: 1885
+remove_only_accents: 578
+remove_only_accents_and_any_random_word: 640
+accents_and_underdots_percentage: 60.747663551401864
+only_accents_percentage: 18.627135030615534
+only_accents_and_any_random_word_percentage: 20.6252014179826
