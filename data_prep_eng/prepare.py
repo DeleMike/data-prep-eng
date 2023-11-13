@@ -10,7 +10,7 @@ random.seed(seed_value)
 
 domains = ['book', 'digital', 'news', 'proverbs', 'tedTalks']
 
-def prepare():
+def test_prepare():
     """
     For a data domain, apply these cases:
     (i) Remove accents and underdots
