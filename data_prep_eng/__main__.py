@@ -1,7 +1,7 @@
-from data_prep_eng.prepare import train
+from data_prep_eng.prepare import create_new_dataset
 
 def main():
-   train()
+   create_new_dataset()
 
 if __name__ == "__main__":
     main()

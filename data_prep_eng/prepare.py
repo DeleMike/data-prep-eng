@@ -4,6 +4,10 @@ import unicodedata
 import random
 import csv
 
+# Set a fixed seed for reproducibility
+seed_value = 28
+random.seed(seed_value)
+
 def prepare():
     """
     For a data domain, apply these cases:
@@ -15,6 +19,7 @@ def prepare():
     # we want 60% of the text to apply rule (i) and 40% apply rule (ii)
     print(_remove_accents_and_underdots(text))
     print(_remove_only_accents(text))
+    print(_remove_only_accents_and_any_random_word(text))
 
     # print('/mnt/disk/makindele/data_prep_eng/data_prep_eng/data/dev_book.tsv')
     absolute_path = Path('.').resolve() / "data_prep_eng/data/dev_book.tsv"
@@ -75,18 +80,55 @@ def _remove_only_accents(text):
     # Step 3: Re-compose the string into precomposed characters
     return unicodedata.normalize('NFC', filtered_text)
 
+def _remove_only_accents_and_any_random_word(text):
+    """
+    We will do the same as _remove_only_accents but here we will also remove some random words from the text
+    """
+    # Step 1: Remove accents
+    decomposed_text = _remove_only_accents(text)
+
+    #  Step 2: Tokenize the text into words
+    words = decomposed_text.split()
+
+    # Step 3: Determine the number of words to remove (between 1 and 4)
+    num_words_to_remove = random.randint(1, 4)
+
+    # Step 4: Remove the random number of words
+    if len(words) > num_words_to_remove:
+        for _ in range(num_words_to_remove):
+            random_index = random.randint(0, len(words) - 1)
+            del words[random_index]
+
+    # Step 5: Re-compose the string into precomposed characters
+    result_text = ' '.join(words)
+    return unicodedata.normalize('NFC', result_text)
+    
+
+
+
 def apply_mixed_removal(sentence):
-    # Determine whether to apply _remove_accents_and_underdots or _remove_only_accents
-    if random.random() < 0.6:  # 60% chance for _remove_accents_and_underdots
-        return _remove_accents_and_underdots(sentence), 'accents_and_underdots'
-    else:  # 40% chance for _remove_only_accents
-        return _remove_only_accents(sentence), 'only_accents'
+    """Determine which case to apply
 
-def train():
-    # Set a fixed seed for reproducibility
-    seed_value = 30
-    random.seed(seed_value)
+    This line uses random.choices to randomly select one of the three cases: 
+    'remove_accents_and_underdots', 'remove_only_accents', or 'remove_only_accents_and_any_random_word'. 
+    The weights [0.6, 0.2, 0.2] determine the probability of each case being selected. 
+    In this case, 'accents_and_underdots' has a 60% chance, 
+    'only_accents' has a 20% chance, and 'only_accents_and_any_random_word' has a 20% chance.
+    """
+    case = random.choices(['remove_accents_and_underdots', 'remove_only_accents', 'remove_only_accents_and_any_random_word'],
+                          weights=[0.6, 0.2, 0.2])[0]
 
+    if case == 'remove_accents_and_underdots':
+        return _remove_accents_and_underdots(sentence), case
+    elif case == 'remove_only_accents':
+        return _remove_only_accents(sentence), case
+    elif case == 'remove_only_accents_and_any_random_word':
+        return _remove_only_accents_and_any_random_word(sentence), case
+
+def create_new_dataset():
+    """
+    Apply all rules to dataset
+    """
     absolute_path = Path('.').resolve() / "data_prep_eng/data/dev_book.tsv"
     output_path_folder = Path('.').resolve() / "data_prep_eng/data/prep_data"
     if(not output_path_folder.exists()): output_path_folder.mkdir()
@@ -96,7 +138,7 @@ def train():
     print(f'Absolute Path = {absolute_path}')
     yoruba_sentences = extract_yoruba_sentences(absolute_path)
     # Counters for verification
-    counters = {'total_sentences': 0, 'accents_and_underdots': 0, 'only_accents': 0}
+    counters = {'total_sentences': 0, 'remove_accents_and_underdots': 0, 'remove_only_accents': 0, 'remove_only_accents_and_any_random_word': 0}
 
     with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
         tsv_writer = csv.writer(output_file, delimiter='\t')
@@ -109,8 +151,9 @@ def train():
             tsv_writer.writerow([sentence, modified_sentence, removal_type])
 
     # Calculate percentages
-    counters['accents_and_underdots_percentage'] = (counters['accents_and_underdots'] / counters['total_sentences']) * 100
-    counters['only_accents_percentage'] = (counters['only_accents'] / counters['total_sentences']) * 100
+    counters['accents_and_underdots_percentage'] = (counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
+    counters['only_accents_percentage'] = (counters['remove_only_accents'] / counters['total_sentences']) * 100
+    counters['only_accents_and_any_random_word_percentage'] = (counters['remove_only_accents_and_any_random_word'] / counters['total_sentences']) * 100
 
     # Print the counters
     print("\nCounters:")
