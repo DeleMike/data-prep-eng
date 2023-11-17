@@ -2,6 +2,8 @@ import unicodedata
 import random
 import csv
 
+domains = ['book', 'digital', 'news', 'proverbs', 'tedTalks']
+
 def remove_accents_and_underdots(text:str):
     """
     We will remove all accents and underdots from the text

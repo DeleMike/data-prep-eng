@@ -5,8 +5,6 @@ import unicodedata
 import random
 import csv
 
-domains = ['book', 'digital', 'news', 'proverbs', 'tedTalks']
-
 def _swap_distinct_words(word_list):
     # Get distinct words in the list
     distinct_words = list(set(word_list))
