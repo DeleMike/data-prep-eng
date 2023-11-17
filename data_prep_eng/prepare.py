@@ -56,12 +56,3 @@ def combine_data(type_of_dataset='dev'):
 
     print(f"Combined file saved to {output_path}")
 
-    # # Read the content of the file and shuffle the lines
-    # with open(output_path, 'r', encoding='utf-8') as shuffle_file:
-    #     lines = shuffle_file.readlines()
-    #     random.shuffle(lines)
-
-    # # Write the shuffled lines back to the file
-    # with open(output_path, 'w', encoding='utf-8') as shuffle_file:
-    #     shuffle_file.writelines(lines)
-
