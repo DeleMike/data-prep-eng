@@ -5,10 +5,6 @@ import unicodedata
 import random
 import csv
 
-# Set a fixed seed for reproducibility
-seed_value = 28
-random.seed(seed_value)
-
 domains = ['book', 'digital', 'news', 'proverbs', 'tedTalks']
 
 def _swap_distinct_words(word_list):
@@ -85,33 +81,6 @@ def _extract_yoruba_sentences(file_path:str):
                 yoruba_sentences.append(yoruba_sentence)
 
     return yoruba_sentences
-
-def apply_mixed_removal(sentence):
-    """Determine which case to apply
-
-    This line uses random.choices to randomly select one of the three cases: 
-    'remove_accents_and_underdots', 'remove_only_accents', or 'remove_only_accents_and_any_random_word',
-    'remove_only_accents_and_swap_word'. 
-    The weights [0.6, 0.2, 0.1, 0.1] determine the probability of each case being selected. 
-    In this case, 'accents_and_underdots' has a 60% chance, 
-    'only_accents' has a 20% chance, and 'only_accents_and_any_random_word' has a 10% chance.
-    'remove_only_accents_and_swap_word' also has a 10% chance
-    """
-    case = random.choices([
-        'remove_accents_and_underdots', 
-        'remove_only_accents', 
-        'remove_only_accents_and_any_random_word',
-        'remove_only_accents_and_swap_word'], weights=[0.6, 0.2, 0.1, 0.1])[0]
-
-
-    if case == 'remove_accents_and_underdots':
-        return remove_accents_and_underdots(sentence), case
-    elif case == 'remove_only_accents':
-        return remove_only_accents(sentence), case
-    elif case == 'remove_only_accents_and_any_random_word':
-        return remove_only_accents_and_any_random_word(sentence), case
-    elif case == 'remove_only_accents_and_swap_word':
-        return remove_only_accents_and_swap_word(sentence), case
 
 def _create_output_folders(base_folder, type_of_dataset, domain):
     # Define the paths

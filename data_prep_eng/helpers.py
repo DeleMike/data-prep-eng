@@ -42,10 +42,10 @@ def remove_only_accents_and_any_random_word(text:str):
     words = decomposed_text.split()
 
     # Step 3: Determine the number of words to remove (between 1 and 2)
-    num_words_to_remove = random.randint(1, min(2, len(words)))  # Ensure not to remove more words than available
+    num_words_to_remove = min(2, len(words))  # Ensure not to remove more words than available
 
     # Step 4: Remove the random number of words
-    if len(words) > num_words_to_remove:
+    if num_words_to_remove < len(words):
         for _ in range(num_words_to_remove):
             random_index = random.randint(0, len(words) - 1)
             del words[random_index]
@@ -95,4 +95,32 @@ def remove_only_accents_and_swap_word(text: str):
     # Step 4: Re-compose the string into precomposed characters
     result_text = ' '.join(words)
     return unicodedata.normalize('NFC', result_text)
+
+def apply_mixed_removal(sentence):
+    """Determine which case to apply
+
+    This line uses random.choices to randomly select one of the three cases: 
+    'remove_accents_and_underdots', 'remove_only_accents', or 'remove_only_accents_and_any_random_word',
+    'remove_only_accents_and_swap_word'. 
+    The weights [0.6, 0.2, 0.1, 0.1] determine the probability of each case being selected. 
+    In this case, 'accents_and_underdots' has a 60% chance, 
+    'only_accents' has a 20% chance, and 'only_accents_and_any_random_word' has a 10% chance.
+    'remove_only_accents_and_swap_word' also has a 10% chance
+    """
+    case = random.choices([
+        'remove_accents_and_underdots', 
+        'remove_only_accents', 
+        'remove_only_accents_and_any_random_word',
+        'remove_only_accents_and_swap_word'], weights=[0.6, 0.2, 0.1, 0.1])[0]
+
+
+    if case == 'remove_accents_and_underdots':
+        return remove_accents_and_underdots(sentence), case
+    elif case == 'remove_only_accents':
+        return remove_only_accents(sentence), case
+    elif case == 'remove_only_accents_and_any_random_word':
+        return remove_only_accents_and_any_random_word(sentence), case
+    elif case == 'remove_only_accents_and_swap_word':
+        return remove_only_accents_and_swap_word(sentence), case
+
  
