@@ -5,7 +5,7 @@ Kò sí èdè yìí lorí Kolibri	Ko si ede yii lori Kolibri	remove_only_accents
 Àṣìṣe ìráàyèsì dísíkì wáyé.	Aṣiṣe iraayesi disiki waye.	remove_only_accents
 Má bínú, ìlujá ìwádìí tí ò ń lò kò lè ṣiṣẹ́.	Ma binu, iluja iwadii ti o n lo ko le ṣiṣẹ.	remove_only_accents
 Láti lo Kolibri, a dàbá pé kí o lo Firefox tàbí Chrome.	Lati lo Kolibri, a daba pe ki o lo Firefox tabi Chrome.	remove_only_accents
-O tún lè gbìyànjú láti lo ìlujá ìwádìí tuntun.	O tun le iluja lati lo gbiyanju iwadii tuntun.	remove_only_accents_and_swap_word
+O tún lè gbìyànjú láti lo ìlujá ìwádìí tuntun.	O tun le gbiyanju iluja lo lati iwadii tuntun.	remove_only_accents_and_swap_word
 Gba àṣẹ lọ́wọ́ aṣèdá OpenID	Gba ase lowo aseda OpenID	remove_accents_and_underdots
 Ọ̀rọ̀ aṣínà rẹ ti yí padà.	Ọrọ aṣina rẹ ti yi pada.	remove_only_accents
 Ṣàtúnṣe Ìrísí òǹṣàmúlò	Satunse Irisi onsamulo	remove_accents_and_underdots
@@ -28,13 +28,13 @@ Yan àwọn akọ́ni	akọni awọn Yan	remove_only_accents_and_swap_word
 Ìṣoro wáyẹ́ ní àkókò ìkórajọ àwọn ààtò rẹ	Isoro waye ni akoko ikorajo awon aato re	remove_accents_and_underdots
 Ìṣoro wáyé ní ìgbà ìṣafipamọ́ àwọn ààtò rẹ	Isoro waye ni igba isafipamo awon aato re	remove_accents_and_underdots
 Àfikún ti bá àwọn ohun èlò	Afikun ti ba awọn ohun elo	remove_only_accents
-Ṣé ó dá ọ lójú pé o fẹ́ ṣe àtúnṣe sí ààtò ìṣiṣẹ́ rẹ?	pe o da ọ loju Ṣe o fẹ ṣe atunṣe si aato iṣiṣẹ rẹ?	remove_only_accents_and_swap_word
+Ṣé ó dá ọ lójú pé o fẹ́ ṣe àtúnṣe sí ààtò ìṣiṣẹ́ rẹ?	atunṣe o da ọ loju pe o fẹ ṣe Ṣe si aato iṣiṣẹ rẹ?	remove_only_accents_and_swap_word
 Wà á pàdánù àwọn àyípadà tí o ti ṣe.	Wa a padanu awon ayipada ti o ti se.	remove_accents_and_underdots
 Bí aṣàmúlò kan bá wo ohun àmúlò kan, à ń ṣe àkọsílẹ̀ wákàtí tí ó fi lò ó àti ìtẹ̀síwájú bí wọ́n ti ṣe.	Bi aṣamulo kan wo ohun kan, a n ṣe akọsilẹ wakati ti o fi lo o ati itẹsiwaju bi wọn ti ṣe.	remove_only_accents_and_any_random_word
 Ọ̀kọ̀ọ̀kan ìlà nínú iṣẹ́ yìí ni ó ń ṣe àkọsílẹ̀ ìlò gbogbo tí òǹṣàmúlò lo ohun àmúlò kan pàtó.	Ọkọọkan ila ninu iṣẹ yii o ṣe akọsilẹ ilo gbogbo ti onṣamulo lo ohun amulo kan pato.	remove_only_accents_and_any_random_word
 Èyí kan gbogbo awon òǹṣàmúlò tí abẹ́rẹ́ wọn kò ní okùn nídìí, tí kò fi orúkọ sílẹ̀ wọlé.	Eyi kan gbogbo awon onṣamulo ti abẹrẹ wọn ko ni okun nidii, ti ko fi orukọ silẹ wọle.	remove_only_accents
 Gba àkọsílẹ̀ iṣẹ́ jáde	Gba akosile ise jade	remove_accents_and_underdots
-Gba àkọsílẹ̀ iṣẹ́ tuntun	tuntun akọsilẹ iṣẹ Gba	remove_only_accents_and_swap_word
+Gba àkọsílẹ̀ iṣẹ́ tuntun	iṣẹ akọsilẹ Gba tuntun	remove_only_accents_and_swap_word
 Àpàpọ̀ àkókò/ìtẹ̀síwájú fún ọ̀kọ̀ọ̀kan àwọn ohun àmúlò	Apapo akoko/itesiwaju fun okookan awon ohun amulo	remove_accents_and_underdots
 Bí o bá ṣe àmúṣiṣẹ́pọ̀ ohun èlò yìí pẹ̀lú Ibi Ìpamọ́ Ìwífún-alálàyé Kolibri, ò ń fún àwọn alábòójútó iléeṣẹ́ tí ó wà lórí Ibi Ìpamọ́ Ìwífún-alálàyé Kolibri láti rí àyè sí ìwífún-alálàyé rẹ.	Bi o ba se amusisepo ohun elo yii pelu Ibi Ipamo Iwifun-alalaye Kolibri, o n fun awon alaboojuto ileese ti o wa lori Ibi Ipamo Iwifun-alalaye Kolibri lati ri aye si iwifun-alalaye re.	remove_accents_and_underdots
 Yóò jẹ́ gbígbé sí inú apèsè orí sánmà ti Learning Equality, tí yóò ní àǹfààní láti lo ìwífún-alálàyé yìí.	Yoo je gbigbe si inu apese ori sanma ti Learning Equality, ti yoo ni anfaani lati lo iwifun-alalaye yii.	remove_accents_and_underdots
@@ -50,7 +50,7 @@ Yàgò fún lílo àwọn ìwífún ara ẹni tí ó lè kóni síta nítorí ó
 Àfo yìí pọn dandan láti fi ọ̀rọ̀ sílẹ̀ sí	Afo yii pon dandan lati fi oro sile si	remove_accents_and_underdots
 Ṣe àpamọ́ àwọn ìyípadà	Se apamo awon iyipada	remove_accents_and_underdots
 Ìtúnwọ-orí-ìṣàsopọ̀ láṣeyanjú!	Itunwo-ori-isasopo laseyanju!	remove_accents_and_underdots
-O lè má ṣe àpínká, àtúnṣe sí, tàbí fi ohun àmúlò yìí ṣe ìpìlẹ̀ iṣẹ́ mìíràn láìsí ìgbaniláàyè láti ọ̀dọ̀ ẹni tí ó ni àṣẹ-ẹ̀dà náà.	O le ma ṣe fi atunṣe si, tabi apinka, ohun amulo yii ṣe ipilẹ iṣẹ miiran laisi igbanilaaye lati ọdọ ẹni ti o ni aṣẹ-ẹda naa.	remove_only_accents_and_swap_word
+O lè má ṣe àpínká, àtúnṣe sí, tàbí fi ohun àmúlò yìí ṣe ìpìlẹ̀ iṣẹ́ mìíràn láìsí ìgbaniláàyè láti ọ̀dọ̀ ẹni tí ó ni àṣẹ-ẹ̀dà náà.	O le ma ṣe apinka, atunṣe si, tabi fi ohun amulo yii ṣe ipilẹ iṣẹ miiran laisi igbanilaaye lati ọdọ aṣẹ-ẹda ti o ni ẹni naa.	remove_only_accents_and_swap_word
 O lè ṣe àpínká, àtúnṣe sí, àti fi ohun àmúlò yìí ṣe ìpìlẹ̀ iṣẹ́ mìíràn – kódà fún ti òwò – níwọ̀n ìgbà tí o bá bu ìyìn fún olùpilẹ̀ṣẹ̀ ohun àmúlò náà	O le se apinka, atunse si, ati fi ohun amulo yii se ipile ise miiran – koda fun ti owo – niwon igba ti o ba bu iyin fun olupilese ohun amulo naa	remove_accents_and_underdots
 O lè ṣe àtúnṣe sí, àti fi ohun àmúlò yìí ṣe ìpìlẹ̀ iṣẹ́ mìíràn láì lò ó fún ìṣòwò.	O le se atunse si, ati fi ohun amulo yii se ipile ise miiran lai lo o fun isowo.	remove_accents_and_underdots
 Ohun àmúlò rẹ tuntun gbọdọ̀ bu ìyìn fún olùpilẹ̀ṣẹ̀ ohun àmúlò náà, kò sì gbọdọ̀ jẹ́ fún ìṣòwò.	Ohun amulo re tuntun gbodo bu iyin fun olupilese ohun amulo naa, ko si gbodo je fun isowo.	remove_accents_and_underdots
@@ -70,7 +70,7 @@ O ní ètò àti àṣẹ gbogbo lábẹ́ òfin àṣẹ-ẹ̀dà, àwọn ẹl
 Èyí ni àṣẹ tí ó fi àyè gbani púpọ̀ jùlọ nínú àwọn àṣẹ Creative Commons.	Eyi ni ase ti o fi aye gbani pupo julo ninu awon ase Creative Commons.	remove_accents_and_underdots
 Ó dára fún ìtànká bí a ti ṣe fẹ́ áti lílò àwọn ohun tí ó wà lábẹ́ àṣẹ.	O dara fun itanka bi a ti ṣe fẹ ati lilo awọn ohun ti o wa labẹ aṣẹ.	remove_only_accents
 Àṣẹ yìí gba ẹnìkẹnì láàyè láti lè ṣe àpínká, àtúnṣe sí, àti fi ohun àmúlò yìí ṣe ìpìlẹ̀ iṣẹ́ mìíràn – láì lò ó fún òwò.	Ase yii gba enikeni laaye lati le se apinka, atunse si, ati fi ohun amulo yii se ipile ise miiran – lai lo o fun owo.	remove_accents_and_underdots
-Bí-ó-ti-lẹ̀-jẹ́-wí-pé àwọn ohun àmúlò tuntun tí a ṣe láti ara rẹ̀ gbọdọ̀ bu ìyìn fún ọ, kò sì gbọdọ̀ jẹ́ lílò fún ìṣòwò, kò pọn dandan kí a fi wọ́n sí abẹ́ àṣẹ ìlò kan náà.	Bi-o-ti-lẹ-jẹ-wi-pe awọn ohun amulo tuntun ti a ṣe lati lilo rẹ gbọdọ bu iyin fun ọ, ko si gbọdọ jẹ ara fun iṣowo, ko pọn dandan ki a fi wọn si abẹ aṣẹ ilo kan naa.	remove_only_accents_and_swap_word
+Bí-ó-ti-lẹ̀-jẹ́-wí-pé àwọn ohun àmúlò tuntun tí a ṣe láti ara rẹ̀ gbọdọ̀ bu ìyìn fún ọ, kò sì gbọdọ̀ jẹ́ lílò fún ìṣòwò, kò pọn dandan kí a fi wọ́n sí abẹ́ àṣẹ ìlò kan náà.	Bi-o-ti-lẹ-jẹ-wi-pe awọn ohun amulo tuntun ti a ṣe lati ara rẹ fun bu iyin gbọdọ ọ, ko si gbọdọ jẹ lilo fun iṣowo, ko pọn dandan ki a fi wọn si abẹ aṣẹ ilo kan naa.	remove_only_accents_and_swap_word
 Aṣẹ yìí jẹ́ eyìí tí o ni ìkálọ́wọ́kò julọ ninún awọ́n àṣẹ Creative Commons mẹ́fẹ̀ẹ̀fà.	Aṣẹ yii jẹ eyii ti o ni ikalọwọko julọ ninun Creative Commons mẹfẹẹfa.	remove_only_accents_and_any_random_word
 O gbani láàyè fún wiwà jade iṣẹ́ yin áti àfirán rẹ̀ nìkan, níwọ̀n ìgbà tí a ba n fì ìyìn fún yin	O gbani laaye fun wiwa jade iṣẹ yin ati afiran rẹ nikan, niwọn igba ba n fi iyin fun yin	remove_only_accents_and_any_random_word
 Ṣùgbọ́n ẹnìkẹnì kì yo ṣàyípadà rẹ̀ rárá tàbí lò ó fún ìpolówó ọjà kankan.	Sugbon enikeni ki yo sayipada re rara tabi lo o fun ipolowo oja kankan.	remove_accents_and_underdots
@@ -125,7 +125,7 @@ Daríkiri sí ọ̀tún sínu òǹkà òkè ti ìdá	Darikiri si sinu onka oke t
 Daríkiri sí ọ̀tún síta àwọn iga kan	Darikiri si otun sita awon iga kan	remove_accents_and_underdots
 Daríkiri sí ọ̀tún síta ti òǹkà àgbésókè	Darikiri si otun sita ti onka agbesoke	remove_accents_and_underdots
 Daríkiri sí ọ̀tún síta òǹkà ìsàlẹ̀ ti ìdá	Darikiri si ọtun sita onka isalẹ ti ida	remove_only_accents
-Daríkiri sí ọ̀tún síta òǹkà òkè àti sínú òǹkà ìsàlẹ̀ náà	Darikiri si ọtun sita onka oke isalẹ sinu onka ati naa	remove_only_accents_and_swap_word
+Daríkiri sí ọ̀tún síta òǹkà òkè àti sínú òǹkà ìsàlẹ̀ náà	oke si ọtun sita onka Darikiri ati sinu onka isalẹ naa	remove_only_accents_and_swap_word
 Yọ pàkíyèsí kúrò	Yọ pakiyesi kuro	remove_only_accents
 Àmì iga ọ̀tún	Ami iga otun	remove_accents_and_underdots
 Lo àtẹìjúwe àjúmọ̀ṣe náà láti túmọ̀ ìparadà tí ó tọ́	Lo ateijuwe ajumose naa lati tumo iparada ti o to	remove_accents_and_underdots
@@ -133,7 +133,7 @@ Lo àtẹìjúwe àjúmọ̀ṣe náà láti túmọ̀ ìparadà tí ó tọ́	L
 Jọ̀wọ́ yẹ ìdáhùn rẹ wò fún àlékún ọ̀rọ̀ tàbí àwọn àmì.	Jowo ye idahun re wo fun alekun oro tabi awon ami.	remove_accents_and_underdots
 O gbọ́dọ̀ tan gbogbo àwọn iná náà láti tẹ̀síwájú.	O gbodo tan gbogbo awon ina naa lati tesiwaju.	remove_accents_and_underdots
 Ìdáhùn rẹ ti fẹ́rẹ̀ẹ́ tọ́, ṣùgbọ́n ó ku <code>\\%</code> kan ní ìparí.	Idahun re ti feree to, sugbon o ku <code>\\%</code> kan ni ipari.	remove_accents_and_underdots
-Ìdáhùn rẹ kù dẹ̀dẹ̀ kí ó tọ́, ṣùgbọ́n ó gbọ́dọ̀ rọrùn.	Idahun rẹ ku dẹdẹ ki o tọ, ṣugbọn o rọrun. gbọdọ	remove_only_accents_and_swap_word
+Ìdáhùn rẹ kù dẹ̀dẹ̀ kí ó tọ́, ṣùgbọ́n ó gbọ́dọ̀ rọrùn.	Idahun rẹ ki dẹdẹ ku o tọ, ṣugbọn o gbọdọ rọrun.	remove_only_accents_and_swap_word
 Àdàkọ ní pípa	Adako ni pipa	remove_accents_and_underdots
 Ìbẹ̀rẹ̀ àdàkọ	Ibẹrẹ adakọ	remove_only_accents
 Òpin àdàkọ	adakọ Opin	remove_only_accents_and_swap_word
@@ -144,7 +144,7 @@ O gbọ́dọ̀ tan gbogbo àwọn iná náà láti tẹ̀síwájú.	O gbodo tan
 Yan àkórí tàbí iṣẹ́ ìdánrawò	Yan akori tabi iṣẹ idanrawo	remove_only_accents
 Ṣẹ̀dá Ìdánwò kékeré tuntun	Seda Idanwo kekere tuntun	remove_accents_and_underdots
 Pa àwárí dé	Pa awari de	remove_accents_and_underdots
-Ti ṣẹ̀dá àwọn ìdánwò kékeré titun	kekere ṣẹda awọn idanwo Ti titun	remove_only_accents_and_swap_word
+Ti ṣẹ̀dá àwọn ìdánwò kékeré titun	Ti ṣẹda idanwo awọn kekere titun	remove_only_accents_and_swap_word
 Àwọn àyípadà sí ìdánwò kékeré ti wà ní ìpamọ́	Awon ayipada si idanwo kekere ti wa ni ipamo	remove_accents_and_underdots
 Ìṣoro wáyé nígbà ìṣàfipámọ́ àwọn ìyípadà rẹ	Isoro waye nigba isafipamo awon iyipada re	remove_accents_and_underdots
 Ṣàkóso àwọn ohun èlò ẹ̀kọ́	Ṣakoso awọn ohun elo ẹkọ	remove_only_accents
@@ -183,19 +183,19 @@ Ojú ìwé ìkẹ́kọ̀ọ́	Oju iwe ikekoo	remove_accents_and_underdots
 Fi àyè gba àwọn ẹ̀rọ-ayárabíàṣá mìíràn lórí ìṣàsopọ̀ yìí láti ṣàgbéwọlé àwọn ìkànnì mi tí kò sí lákàálẹ̀.	Fi aye gba awon ero-ayarabiasa miiran lori isasopo yii lati sagbewole awon ikanni mi ti ko si lakaale.	remove_accents_and_underdots
 Rí àwọn àká-iṣẹ́-orí-ẹ̀rọ	aka-iṣẹ-ori-ẹrọ	remove_only_accents_and_any_random_word
 Kòsí àwọn àká-iṣẹ́ pẹ̀lú ìkànnì ti a sopọ̀ mọ́ apèsè.	awọn aka-iṣẹ pẹlu ikanni ti a sopọ mọ apese.	remove_only_accents_and_any_random_word
-Kò sí àwọn ohun àmúlò Kolibri tí ó sopọ̀ mọ́ apèsè	Ko mọ awọn ohun amulo Kolibri ti o sopọ si apese	remove_only_accents_and_swap_word
+Kò sí àwọn ohun àmúlò Kolibri tí ó sopọ̀ mọ́ apèsè	Ko ti awọn ohun amulo Kolibri si o sopọ mọ apese	remove_only_accents_and_swap_word
 Ṣàwarí ìkànnì	Sawari ikanni	remove_accents_and_underdots
-Wo alákòóso iṣẹ́	Wo iṣẹ alakooso	remove_only_accents_and_swap_word
+Wo alákòóso iṣẹ́	iṣẹ alakooso Wo	remove_only_accents_and_swap_word
 Ṣe àwọn àyípadà sí ohun tí àwọn olùṣàmúlò lè ṣàkóso lóri ẹ̀rọ rẹ	Se awon ayipada si ohun ti awon olusamulo le sakoso lori ero re	remove_accents_and_underdots
 Ṣàkóso Ìyọ̀ọ̀da Ẹ̀rọ	Ṣakoso Iyọọda Ẹrọ	remove_only_accents
 Àwọn ohun àmúlò tuntun wà	amulo tuntun wa	remove_only_accents_and_any_random_word
 Ìṣòro kan wáyé tí kò jẹ́ kí ìgbélọsíbòmìíràn àwọn àṣàyàn àkóónú náà ó bọ́ si	Isoro kan waye ti ko je ki igbelosibomiiran awon asayan akoonu naa o bo si	remove_accents_and_underdots
 Wíwá àwọn àká-iṣẹ́-orí-ẹ̀rọ agbègbè…	Wiwa awon aka-ise-ori-ero agbegbe…	remove_accents_and_underdots
-Ìṣoro wáyé ní wíwá àwọn àká-iṣẹ́ agbègbè.	awọn waye ni wiwa Iṣoro aka-iṣẹ agbegbe.	remove_only_accents_and_swap_word
+Ìṣoro wáyé ní wíwá àwọn àká-iṣẹ́ agbègbè.	Iṣoro awọn ni wiwa waye aka-iṣẹ agbegbe.	remove_only_accents_and_swap_word
 Ìṣàsopọ̀ ń kóra jọ…	Isasopo n kora jo…	remove_accents_and_underdots
 Àká-iṣẹ́ tàbí ike-pélébé ìpamọ́ ìfimọ́	Aka-ise tabi ike-pelebe ipamo ifimo	remove_accents_and_underdots
 Ilé-ìṣiṣẹ́ Kolibri (lórí ẹ̀rọ-ayélujára)	Ile-isise Kolibri (lori ero-ayelujara)	remove_accents_and_underdots
-Ṣàkówọlé àwọn ohun àmúlò Kolibri tí ó wà lórí ẹ̀rọ mìíràn, ó lè jẹ́ nínú ìṣàsọpọ̀ agbègbè kan náà tàbí ní orí ẹ̀rọ-ayélujára	Ṣakowọle awọn ohun amulo Kolibri ti o wa lori iṣasọpọ miiran, o le jẹ ninu ẹrọ agbegbe kan naa tabi ni ori ẹrọ-ayelujara	remove_only_accents_and_swap_word
+Ṣàkówọlé àwọn ohun àmúlò Kolibri tí ó wà lórí ẹ̀rọ mìíràn, ó lè jẹ́ nínú ìṣàsọpọ̀ agbègbè kan náà tàbí ní orí ẹ̀rọ-ayélujára	Ṣakowọle awọn ohun amulo Kolibri miiran, o wa lori ẹrọ ti o le jẹ ninu iṣasọpọ agbegbe kan naa tabi ni ori ẹrọ-ayelujara	remove_only_accents_and_swap_word
 Ìgbélọsíbòmìíràn kùnà. Jọ̀wọ́ tún gbìyànjú lẹ́ẹ̀kansi.	Igbelọsibomiiran kuna. Jọwọ tun gbiyanju lẹẹkansi.	remove_only_accents
 Ìdánimọ̀ òǹṣàmúlò tíkò tọ̀nà	Idanimo onsamulo tiko tona	remove_accents_and_underdots
 Ó ní gbogbo àṣẹ lórí ohun-èlò ó sì lè ṣe àbójútó àṣẹ lórí ohun-èlò àwọn ẹlòmíì	O ni gbogbo ase lori ohun-elo o si le se abojuto ase lori ohun-elo awon elomii	remove_accents_and_underdots
@@ -228,7 +228,7 @@ Kó fáìlì CSV tí ó ní olùṣàmúlò gbogbo nínú bọ́ sọ́de, àti 
 Kó fáìlì CSV kan wọlé láti ṣẹ̀dá àti ṣàfikún àwọn olùṣàmúlò	Ko faili CSV kan wole lati seda ati safikun awon olusamulo	remove_accents_and_underdots
 O lè ṣàkóso àwọn òǹṣàmúlò àti ọ̀wọ́ ẹ̀kọ́ ní ọ̀pọ̀:	O le ṣakoso awọn onṣamulo ati ọwọ ẹkọ ni ọpọ:	remove_only_accents
 Ṣe àkówọlé àti àgbébọ́sóde àwọn olùṣàmúlò	Ṣe akowọle ati agbebọsode awọn	remove_only_accents_and_any_random_word
-Wo ìtọ́kasí ìlànà-títò àtẹ̀-iṣẹ́	Wo ilana-tito itọkasi atẹ-iṣẹ	remove_only_accents_and_swap_word
+Wo ìtọ́kasí ìlànà-títò àtẹ̀-iṣẹ́	itọkasi Wo ilana-tito atẹ-iṣẹ	remove_only_accents_and_swap_word
 Kí o tó ṣe àkówọlé wà á rí àwọn àtúnṣe tí yóò jẹ́ ṣíṣe ní ṣókí.	Ki o to se akowole wa a ri awon atunse ti yoo je sise ni soki.	remove_accents_and_underdots
 Pípilẹ̀ṣẹ̀ àkápọ̀-iṣẹ́ àkọsílẹ̀...	Pipilese akapo-ise akosile...	remove_accents_and_underdots
 Ṣègbàsílẹ̀ àwọn àkápọ̀-iṣẹ́ CSV (èyí tí a fi ààmì ìdanudúró pín níyà) tí o ní ìwifún nípa àwọn òǹṣàmúlò àti ìbáṣepọ̀ wọn pẹ̀lú àwọn ohun àmúlò lórí ohun ẹ̀rọ yìí.	Segbasile awon akapo-ise CSV (eyi ti a fi aami idanuduro pin niya) ti o ni iwifun nipa awon onsamulo ati ibasepo won pelu awon ohun amulo lori ohun ero yii.	remove_accents_and_underdots
@@ -243,9 +243,9 @@ O lè fi Kolibri forúkọsílẹ̀ tàbí wọlé sí orí àwọn àtòjọ-è
 Bí o bá ṣe èyí, àwọn àtòjọ-ètò mìíràn náà yìi lè lo àwọn orúkọ-òǹṣàmúlò, ìdánimọ̀ òǹṣàmúlò, àti orúkọ rẹ.	Bi o ba se eyi, awon atojo-eto miiran naa yii le lo awon oruko-onsamulo, idanimo onsamulo, ati oruko re.	remove_accents_and_underdots
 Ṣe àfikún àpèjúwe nǹkan tí o ń gbìyànjú láti ṣe àti ohun tí o ṣira tẹ̀ nígbàtí àṣìṣe náà jẹyọ.	Se afikun apejuwe nnkan ti o n gbiyanju lati se ati ohun ti o sira te nigbati asise naa jeyo.	remove_accents_and_underdots
 Ìkówọlé kò ṣe é ṣe nítorí àwọn ìṣìṣe wọ̀nyí:	Ikowole ko se e se nitori awon isise wonyi:	remove_accents_and_underdots
-A kò yan àwọn ìdánwò kékeré kankan fún ọ	A kankan yan awọn idanwo kekere ko fun ọ	remove_only_accents_and_swap_word
-A kò yan àwọn ẹ̀kọ́ kànkan fún ọ	A ko yan kankan ẹkọ awọn fun ọ	remove_only_accents_and_swap_word
-Àwọn àyípadà ní ṣókí bí o bá fẹ́ ṣe ìkówọlé:	Awọn ayipada ni ṣoki bi o ṣe fẹ ba ikowọle:	remove_only_accents_and_swap_word
+A kò yan àwọn ìdánwò kékeré kankan fún ọ	idanwo ko yan awọn A kekere kankan fun ọ	remove_only_accents_and_swap_word
+A kò yan àwọn ẹ̀kọ́ kànkan fún ọ	A ko yan awọn kankan ẹkọ fun ọ	remove_only_accents_and_swap_word
+Àwọn àyípadà ní ṣókí bí o bá fẹ́ ṣe ìkówọlé:	o ayipada ni ṣoki bi Awọn ba fẹ ṣe ikowọle:	remove_only_accents_and_swap_word
 Ìṣàmúdọ́gba ìwífún-alálàyé ohun-èlò	iwifun-alalaye ohun-elo	remove_only_accents_and_any_random_word
 Bákan náà ni o lè ní onírúurú ohun-èlò ní orí ẹ̀rọ kan náà.	Bakan naa ni o le ni oniruuru ohun-elo ni ori ero kan naa.	remove_accents_and_underdots
 Ṣètò àkórí ètò àwọ̀ dúdú	akori eto awọ dudu	remove_only_accents_and_any_random_word
@@ -267,9 +267,9 @@ Aṣàmúlò yíì fi àyè gbà ọ́ láti ṣe àbójútó ohun gbogbo àti �
 Àwọn àdàlù àmì aṣorí tí ó yanrantí àti/tàbí àmì aṣorí alàìyanrantí wà ní ìlà ìbú àkọkọ́	Awon adalu ami asori ti o yanranti ati/tabi ami asori alaiyanranti wa ni ila ibu akoko	remove_accents_and_underdots
 Se ìyọ̀nda ìráyè fún àlejò?	Se iyonda iraye fun alejo?	remove_accents_and_underdots
 Jọ̀wọ́ ní sùúrù. Àgbékalẹ̀ lè gba àwọn ìṣẹ́jú díẹ̀	Jowo ni suuru. Agbekale le gba awon iseju die	remove_accents_and_underdots
-Bí o bá ń ṣe àgbékalẹ̀-èto Kolibri fún lílò àwon ẹlòmíràn, ojúṣe ìwọ tàbí eni tí o bá gbéṣẹ́ rán ni dídáààbòbò àti bíbójútó ìṣàmúlò àwọn òǹṣàmúlò àti ìwífún ti-ara-ẹni tí ó wà nípamọ́ lórí ẹ̀rọ yìí.	Bi o ba n ṣe agbekalẹ-eto Kolibri fun lilo awon ẹlomiran, ojuṣe iwọ tabi bibojuto ti o ba gbeṣẹ ran ni didaaabobo ati eni iṣamulo awọn onṣamulo ati iwifun ti-ara-ẹni ti o wa nipamọ lori ẹrọ yii.	remove_only_accents_and_swap_word
+Bí o bá ń ṣe àgbékalẹ̀-èto Kolibri fún lílò àwon ẹlòmíràn, ojúṣe ìwọ tàbí eni tí o bá gbéṣẹ́ rán ni dídáààbòbò àti bíbójútó ìṣàmúlò àwọn òǹṣàmúlò àti ìwífún ti-ara-ẹni tí ó wà nípamọ́ lórí ẹ̀rọ yìí.	Bi o ba ẹlomiran, ṣe agbekalẹ-eto Kolibri fun lilo awon n ojuṣe iwọ tabi eni ti o ba gbeṣẹ ran ni didaaabobo ati bibojuto iṣamulo awọn onṣamulo ati iwifun ti-ara-ẹni ti o wa nipamọ lori ẹrọ yii.	remove_only_accents_and_swap_word
 Àwọn ìbéèrè tí ó ti di dídáhùn	Awon ibeere ti o ti di didahun	remove_accents_and_underdots
-Àwọn ìbéèrè tí ó jẹ́ dídáhùn dáradára	ibeere Awọn ti o jẹ didahun daradara	remove_only_accents_and_swap_word
+Àwọn ìbéèrè tí ó jẹ́ dídáhùn dáradára	Awọn daradara ti o jẹ didahun ibeere	remove_only_accents_and_swap_word
 Ìdáhùn sí ìbéèrè kúkurú yìí kòì bẹ̀rẹ̀	Idahun si ibeere kukuru yii bẹrẹ	remove_only_accents_and_any_random_word
 Kò sí ohun àmúlò lórí ohun ẹ̀rọ yìí	Ko si ohun amulo lori ohun ero yii	remove_accents_and_underdots
 Àwọn ìwífún-alálàyé àbájáde ẹ̀kọ́ kan ti di àwátì, bóyá látàrí àwọn ohun àmúlò tí ó di àwátì lórí ẹ̀rọ, tàbí nítorí pé wọn kò báramu pẹ̀lú ẹ̀yà Kolibri rẹ	Awọn iwifun-alalaye abajade ẹkọ kan ti di awati, boya latari awọn ohun amulo ti o di awati lori ẹrọ, tabi nitori pe wọn ko baramu pẹlu ẹya Kolibri rẹ	remove_only_accents
@@ -291,7 +291,7 @@ Jọ̀wọ́ fi ojúlé IP, URL, tàbí orúkọibùdó tí ó tọ́ sílẹ̀	
 Yan orúkọ fún ojúlé yìí kí o ba rántí rẹ̀ bí ó bá yá:	Yan oruko fun ojule yii ki o ba ranti re bi o ba ya:	remove_accents_and_underdots
 bí àpẹẹrẹ Ìṣàsopọ̀ ilé	bi apẹẹrẹ Iṣasopọ ile	remove_only_accents
 Ìgbìyànjú láti so pọ̀ mọ́ apèsè…	Igbiyanju lati so pọ mọ apese	remove_only_accents
-O gbọdọ̀ ti gbààyè alábòójútó àràmàndà láti wo ojú-ewé yìí	O gbọdọ ti aramanda alaboojuto gbaaye lati wo oju-ewe yii	remove_only_accents_and_swap_word
+O gbọdọ̀ ti gbààyè alábòójútó àràmàndà láti wo ojú-ewé yìí	O lati ti gbaaye alaboojuto aramanda gbọdọ wo oju-ewe yii	remove_only_accents_and_swap_word
 Àwọn àyípadà kò di àpamọ́	Awọn ayipada ko di apamọ	remove_only_accents
 Àwọn àyípadà ti di àpamọ́	Awọn ayipada ti di apamọ	remove_only_accents
 Ń fìdí ìsopọ̀ múlẹ̀	N fidi isopọ mulẹ	remove_only_accents
@@ -309,6 +309,6 @@ Gbogbo akẹ́kọ̀ọ́ ni yóò gba yóò gba àmì òdinwọ̀n ìparí àti
 Kówọlé gẹ́gẹ́ bí CSV	Kowole gege bi CSV	remove_accents_and_underdots
 Bíbẹ̀rẹ̀ ìbéèrè náà yóò fún àwọn akẹ́kọ̀ọ́ ní àǹfààní láti rí ẹ̀kọ́ yìí kà tí wọn yóò sì ní àǹfààní láti dáhùn àwọn ìbéèrè.	Bibere ibeere naa yoo fun awon akekoo ni anfaani lati ri eko yii ka ti won yoo si ni anfaani lati dahun awon ibeere.	remove_accents_and_underdots
 Jọ̀wọ́ kọ ojúlé IP, URL, tàbí orúkọapèsè	Jowo ko ojule IP, URL, tabi orukoapese	remove_accents_and_underdots
-ṣẹ̀dá àwọn ọ̀wọ́ ẹ̀kọ́ tuntun (fún èyíkéyìí ìtọ́kasí orúkọ ọ̀wọ́ ẹ̀kọ́ tí kò sí tẹ́lẹ̀tẹ́lẹ́rí)	ṣẹda awọn ọwọ eyikeyii tuntun (fun ẹkọ itọkasi orukọ ọwọ ẹkọ ti ko si tẹlẹtẹlẹri)	remove_only_accents_and_swap_word
-ṣààtò ọ̀wọ́ ẹ̀kọ́ tí ọ̀kọ̀ọ̀kan akẹ́kọ̀ọ́ forúkọsílẹ̀ fún	ṣaato ọwọ ẹkọ fun ọkọọkan akẹkọọ forukọsilẹ ti	remove_only_accents_and_swap_word
+ṣẹ̀dá àwọn ọ̀wọ́ ẹ̀kọ́ tuntun (fún èyíkéyìí ìtọ́kasí orúkọ ọ̀wọ́ ẹ̀kọ́ tí kò sí tẹ́lẹ̀tẹ́lẹ́rí)	ṣẹda si ọwọ ẹkọ tuntun (fun eyikeyii itọkasi orukọ ọwọ ẹkọ ti ko awọn tẹlẹtẹlẹri)	remove_only_accents_and_swap_word
+ṣààtò ọ̀wọ́ ẹ̀kọ́ tí ọ̀kọ̀ọ̀kan akẹ́kọ̀ọ́ forúkọsílẹ̀ fún	ṣaato ọwọ ẹkọ forukọsilẹ ọkọọkan akẹkọọ ti fun	remove_only_accents_and_swap_word
 ṣààtò ọ̀wọ́ ẹ̀kọ́ tí a fi ọ̀kọ̀ọ̀kan akọ́ni sí	saato owo eko ti a fi okookan akoni si	remove_accents_and_underdots

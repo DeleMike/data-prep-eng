@@ -2,6 +2,24 @@ import os
 
 from pathlib import Path
 
+def _create_combined_file_path(base_folder, data_folder, file_name):
+    # Define the paths
+    base_path = Path(base_folder).resolve()
+    combined_path_folders = [
+        base_path / 'data_prep_eng' / 'output_data',
+        base_path / 'data_prep_eng' / 'output_data' / data_folder
+    ]
+
+    # Create output folders if they don't exist
+    for folder in combined_path_folders:
+        if not folder.exists():
+            folder.mkdir()
+
+    # Construct the final combined file path
+    combined_file_path = combined_path_folders[-1] / file_name
+
+    return combined_file_path
+
 def combine_all_bible_data():
     """
     Combine all data from the Yoruba dataset [data_prep_eng/bibeli_mimo_yoruba_NIV]
@@ -27,12 +45,10 @@ def combine_all_bible_data():
             file_paths.append(file_path)
 
     # Specify the path for the combined file
-    combined_file_path = "/mnt/disk/makindele/data_prep_eng/data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_combined.txt"
-    output_path_folder = Path('.').resolve() / f"data_prep_eng/output_data/"
-    output_path_folder2 = Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/"
-    if(not output_path_folder.exists()): output_path_folder.mkdir()
-    if(not output_path_folder2.exists()): output_path_folder2.mkdir()
-
+    base_folder = '.'
+    data_folder = 'yoruba_bible_data'
+    file_name = 'yoruba_bible_combined.txt'
+    combined_file_path = _create_combined_file_path(base_folder, data_folder, file_name)
 
     # Open the combined file in write mode
     with open(combined_file_path, 'w', encoding='utf-8') as combined_file:

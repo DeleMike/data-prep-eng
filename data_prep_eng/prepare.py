@@ -44,8 +44,8 @@ def test_prepare():
     # english_text = "ha ha ha, I am going to the market... ha ha ha"
     # print(_remove_only_accents_and_swap_word(english_text))
 
-    # print('/mnt/disk/makindele/data_prep_eng/data_prep_eng/data/dev_book.tsv')
-    # absolute_path = Path('.').resolve() / "data_prep_eng/data/dev_book.tsv"
+    # print('/mnt/disk/makindele/data_prep_eng/data_prep_eng/menyo20k_data/dev_book.tsv')
+    # absolute_path = Path('.').resolve() / "data_prep_eng/menyo20k_data/dev_book.tsv"
     # print(f'Absolute Path = {absolute_path}')
 
     # read file
@@ -206,17 +206,40 @@ def apply_mixed_removal(sentence):
     elif case == 'remove_only_accents_and_swap_word':
         return _remove_only_accents_and_swap_word(sentence), case
 
+def _create_output_folders(base_folder, type_of_dataset, domain):
+    # Define the paths
+    base_path = Path(base_folder).resolve()
+    data_path = base_path / 'data_prep_eng'
+    output_path_folders = [
+        data_path / 'output_data',
+        data_path / 'output_data' / 'menyo20k_data',
+        data_path / 'output_data' / 'menyo20k_data' / f'{type_of_dataset}_prep_data'
+    ]
+
+    # Create output folders if they don't exist
+    for folder in output_path_folders:
+        if not folder.exists():
+            folder.mkdir()
+
+    # Construct the final output path
+    output_path = output_path_folders[-1] / f'yor_{type_of_dataset}_{domain}.tsv'
+    absolute_path = data_path / f'menyo20k_data/{type_of_dataset}_{domain}.tsv'
+
+    return output_path, absolute_path
+
 def create_new_dataset(type_of_dataset='dev'):
     """
     Apply all rules to dataset
     """
     for domain in domains:
-        absolute_path = Path('.').resolve() / f"data_prep_eng/data/{type_of_dataset}_{domain}.tsv"
-        output_path_folder = Path('.').resolve() / f"data_prep_eng/data/{type_of_dataset}_prep_data"
-        if(not output_path_folder.exists()): output_path_folder.mkdir()
-        output_path= Path('.').resolve() / f"data_prep_eng/data/{type_of_dataset}_prep_data/yor_{type_of_dataset}_{domain}.tsv"
+       # Define the paths
 
-
+        output_path, absolute_path = _create_output_folders(
+            base_folder='.',
+            type_of_dataset=type_of_dataset,
+            domain=domain
+        )
+        
         print(f'Absolute Path = {absolute_path}')
         yoruba_sentences = _extract_yoruba_sentences(absolute_path)
         # Counters for verification
@@ -252,7 +275,8 @@ def create_new_dataset(type_of_dataset='dev'):
         print(f"\nOutput file created at: {output_path}")
 
         # Output file path for statistics
-        statistics_file_path= Path('.').resolve() / f"data_prep_eng/data/{type_of_dataset}_prep_data/yor_{type_of_dataset}_{domain}_stats.txt"
+        statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/menyo20k_data/{type_of_dataset}_prep_data/yor_{type_of_dataset}_{domain}_stats.txt"
+        
 
         # Write counters to the statistics file
         with open(statistics_file_path, 'w', encoding='utf-8') as statistics_file:
