@@ -14,7 +14,7 @@ def combine_data(type_of_dataset='dev'):
 
     # Initialize an empty list to store combined data
     combined_data = []
-
+    header = None  # Initialize header variable
     for domain in domains:
         file_path = Path('.').resolve() / f"data_prep_eng/output_data/menyo20k_data/{type_of_dataset}_prep_data/yor_{type_of_dataset}_{domain}.tsv"
         
@@ -26,9 +26,10 @@ def combine_data(type_of_dataset='dev'):
                 # Split the content into lines
                 lines = content.split('\n')
 
-                # Skip the header line
-                header = lines[0]
-                lines = lines[1:]
+                # Skip the header line and store it
+                if header is None:
+                    header = lines[0]
+                    lines = lines[1:]
 
                 # Add a new column for the source of data in each line
                 lines = [f"{line}\t{domain}" for line in lines]
@@ -38,6 +39,9 @@ def combine_data(type_of_dataset='dev'):
         except FileNotFoundError:
             print(f"File not found: {file_path}")
 
+    # Shuffle the combined data
+    random.shuffle(combined_data)
+
     # Combine all data into a single string
     combined_content = '\n'.join(combined_data)
 
@@ -45,19 +49,19 @@ def combine_data(type_of_dataset='dev'):
     output_path = Path('.').resolve() / f"data_prep_eng/output_data/{type_of_dataset}.tsv"
     with open(output_path, 'w', encoding='utf-8') as output_file:
         # Write the header
-        output_file.write(f"{header}\tSource_of_Data\n")
+        output_file.write(f"{header}\tSource of Data\n")
 
         # Write the combined content
         output_file.write(combined_content)
 
     print(f"Combined file saved to {output_path}")
 
-    # Read the content of the file and shuffle the lines
-    with open(output_path, 'r', encoding='utf-8') as shuffle_file:
-        lines = shuffle_file.readlines()
-        random.shuffle(lines)
+    # # Read the content of the file and shuffle the lines
+    # with open(output_path, 'r', encoding='utf-8') as shuffle_file:
+    #     lines = shuffle_file.readlines()
+    #     random.shuffle(lines)
 
-    # Write the shuffled lines back to the file
-    with open(output_path, 'w', encoding='utf-8') as shuffle_file:
-        shuffle_file.writelines(lines)
+    # # Write the shuffled lines back to the file
+    # with open(output_path, 'w', encoding='utf-8') as shuffle_file:
+    #     shuffle_file.writelines(lines)
 
