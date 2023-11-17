@@ -1,8 +1,10 @@
 Counters:
 total_sentences: 313
-remove_accents_and_underdots: 190
-remove_only_accents: 59
-remove_only_accents_and_any_random_word: 64
-accents_and_underdots_percentage: 60.70287539936102
-only_accents_percentage: 18.849840255591054
-only_accents_and_any_random_word_percentage: 20.447284345047922
+remove_accents_and_underdots: 193
+remove_only_accents: 61
+remove_only_accents_and_any_random_word: 35
+remove_only_accents_and_swap_word: 24
+accents_and_underdots_percentage: 61.66134185303515
+only_accents_percentage: 19.488817891373802
+only_accents_and_any_random_word_percentage: 11.182108626198083
+only_accents_and_swap_word_word_percentage: 7.667731629392971
