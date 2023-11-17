@@ -17,15 +17,18 @@ def test_prepare():
     (ii) Remove accents only. Leave the underdots
     Prepare data for case (i) and (ii).
     """
-    text = 'Àlàmú ti wá ń gbádùn àdáwà, dídáwà yìí ń fún un ní àǹfààní láti rán ọkàn rẹ̀ níṣẹ́.'
+    # text = 'Àlàmú ti wá ń gbádùn àdáwà, dídáwà yìí ń fún un ní àǹfààní láti rán ọkàn rẹ̀ níṣẹ́.'
     # we want 60% of the text to apply rule (i) and 40% apply rule (ii)
-    print(_remove_accents_and_underdots(text))
-    print(_remove_only_accents(text))
-    print(_remove_only_accents_and_any_random_word(text))
+    # print(_remove_accents_and_underdots(text))
+    # print(_remove_only_accents(text))
+    # print(_remove_only_accents_and_any_random_word(text))
+
+    english_text = "ha ha ha, I am going to the market... ha ha ha"
+    print(_remove_only_accents_and_swap_word(english_text))
 
     # print('/mnt/disk/makindele/data_prep_eng/data_prep_eng/data/dev_book.tsv')
-    absolute_path = Path('.').resolve() / "data_prep_eng/data/dev_book.tsv"
-    print(f'Absolute Path = {absolute_path}')
+    # absolute_path = Path('.').resolve() / "data_prep_eng/data/dev_book.tsv"
+    # print(f'Absolute Path = {absolute_path}')
 
     # read file
     # with open(str(absolute_path), 'r') as html_file:
@@ -35,7 +38,7 @@ def test_prepare():
 
 
 
-def _extract_yoruba_sentences(file_path):
+def _extract_yoruba_sentences(file_path:str):
     """
     Extract only the Yoruba sentences from the text
     """
@@ -53,7 +56,7 @@ def _extract_yoruba_sentences(file_path):
 
     return yoruba_sentences
 
-def _remove_accents_and_underdots(text):
+def _remove_accents_and_underdots(text:str):
     """
     We will remove all accents and underdots from the text
     """
@@ -65,7 +68,7 @@ def _remove_accents_and_underdots(text):
     
     return result_str
 
-def _remove_only_accents(text):
+def _remove_only_accents(text:str):
     """
     We will remove all accents only. So underdots will still appear in text
     """
@@ -82,7 +85,7 @@ def _remove_only_accents(text):
     # Step 3: Re-compose the string into precomposed characters
     return unicodedata.normalize('NFC', filtered_text)
 
-def _remove_only_accents_and_any_random_word(text):
+def _remove_only_accents_and_any_random_word(text:str):
     """
     We will do the same as _remove_only_accents but here we will also remove some random words from the text
     """
@@ -92,8 +95,8 @@ def _remove_only_accents_and_any_random_word(text):
     #  Step 2: Tokenize the text into words
     words = decomposed_text.split()
 
-    # Step 3: Determine the number of words to remove (between 1 and 4)
-    num_words_to_remove = random.randint(1, 4)
+    # Step 3: Determine the number of words to remove (between 1 and 2)
+    num_words_to_remove = random.randint(1, min(2, len(words)))  # Ensure not to remove more words than available
 
     # Step 4: Remove the random number of words
     if len(words) > num_words_to_remove:
@@ -104,7 +107,44 @@ def _remove_only_accents_and_any_random_word(text):
     # Step 5: Re-compose the string into precomposed characters
     result_text = ' '.join(words)
     return unicodedata.normalize('NFC', result_text)
-    
+
+def _remove_only_accents_and_swap_word(text: str):
+    """
+    Remove accent and swap two distinct words
+
+    We will do the same as _remove_only_accents but here we will swap a word position
+    For example, if we have, in English "ha ha I am going to the market!", 
+    a possible result we want to achieve is "ha ha I going am to the market!"
+    If say, the first word that was randomly selected was "ha" and the next word that was randomly
+    selected was also "ha", then we will have to pick another distinct word to swap with.
+    We are only swapping one-word positions. 
+    In cases where the words are identical, we ensure they are distinct.  
+    """
+
+    # Step 1: Remove accents
+    decomposed_text = _remove_only_accents(text)
+
+    #  Step 2: Tokenize the text into words
+    words = decomposed_text.split()
+
+    # Step 3: Swap only DISTINCT words
+    while True:
+        # Shuffle the indices to randomly select two distinct words
+        indices = list(range(len(words)))
+        random.shuffle(indices)
+
+        # Select the first two distinct indices
+        index1, index2 = indices[0], indices[1]
+        if words[index1] != words[index2]:
+            break
+
+    # Swap the positions of the two selected distinct words
+    words[index1], words[index2] = words[index2], words[index1]
+
+    # Step 4: Re-compose the string into precomposed characters
+    result_text = ' '.join(words)
+    return unicodedata.normalize('NFC', result_text)
+ 
 def apply_mixed_removal(sentence):
     """Determine which case to apply
 
