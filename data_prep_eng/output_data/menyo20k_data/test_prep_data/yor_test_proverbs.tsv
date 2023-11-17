@@ -6,11 +6,11 @@ Bí kò sí àkópọ̀, kí lewúrẹ́ wá dé ìsọ̀ adìẹ?	Bi ko si akop
 Bí kò sí tọ̀bùn èèyàn, ta ni ìbá jí lówùúrọ̀ tí kò bọ́jú ṣáṣá?	Bi ko si tobun eeyan, ta ni iba ji lowuuro ti ko boju sasa?	remove_accents_and_underdots
 Bí mo bá torí oko kú n ó rò fáhéré; bí mo bá torí ọ̀gẹ̀dẹ̀ kú n ó rò fódò; bí mo bá torí alábàjà òkíkí kú, n ó rò fóríì mi.	Bi mo ba tori oko ku n o ro fahere; bi mo ba tori ogede ku n o ro fodo; bi mo ba tori alabaja okiki ku, n o ro forii mi.	remove_accents_and_underdots
 Bí ó di ọdún mẹ́ta tí ẹkùn-ún ti ń ṣe òjòjò, olugbe la ó ha rán lọ bẹ̀ ẹ́ wò?	Bi o di ọdun mẹta ti ẹkun-un ti n ṣe ojojo, olugbe la o ha ran lọ bẹ ẹ wo?	remove_only_accents
-Bí òfé ti ń fò la ti ń mọ̀ ọ́ lákọ ẹyẹ.	n ofe ti Bi fo la ti n mọ ọ lakọ ẹyẹ.	remove_only_accents_and_swap_word
+Bí òfé ti ń fò la ti ń mọ̀ ọ́ lákọ ẹyẹ.	Bi ofe mọ n fo la ti n ti ọ lakọ ẹyẹ.	remove_only_accents_and_swap_word
 Bí òkú fẹ̀, bí kò fẹ̀, ká bi ọmọ olókùú léèrè.	Bi oku fẹ, bi ko fẹ, ka bi ọmọ olokuu leere.	remove_only_accents
 Bí ojú bá rí, ẹnu a dákẹ́.	Bi oju ba ri, enu a dake.	remove_accents_and_underdots
 Bí ojú kò bá rí, ẹnu kì í sọ nǹkan.	Bi oju ko ba ri, enu ki i so nnkan.	remove_accents_and_underdots
-Bí ojú kò bá ti olè, a ti ará ilé ẹ̀.	ole, oju ko ba ti Bi a ti ara ile ẹ.	remove_only_accents_and_swap_word
+Bí ojú kò bá ti olè, a ti ará ilé ẹ̀.	Bi oju ko ara ti ole, a ti ba ile ẹ.	remove_only_accents_and_swap_word
 Bí ojú onílé bá mọ tíntín, tí ojú àlejòó tó gbòǹgbò, onílé ní ń ṣe ọkọ àlejò.	Bi oju onile ba mo tintin, ti oju alejoo to gbongbo, onile ni n se oko alejo.	remove_accents_and_underdots
 Bí olóde ò kú, òdee rẹ̀ kì í hu gbẹ́gi.	Bi olode o ku, odee re ki i hu gbegi.	remove_accents_and_underdots
 Bí olóúnjẹ bá rojú à fi àìjẹ tẹ́ ẹ.	Bi olounje ba roju a fi aije te e.	remove_accents_and_underdots
@@ -18,7 +18,7 @@ Bí ọdún bá dún, bọnnọnbọ́nnọ́n a pàwọ̀ dà.	Bi odun ba dun, 
 Bí ọjàá bá tú tán, a ku olóríi pàtẹpàtẹ, a ku àgbààgbà sà-ǹkò sà-ǹkò lọ́jà; bÍfá bá pẹ̀dí tán, ìwọ̀-ǹ-wọ̀ a dìde.	Bi ojaa ba tu tan, a ku olorii patepate, a ku agbaagba sa-nko sa-nko loja; bIfa ba pedi tan, iwo-n-wo a dide.	remove_accents_and_underdots
 Bí ọjọ́ ewúrẹ́ bá pé, a ní kò sí ohun tí alápatà lè fi òun ṣe.	Bi ojo ewure ba pe, a ni ko si ohun ti alapata le fi oun se.	remove_accents_and_underdots
 Bí ọ̀lẹ́ ò lè jà, a lè kú tùẹ̀.	Bi ole o le ja, a le ku tue.	remove_accents_and_underdots
-Bí Ọlọ́run ò ṣe ẹni ní baba, à fi ìyànjú ṣe bí àgbà.	Bi Ọlọrun o ẹni ṣe ni baba, a fi iyanju ṣe bi agba.	remove_only_accents_and_swap_word
+Bí Ọlọ́run ò ṣe ẹni ní baba, à fi ìyànjú ṣe bí àgbà.	Bi Ọlọrun o ṣe ẹni ni a baba, fi iyanju ṣe bi agba.	remove_only_accents_and_swap_word
 Bí ọmọdé bá fẹ́ ṣìṣe àgbà, ọjọ́ oríi rẹ̀ ò níí jẹ́.	Bi omode ba fe sise agba, ojo orii re o nii je.	remove_accents_and_underdots
 Bí ọmọdé bá gun òkè àgbà, ó níláti gbọ́n.	Bi ọmọde gun oke agba, o nilati gbọn.	remove_only_accents_and_any_random_word
 Bí ọmọdé bá ń ṣe ọmọdé, àgbà a máa ṣe bí àgbà.	Bi omode ba n se omode, agba a maa se bi agba.	remove_accents_and_underdots
@@ -27,17 +27,17 @@ Bí Ọya ń kọ lọ́run, bí Ṣàngó ń jó láyé, kò níí burú fún b
 Dìgbòlugi-dìgbòlùùyàn ò jẹ́ ká mọ ajá tòótọ́.	Digbolugi-digboluuyan o je ka mo aja tooto.	remove_accents_and_underdots
 Dídákẹ́ lerín dákẹ́; àjànàkú ló lẹgàn.	Didake lerin dake; ajanaku lo legan.	remove_accents_and_underdots
 Eégún ju eégún; òrìṣá ju òrìṣà; Pààká lé oníṣàngó wọ̀gbẹ́.	Eegun ju eegun; oriṣa ju oriṣa; Paaka le oniṣango wọgbẹ.	remove_only_accents
-Eégún ò na obìnrin lágọ̀; obìnrín tú kíjìpá ìdíi rẹ̀, ó fi na eégún.	Eegun o na obinrin lagọ; obinrin tu kijipa eegun. rẹ, o fi na idii	remove_only_accents_and_swap_word
+Eégún ò na obìnrin lágọ̀; obìnrín tú kíjìpá ìdíi rẹ̀, ó fi na eégún.	Eegun o lagọ; obinrin na obinrin tu kijipa idii rẹ, o fi na eegun.	remove_only_accents_and_swap_word
 Eégún pẹ́ lóde, ó fètè òkè dáhùn; wọ́n ní, “Baba kú àbọ̀,” ó ní, “Hì ìì.”	Eegun pe lode, o fete oke dahun; won ni, “Baba ku abo,” o ni, “Hi ii.”	remove_accents_and_underdots
 Eégún wọlé, ó ní òun ò rí Ejonto; Ejontó ní, “Àkísà ni, àbí kíní wọlé?”	Eegun wọle, o ni oun o Ejonto; Ejonto ni, Akisa abi kini wọle?	remove_only_accents_and_any_random_word
 Eegun àjànàkú: ó há ìkokò lẹ́nu.	Eegun ajanaku: o ha ikoko lenu.	remove_accents_and_underdots
 Eégbọn so mọ́ àyìnrín lẹ́nu, a ní kí adìẹ wá yán an jẹ; adìẹ́ mọ̀ pé òun náà oúnjẹ àyìnrín.	Eegbon so mo ayinrin lenu, a ni ki adie wa yan an je; adie mo pe oun naa ounje ayinrin.	remove_accents_and_underdots
 Ejò kì í ti ojú Ààrẹ gun ọgbà lọ.	Ejo ki i ti oju Aare gun ogba lo.	remove_accents_and_underdots
-Èmí dákọ okòó, ìwọ́ dákọ okòó, ò ń pèmí ní mùkọ-mùkọ.	Emi dakọ okoo, n dakọ okoo, o iwọ pemi ni mukọ-mukọ.	remove_only_accents_and_swap_word
+Èmí dákọ okòó, ìwọ́ dákọ okòó, ò ń pèmí ní mùkọ-mùkọ.	Emi dakọ ni iwọ dakọ okoo, o n pemi okoo, mukọ-mukọ.	remove_only_accents_and_swap_word
 Èmi ìwọ̀fà, ìwọ ìwọ̀fà, o ní babá ní ká gbowó wá; o dá tìrẹ sílẹ̀ ná?	Emi iwofa, iwo iwofa, o ni baba ni ka gbowo wa; o da tire sile na?	remove_accents_and_underdots
 Epo ni mo rù; oníyangí má ba tèmi jẹ́.	Epo ni mo ru; oniyangi ma ba temi je.	remove_accents_and_underdots
 Erin kì í fọn kọ́mọọ rẹ̀ ó fọn.	Erin ki i fon komoo re o fon.	remove_accents_and_underdots
-Èrò ọ̀nà ni yó ròyìn ọkà tó gbó.	Ero ọna ni yo royin ọka gbo. to	remove_only_accents_and_swap_word
+Èrò ọ̀nà ni yó ròyìn ọkà tó gbó.	Ero ọna ọka yo royin ni to gbo.	remove_only_accents_and_swap_word
 Èsúrú ṣe fújà ó tẹ́ lọ́wọ́ oníyán; aláǹgbá ṣe fújà ó tẹ́ lọ́wọ́ ògiri; Ọlámọnrín àjàpá ṣe fújà ó tẹ́ lọ́wọ́-ọ̀ mi.	Esuru se fuja o te lowo oniyan; alangba se fuja o te lowo ogiri; Olamonrin ajapa se fuja o te lowo-o mi.	remove_accents_and_underdots
 Etí lobìnrín fi ń gbọ́ ohùn orò.	Eti lobinrin fi n gbọ ohun oro.	remove_only_accents
 Èwo ló tó ẹ̀kọọ́ gbà nínú ewé ìrúgbàá?	Ewo lo to ekoo gba ninu ewe irugbaa?	remove_accents_and_underdots
@@ -46,13 +46,13 @@ Ewújù tí yóò tú ọ̀pẹ: gbogbo eyín ẹ̀ ni yóò kán tán.	Ewuju ti
 Ewúrẹ́ ò wí pé òun ò ṣọmọ àgùntàn; àgùntàn ló wí pé òun ò ṣọmọ ewúrẹ́.	Ewure o wi pe oun o somo aguntan; aguntan lo wi pe oun o somo ewure.	remove_accents_and_underdots
 Ewúrẹ́ kì í bíni ká lọ sísọ̀ àgùntàn lọ jẹ̀.	Ewurẹ ki i bini ka lọ aguntan lọ jẹ.	remove_only_accents_and_any_random_word
 Èèyàn bí ọ̀bọ lọ̀bọ ń ya láṣọ.	Eeyan bi ọbọ lọbọ n ya laṣọ.	remove_only_accents
-Èèyàn ò ríbi sùn, ajá ń hanrun.	Eeyan o n sun, aja ribi hanrun.	remove_only_accents_and_swap_word
+Èèyàn ò ríbi sùn, ajá ń hanrun.	Eeyan o ribi sun, hanrun. n aja	remove_only_accents_and_swap_word
 Èèyàn tí ò nítìjú ojú kan ni ìbá ní; a gbórín a tó tẹṣin.	Eeyan ti o nitiju oju kan ni iba ni; a gborin a to tesin.	remove_accents_and_underdots
 “Ẹ fà á wọlé” ló yẹ ẹlẹ́ṣin.	Ẹ fa a wọle lo yẹ ẹlẹṣin.	remove_only_accents
 Ẹ jẹ́ ká mí, ẹ jẹ́ ká simi; èèyàn ní ń fìdí èèyàn jókòó; èèyàn ìbá ṣe bí Ọlọ́run kò níí jẹ́ ká mí.	E je ka mi, e je ka simi; eeyan ni n fidi eeyan jokoo; eeyan iba se bi Olorun ko nii je ka mi.	remove_accents_and_underdots
-“Ẹ kúulé” ò yẹ ará ilé; “Ẹ kú atìbà” ò yẹni tí ń tàjò bọ̀; ẹni tí ò kí ẹni, “Kú atìbà”-á pàdánù “Ẹ kúulé.”	Ẹ kuule o yẹ ara ile; Ẹ ku atiba o yẹni ti padanu tajo bọ; ẹni ti o ki ẹni, Ku atiba-a n Ẹ kuule.	remove_only_accents_and_swap_word
+“Ẹ kúulé” ò yẹ ará ilé; “Ẹ kú atìbà” ò yẹni tí ń tàjò bọ̀; ẹni tí ò kí ẹni, “Kú atìbà”-á pàdánù “Ẹ kúulé.”	Ẹ ile; o yẹ ara kuule Ẹ ku atiba o yẹni ti n tajo bọ; ẹni ti o ki ẹni, Ku atiba-a padanu Ẹ kuule.	remove_only_accents_and_swap_word
 Ẹ̀bìtì ẹnu ò tàsé.	Ebiti enu o tase.	remove_accents_and_underdots
-Ẹgbẹ́ ẹni là ń gúnyán ewùrà dè.	ewura ẹni la n gunyan Ẹgbẹ de.	remove_only_accents_and_swap_word
+Ẹgbẹ́ ẹni là ń gúnyán ewùrà dè.	Ẹgbẹ ẹni la n ewura gunyan de.	remove_only_accents_and_swap_word
 Ẹ̀gbẹ̀rì ò mọ̀ pé arẹwà kì í gbé ẹ̀kú; gbogbo eyín kin-kìn-kin lábẹ́ aṣọ.	Egberi o mo pe arewa ki i gbe eku; gbogbo eyin kin-kin-kin labe aso.	remove_accents_and_underdots
 Ẹ̀gbọ́n ṣíwájú ó so aṣọ kọ́; àbúrò kẹ́yìn ó wẹ̀wù; bí a ò mọ̀lẹ, ọ̀lẹ ò mọ araa rẹ̀?	Ẹgbọn ṣiwaju o so aṣọ kọ; aburo kẹyin o wẹwu; bi a o mọlẹ, ọlẹ o mọ araa rẹ?	remove_only_accents
 Ẹlẹ́ẹ̀ẹ́dẹ́ ń lọ ẹ̀ẹ́dẹ́, o ní “Ẹ̀ẹ́dẹ́gbẹ̀ta ni àbí ẹ̀ẹ́dẹ́gbẹ̀fà?”; èwo lo gbé níbẹ̀?	Ẹlẹẹẹdẹ n lọ ẹẹdẹ, o ni Ẹẹdẹgbẹta ni abi ẹẹdẹgbẹfa?; ewo lo gbe nibẹ?	remove_only_accents
@@ -85,17 +85,17 @@ Ewúrẹ́ kì í bíni ká lọ sísọ̀ àgùntàn lọ jẹ̀.	Ewurẹ ki i 
 Ẹ̀ṣọ́ kì í gba ọfà lẹ́yìn; iwájú gangan ní ń fií gba ọgbẹ́.	Eso ki i gba ofa leyin; iwaju gangan ni n fii gba ogbe.	remove_accents_and_underdots
 Ẹ̀wọ̀n tó tó ọ̀pẹ ò tóó dá erin dúró; ìtàkùn tó ní kí erin má ròkè ọ̀dàn, tòun terin ní ń lọ.	Ẹwọn to to ọpẹ o too da erin duro; itakun to ni ki erin ma roke ọdan, toun terin ni n lọ.	remove_only_accents
 Ẹ̀yá ló bí mi, ẹkùn ló wò mí dàgbà, ológìnní gbà mí tọ́; bí kò sẹ́ran lọ́bẹ̀ n kò jẹ.	Ẹya lo bi mi, ẹkun lo wo mi dagba, ologinni gba mi bi ko sẹran lọbẹ ko jẹ.	remove_only_accents_and_any_random_word
-Ẹyẹ akòkoó ní òún le gbẹ́ odó; ta ní jẹ́ fi odó akòko gúnyán jẹ?	Ẹyẹ akokoo ni oun le gbẹ odo; ta ni jẹ? fi odo akoko gunyan jẹ	remove_only_accents_and_swap_word
+Ẹyẹ akòkoó ní òún le gbẹ́ odó; ta ní jẹ́ fi odó akòko gúnyán jẹ?	Ẹyẹ akokoo ni le oun gbẹ odo; ta ni jẹ fi odo akoko gunyan jẹ?	remove_only_accents_and_swap_word
 Ẹyẹ ò lè rí omi inú àgbọn bù mu.	Ẹyẹ o le ri omi inu agbọn bu mu.	remove_only_accents
 Ẹyẹ tó fi ara wé igún, ẹ̀yìn àdìrò ní ń sùn.	Eye to fi ara we igun, eyin adiro ni n sun.	remove_accents_and_underdots
 Fálànà gbọ́ tìrẹ, tara ẹni là ń gbọ́.	Falana gbo tire, tara eni la n gbo.	remove_accents_and_underdots
 Fáàárí ọ̀bọ ò ju inú ìgbẹ́ lọ.	Faaari obo o ju inu igbe lo.	remove_accents_and_underdots
-Gànràn-gànràn ò yẹ ẹni a bíire.	o Ganran-ganran yẹ ẹni a biire.	remove_only_accents_and_swap_word
+Gànràn-gànràn ò yẹ ẹni a bíire.	yẹ o Ganran-ganran ẹni a biire.	remove_only_accents_and_swap_word
 “Gbà jẹ” ò yẹ àgbà.	Gba jẹ o yẹ agba.	remove_only_accents
 “Gbà mí, gbà mí!” ò yẹ àgbà; àgbà kì í ṣe ohun àlémú.	“Gba mi, gba mi!” o ye agba; agba ki i se ohun alemu.	remove_accents_and_underdots
 “Gbà mí, gbà mí!” ò yẹ eégún; “ẹran ń lémi bọ̀” ò yẹ ọdẹ.	“Gba mi, gba mi!” o ye eegun; “eran n lemi bo” o ye ode.	remove_accents_and_underdots
 “Gba wèrè,” “N ò gba wèrè” lọjà fi ń hó.	“Gba were,” “N o gba were” loja fi n ho.	remove_accents_and_underdots
-Gbogbo èèyàn ní ń sunkún-un Bánjọ; ṣùgbọ́n Bánjọ ò sunkún ara ẹ̀.	Gbogbo eeyan ni n o Banjọ; ṣugbọn Banjọ sunkun-un sunkun ara ẹ.	remove_only_accents_and_swap_word
+Gbogbo èèyàn ní ń sunkún-un Bánjọ; ṣùgbọ́n Bánjọ ò sunkún ara ẹ̀.	Gbogbo eeyan ni ṣugbọn sunkun-un Banjọ; n Banjọ o sunkun ara ẹ.	remove_only_accents_and_swap_word
 Gbogbo ẹgbẹ́ ń jẹ Má-yẹ̀-lóyè, ò ń jẹ Sáré-pẹgbẹ́.	Gbogbo egbe n je Ma-ye-loye, o n je Sare-pegbe.	remove_accents_and_underdots
 Gbogbo ọ̀rọ̀ ní ń ṣojú èké.	Gbogbo oro ni n soju eke.	remove_accents_and_underdots
 Gbọ̀n-ọ́n-gbọ̀n-ọ́n kan ò sí, àfi ẹni tó bá ń ti ara ẹ̀.	Gbọn-ọn-gbọn-ọn kan o si, afi ẹni to ba n ti ara ẹ.	remove_only_accents
@@ -109,20 +109,20 @@ Ibi tí a ti ń pìtàn ká tó jogún, ká mọ̀ pé ogún ibẹ̀ ò kanni.	I
 Ibi tí ayé bá ẹni ni a ti ń jẹ ẹ́.	Ibi ti aye ba eni ni a ti n je e.	remove_accents_and_underdots
 Ìbọ́n dídá olówó ló ní kíwọ̀fà rín rín rín kó sọ àdá nù.	Ibon dida olowo lo ni kiwofa rin rin rin ko so ada nu.	remove_accents_and_underdots
 Idà ahun la fi ń pa ahun.	Ida ahun la fi n pa ahun.	remove_accents_and_underdots
-Idà ń wó ilé ara ẹ̀ ó ní òún ń ba àkọ̀ jẹ́.	Ida ile wo n ara ẹ o ni oun n ba akọ jẹ.	remove_only_accents_and_swap_word
+Idà ń wó ilé ara ẹ̀ ó ní òún ń ba àkọ̀ jẹ́.	Ida n wo ile ara ẹ o ni oun n akọ ba jẹ.	remove_only_accents_and_swap_word
 Ìdí méjéèjì tó olúwaa rẹ̀ jókòó.	Idi mejeeji to oluwaa re jokoo.	remove_accents_and_underdots
 Igúnnugún bà lé òrùlé; ojú tó ilé ó tó oko.	Igunnugun ba le orule; oju to ile o to oko.	remove_accents_and_underdots
 Ìgbà tí ṣìgìdìí bá fẹ́ ṣe eré ẹ̀tẹ́ a ní kí wọ́n gbé òun sójò.	Igba ti sigidii ba fe se ere ete a ni ki won gbe oun sojo.	remove_accents_and_underdots
-Ìgbà wo ni Mákùú ò níí kú? Mákùú ò mọ awo ó ń bú ọpa; Mákùú ò mọ̀ ó̩ wẹ̀ ó ń bọ́ sódò.	Igba mọ ni Makuu o nii ku? Makuu o wo awo o n bu ọpa; Makuu o mọ o wẹ o n bọ sodo.	remove_only_accents_and_swap_word
+Ìgbà wo ni Mákùú ò níí kú? Mákùú ò mọ awo ó ń bú ọpa; Mákùú ò mọ̀ ó̩ wẹ̀ ó ń bọ́ sódò.	Igba wo ni Makuu o mọ ku? Makuu o nii awo o n bu ọpa; Makuu o mọ o wẹ o n bọ sodo.	remove_only_accents_and_swap_word
 Ihò wo lèkúté ń gbé tó ní iṣẹ́ ilé ń díwọ́?	Iho wo lekute n gbe to ni ise ile n diwo?	remove_accents_and_underdots
 Ìjàkùmọ̀ kì í rin ọ̀sán, ẹni a bíire kì í rin òru.	Ijakumo ki i rin osan, eni a biire ki i rin oru.	remove_accents_and_underdots
 Ìjàlọ ò lè gbé òkúta.	Ijalo o le gbe okuta.	remove_accents_and_underdots
 Ìjokòó ẹni ní ń múni da ewé ẹ̀kọ nù.	Ijokoo eni ni n muni da ewe eko nu.	remove_accents_and_underdots
 Ìjọba ń pè ọ́ o ní ò ń mu gààrí lọ́wọ́; ta ní ni ọ́, ta ní ni omi tí o fi ń mu gààrí?	Ijoba n pe o o ni o n mu gaari lowo; ta ni ni o, ta ni ni omi ti o fi n mu gaari?	remove_accents_and_underdots
-Ilé-ni-mo-wà kì í jẹ̀bi ẹjọ́.	Ile-ni-mo-wa ki i ẹjọ. jẹbi	remove_only_accents_and_swap_word
+Ilé-ni-mo-wà kì í jẹ̀bi ẹjọ́.	jẹbi ki i Ile-ni-mo-wa ẹjọ.	remove_only_accents_and_swap_word
 Ilé kì í jó kí baálé ilé tàkakà.	Ile ki ki baale ile takaka.	remove_only_accents_and_any_random_word
 Ilé kì í jó kí oorun kun ojú.	Ile ki i ki oorun kun oju.	remove_only_accents_and_any_random_word
-Ìlù kan ò tó Ègùn jó; bí a bá lù fún un a máa lu àyà.	Egun kan o to Ilu jo; bi a ba lu fun un a maa lu aya.	remove_only_accents_and_swap_word
+Ìlù kan ò tó Ègùn jó; bí a bá lù fún un a máa lu àyà.	Ilu kan o to jo; Egun bi a ba lu fun un a maa lu aya.	remove_only_accents_and_swap_word
 Iná ń jó ògiri ò sá, ó wá ń gbá gẹẹrẹ gẹẹrẹ sómi.	Ina n jo ogiri o sa, o wa n gba gẹẹrẹ gẹẹrẹ somi.	remove_only_accents
 Inú burúkú làgbà ń ní, àgbà kì í ní ojú burúkú.	Inu buruku lagba n ni, agba ki i ni oju buruku.	remove_accents_and_underdots
 Ipa ọgbẹ́ ní ń sàn; ipa ohùn kì í sàn.	Ipa ogbe ni n san; ipa ohun ki i san.	remove_accents_and_underdots
@@ -130,13 +130,13 @@ Ipa ọgbẹ́ ní ń sàn; ipa ohùn kì í sàn.	Ipa ogbe ni n san; ipa ohun k
 Ìpéǹpéjú ò ní enini; àgbàlagbà irùngbọ̀n ò ṣe òlòó.	o ni enini; agbalagba o ṣe oloo.	remove_only_accents_and_any_random_word
 Ìrẹ́jẹ ò sí nínúu fọ́tò; bí o bá ṣe jókòó ni o ó bá araà rẹ.	Irẹjẹ o si ninuu fọto; bi o ba ṣe jokoo ni o o ba araa rẹ.	remove_only_accents
 Irú aṣọ ò tán nínu àṣà.	Iru aso o tan ninu asa.	remove_accents_and_underdots
-Irú erin ò tán ní Àlọ́.	Iru erin o Alọ. ni tan	remove_only_accents_and_swap_word
+Irú erin ò tán ní Àlọ́.	Iru o erin tan ni Alọ.	remove_only_accents_and_swap_word
 Ìrùkẹ̀rẹ̀ kì í yan Ifá lódì; oge, dúró o kí mi.	Irukere ki i yan Ifa lodi; oge, duro o ki mi.	remove_accents_and_underdots
 Ìsáǹsá ò yọ ẹ̀gún; ìsáǹsá kì í káwo ọbẹ̀.	Isansa o yo egun; isansa ki i kawo obe.	remove_accents_and_underdots
 Ìṣẹ̀ ò ti ibìkan mú ẹni; ìyà ò tibìkan jẹ èèyàn; bí o bá rìnrìn òṣì, bí o bá ojú ìṣẹ́ wọ̀lú, igbákúgbá ni wọn ó fi bu omi fún ẹ mu.	Iṣẹ o ti ibikan mu ẹni; iya o tibikan jẹ eeyan; bi o ba rinrin oṣi, bi o ba oju iṣẹ wọlu, igbakugba ni wọn o fi bu omi fun ẹ	remove_only_accents_and_any_random_word
 Ìtàkùn tó tó ọ̀pẹ kò tó pé kérin má lọ; ìtàkùn tó pé kérin má lọ Àlọ́, tòun terin ní ń lọ.	Itakun to to ọpẹ ko to pe kerin ma lọ; itakun to pe kerin ma lọ Alọ, toun terin ni n lọ.	remove_only_accents
 Ìwà ní ń jọ oníwà lójú.	Iwa ni n jọ oniwa loju.	remove_only_accents
-Ìwọ̀fà ní ń mú ìwọ̀fà jó.	Iwọfa mu n ni iwọfa jo.	remove_only_accents_and_swap_word
+Ìwọ̀fà ní ń mú ìwọ̀fà jó.	Iwọfa jo. n mu iwọfa ni	remove_only_accents_and_swap_word
 Ìwọ̀n eku nìwọ̀n ìtẹ́; olongo kì í gbé tìmùtìmù.	Iwon eku niwon ite; olongo ki i gbe timutimu.	remove_accents_and_underdots
 Ìwọ̀sí ní í ba ilé àgbà jẹ́.	Iwosi ni i ba ile agba je.	remove_accents_and_underdots
 Ìyàwó tó na ọmọ ọbàkan, ọ̀rọ̀ ló fẹ́ gbọ́.	Iyawo to na omo obakan, oro lo fe gbo.	remove_accents_and_underdots
@@ -145,7 +145,7 @@ Jòkùmọ̀ọ́ ṣe bí ẹ̀lú, aró la bẹ̀ lọ́wẹ̀.	Jokumoo se bi 
 Ká ríni lóde ò dàbíi ká báni délé.	Ka lode o dabii bani dele.	remove_only_accents_and_any_random_word
 Ká ríni sọ̀rọ̀ fúnni ò dàbíi ká sọ̀rọ̀ fúnni ká gbà.	Ka sọrọ funni o dabii ka sọrọ funni ka gba.	remove_only_accents_and_any_random_word
 Ká wí fún ẹni ká gbọ́; ká sọ̀rọ̀ fúnni ká gbà; kà bèrè ọnà lọ́wọ́ èrò tó kù lẹ́yìn kàyè baà lè yẹni.	wi fun ẹni ka gbọ; ka sọrọ funni ka gba; ka bere ọna lọwọ ero to ku lẹyin kaye baa le yẹni.	remove_only_accents_and_any_random_word
-Ká wí fúnni ká gbọ́; ká sọ̀rọ̀ fúnni ká gbà; à-wí-ìgbọ́, à-gbọ́-ìgbà ní ń fi igbá àdánù bu omi mu.	Ka wi funni ka gbọ; ka fi funni ka gba; a-wi-igbọ, a-gbọ-igba ni n sọrọ igba adanu bu omi mu.	remove_only_accents_and_swap_word
+Ká wí fúnni ká gbọ́; ká sọ̀rọ̀ fúnni ká gbà; à-wí-ìgbọ́, à-gbọ́-ìgbà ní ń fi igbá àdánù bu omi mu.	Ka wi funni ka gbọ; ka sọrọ funni ka bu a-wi-igbọ, a-gbọ-igba ni n fi igba adanu gba; omi mu.	remove_only_accents_and_swap_word
 Ká wí ká gbà ló yẹ ọmọ èèyàn.	Ka wi ka gba lo ye omo eeyan.	remove_accents_and_underdots
 Ká wí ogún, ká wí ọgbọ̀n, “N ò fẹ́, n ò gbà” laṣiwèré fi ń pẹ̀kun ọ̀ràn.	Ka wi ogun, ka wi ogbon, “N o fe, n o gba” lasiwere fi n pekun oran.	remove_accents_and_underdots
 Kàkà ká dọ̀bálẹ̀ fún Gàm̀bàrí, ká rọ́jú ká kú.	Kaka ka dọbalẹ fun Gambari, ka rọju ka ku.	remove_only_accents
@@ -157,12 +157,12 @@ Kékeré lọ̀pọ̀lọ́ fi ga ju ilẹ̀ lọ.	Kekere lopolo fi ga ju ile lo
 Kí ẹrú mọ ara ẹ̀ lẹ́rú; kí ìwọ̀fà mọ ara ẹ̀ níwọ̀fà; kí ọmọlúwàbí mọ ara ẹ̀ lẹ́rú Ọlọ́run ọba.	Ki ẹru mọ ara ẹ lẹru; iwọfa mọ ara ẹ niwọfa; ki ọmọluwabi mọ ara ẹ lẹru Ọlọrun ọba.	remove_only_accents_and_any_random_word
 Kì í dọwọ́ọ baba kó ló di ọwọ́ ọmọ.	Ki i dowoo baba ko lo di owo omo.	remove_accents_and_underdots
 Kí ni àǹfàní kẹ̀tẹ̀kẹ̀tẹ̀ lára kẹ́tẹ́kẹ́tẹ́ à-gùn-fẹsẹ̀-wọ́lẹ̀?	Ki ni anfani ketekete lara ketekete a-gun-fese-wole?	remove_accents_and_underdots
-Kí ni apárí ń wá ní ìsọ̀ onígbàjámọ̀?	Ki wa apari n ni ni isọ onigbajamọ?	remove_only_accents_and_swap_word
+Kí ni apárí ń wá ní ìsọ̀ onígbàjámọ̀?	Ki onigbajamọ? apari n wa ni isọ ni	remove_only_accents_and_swap_word
 Kí ni Dáàró ní kó tó sọ pé olèé kó òun?	Ki ni Daaro ni ko to so pe olee ko oun?	remove_accents_and_underdots
-Kí ni eléwée gbégbé ń tà tí ó ń sọ pé ọjà ò tà?	Ki ni elewee gbegbe n ta ti o n sọ ọja pe o ta?	remove_only_accents_and_swap_word
+Kí ni eléwée gbégbé ń tà tí ó ń sọ pé ọjà ò tà?	ta? ni elewee gbegbe n ta ti o n sọ pe ọja o Ki	remove_only_accents_and_swap_word
 Kí ni ìbá mú igún dé ọ̀dọ̀ọ onídìrí?	Ki ni iba mu igun de ọdọọ onidiri?	remove_only_accents
-Kí ni ó yá àpọ́n lórí tó fiṣu síná tó ń súfèé pé “bí a ti ń ṣe ni inú ń bí wọn”?	Ki ni o ya apọn lori to fiṣu sina to n sufee pe ṣe a ti n bi ni inu n bi wọn?	remove_only_accents_and_swap_word
-Kí ni onígbá ń ṣe tí aláwo ò lè ṣe?	Ki ni ti n ṣe onigba alawo o le ṣe?	remove_only_accents_and_swap_word
+Kí ni ó yá àpọ́n lórí tó fiṣu síná tó ń súfèé pé “bí a ti ń ṣe ni inú ń bí wọn”?	Ki ni o ya apọn lori to sufee sina to n fiṣu pe bi a ti n ṣe ni inu n bi wọn?	remove_only_accents_and_swap_word
+Kí ni onígbá ń ṣe tí aláwo ò lè ṣe?	Ki ni onigba n o ti alawo ṣe le ṣe?	remove_only_accents_and_swap_word
 Kí ni orí ń ṣe tí èjìká ò lè ṣe? Èjìká ru ẹrù ó gba ọ̀ọ́dúnrún; orí ta tiẹ̀ ní ogúnlúgba.	Ki ni ori n ṣe ti ejika o le ṣe? Ejika ru ẹru o gba ọọdunrun; ori ta tiẹ ni ogunlugba.	remove_only_accents
 Kí ni wọ́n ti ń ṣe Àmọ́dù nÍlọrin? Ewúrẹ́ ń jẹ́ bẹ́ẹ̀.	Ki ni won ti n se Amodu nIlorin? Ewure n je bee.	remove_accents_and_underdots
 Kíjìpá laṣọ ọ̀lẹ; òfì laṣọ àgbà; àgbà tí ò ní tòfì a rọ́jú ra kíjìpá.	Kijipa laso ole; ofi laso agba; agba ti o ni tofi a roju ra kijipa.	remove_accents_and_underdots
@@ -171,13 +171,13 @@ Kò sí ẹni tó dùn mọ́ àfi orí ẹni.	si ẹni dun mọ afi ori ẹni.	
 Kò sí mi lájọ àjọ ò kún: ara ẹ̀ ló tàn jẹ.	Ko si mi lajo ajo o kun: ara e lo tan je.	remove_accents_and_underdots
 Kò sí ohun tí Ṣàngó lè ṣe kó jà lẹ́ẹ̀rùn.	Ko si ohun ti Sango le se ko ja leerun.	remove_accents_and_underdots
 Kò-sí-nílé kì í jagun ẹnu tì.	Ko-si-nile ki i jagun enu ti.	remove_accents_and_underdots
-Kó-tán-kó-tán lajá ń lá omi.	n laja Ko-tan-ko-tan la omi.	remove_only_accents_and_swap_word
+Kó-tán-kó-tán lajá ń lá omi.	la laja n Ko-tan-ko-tan omi.	remove_only_accents_and_swap_word
 Labalábá fi ara ẹ̀ wẹ́yẹ, kò lè ṣe ìṣe ẹyẹ.	Labalaba fi ara e weye, ko le se ise eye.	remove_accents_and_underdots
 Lábúlábú  fara wé aró, kò lè ṣe bí aró; pòpòǹdó  fara wé àgbàdo.	Labulabu  fara we aro, ko le ṣe bi aro; popondo  fara we agbado.	remove_only_accents
 Lágbájá ìbá wà a di ìjímèrè; ẹni tó bá níwájú di oloyo?	Lagbaja iba wa a di ijimere; eni to ba niwaju di oloyo?	remove_accents_and_underdots
 Láká-ǹ-láká ò ṣéé fi làjà; ọmọ eégún ò ṣéé gbé ṣeré.	Laka-n-laka o see fi laja; omo eegun o see gbe sere.	remove_accents_and_underdots
 Lásán kọ́ là ń dé ẹtù; ó ní ẹni tórí ẹ̀ ń bá ẹtù mu.	Lasan kọ la n de ẹtu; o ni ẹni tori ẹ n ba ẹtu mu.	remove_only_accents
-Lékèélékèé ò yé ẹyin dúdú; funfun ni wọ́n ńy é ẹyin wọn.	Lekeelekee ni ye ẹyin dudu; funfun o wọn ny e ẹyin wọn.	remove_only_accents_and_swap_word
+Lékèélékèé ò yé ẹyin dúdú; funfun ni wọ́n ńy é ẹyin wọn.	Lekeelekee o ye ni dudu; funfun ẹyin wọn ny e ẹyin wọn.	remove_only_accents_and_swap_word
 Má tẹ̀ẹ́ lọ́wọ́ oníle, má tẹ̀ẹ́ lọ́wọ́ àlejò; lọ́wọ́ ara ẹni la ti ń tẹ́.	Ma tee lowo onile, ma tee lowo alejo; lowo ara eni la ti n te.	remove_accents_and_underdots
 Màlúù ò lè lérí níwájú ẹṣin.	Maluu o le leri niwaju esin.	remove_accents_and_underdots
 Mànàmáná ò ṣéé sun iṣu.	Manamana o see sun isu.	remove_accents_and_underdots
@@ -191,7 +191,7 @@ Compare “Mo mọ̀-ọ́ gùn” . . .	Compare Mo mọ-ọ gun . . .	remove_on
 Compare “Mo gbọ́n tán, . . . ”	Compare “Mo gbon tan, . . . ”	remove_accents_and_underdots
 Compare the preceding entry,	Compare the preceding entry,	remove_accents_and_underdots
 Compare “Mo gbọ́n tán, . . . ”	Compare “Mo gbon tan, . . . ”	remove_accents_and_underdots
-Compare “Mo gbọ́n tan, . . . ”	Compare Mo tan, gbọn . . .	remove_only_accents_and_swap_word
+Compare “Mo gbọ́n tan, . . . ”	Compare Mo gbọn . tan, . .	remove_only_accents_and_swap_word
 “Mo yó” ń jẹ́ “mo yó,” “mo kọ̀” ń jẹ́ “mo kọ̀”; jẹun ǹṣó, àgbà ọ̀kánjúwà ni.	“Mo yo” n je “mo yo,” “mo ko” n je “mo ko”; jeun nso, agba okanjuwa ni.	remove_accents_and_underdots
 “N óò gba owóò mi lára ṣòkòtò yìí”; ìdí làgbàlagbà ń ṣí sílẹ̀.	“N oo gba owoo mi lara sokoto yii”; idi lagbalagba n si sile.	remove_accents_and_underdots
 Nláńlá lọmọ abuké ń dá: ó ní “Ìyá, ìyá, òun ó pọ̀n.”	Nlanla lọmọ abuke n da: o ni Iya, iya, oun o pọn.	remove_only_accents
@@ -201,10 +201,10 @@ Nígbà tí o mọ̀ ọ́ gùn, ẹṣin ẹ ẹ́ ṣe ṣẹ́ orókún?	Nigb
 Nígbà wo làpò ẹkùn-ún di ìkálá fọ́mọdé?	Nigba wo lapo ekun-un di ikala fomode?	remove_accents_and_underdots
 Ó bọ́ lọ́wọ́ iyọ̀ ó dòbu.	O bo lowo iyo o dobu.	remove_accents_and_underdots
 Ó bọ́ lọ́wọ́ oṣù ó dàràn-mọ́jú.	O bo lowo osu o daran-moju.	remove_accents_and_underdots
-O dájú dánu, o ò mọ ẹ̀sán mẹ́sàn-án.	O mẹsan-an. danu, o o mọ ẹsan daju	remove_only_accents_and_swap_word
+O dájú dánu, o ò mọ ẹ̀sán mẹ́sàn-án.	O daju danu, ẹsan o mọ o mẹsan-an.	remove_only_accents_and_swap_word
 Ó di àwùjọ ṣòkòtò kí ládugbó tó mọ ara rẹ̀ Lábèṣè.	O di awujo sokoto ki ladugbo to mo ara re Labese.	remove_accents_and_underdots
 Ó di ọjọ́ alẹ́ kábuké tó mọ̀ pé iké kì í ṣọmọ.	O di ojo ale kabuke to mo pe ike ki i somo.	remove_accents_and_underdots
-O kò mọ ẹ̀wà lóńjẹ à-jẹ-sùn.	O ko a-jẹ-sun. ẹwa lonjẹ mọ	remove_only_accents_and_swap_word
+O kò mọ ẹ̀wà lóńjẹ à-jẹ-sùn.	lonjẹ ko mọ ẹwa O a-jẹ-sun.	remove_only_accents_and_swap_word
 Ò ń jàgbọ̀nrín èṣín lọ́bẹ̀, o ní o ti tó tán.	O n jagbonrin esin lobe, o ni o ti to tan.	remove_accents_and_underdots
 O ru ládugbó ò ń rerá; kí ni ká sọ fẹ́ni tó ru Òrìṣàa Yemọja?	O ru ladugbo o n rera; ki ni ka sọ fẹni to ru Oriṣaa Yemọja?	remove_only_accents
 Ó tọ́ kí eégún léni lóko àgbàdo, èwo ni ti Pákọ̀kọ̀ láàrin ìlú?	O tọ ki eegun leni loko agbado, ewo ni ti Pakọkọ laarin ilu?	remove_only_accents
@@ -214,7 +214,7 @@ O ru ládugbó ò ń rerá; kí ni ká sọ fẹ́ni tó ru Òrìṣàa Yemọja
 Odò kékeré lalákàn-án ti lè fọ́ epo; bó bá di àgàdàm̀gbá tán, odò a gbé alákàn lọ.	Odo kekere lalakan-an ti le fo epo; bo ba di agadamgba tan, odo a gbe alakan lo.	remove_accents_and_underdots
 Òfin ni yó sọ ara ẹ̀; ìyàwó tí ń na ọmọ ìyáálé.	Ofin ni yo so ara e; iyawo ti n na omo iyaale.	remove_accents_and_underdots
 Ogun tí olójú méjì rí sá ni olójú kan ní òún ń lọ jà.	ti oloju meji ri sa ni oloju kan ni oun n lọ ja.	remove_only_accents_and_any_random_word
-Ohun méjì ló yẹ Ẹ̀ṣọ́: Ẹ̀ṣọ́ jà, ó lé ogun; Ẹ̀ṣọ́ jà ó kú sógun.	Ohun sogun. lo yẹ Ẹṣọ: Ẹṣọ ja, o le ogun; Ẹṣọ ja o ku meji	remove_only_accents_and_swap_word
+Ohun méjì ló yẹ Ẹ̀ṣọ́: Ẹ̀ṣọ́ jà, ó lé ogun; Ẹ̀ṣọ́ jà ó kú sógun.	Ohun Ẹṣọ: lo yẹ meji Ẹṣọ ja, o le ogun; Ẹṣọ ja o ku sogun.	remove_only_accents_and_swap_word
 Ohun tí à ń tà là ń jẹ; kì í ṣe ọ̀rọ̀ oní-kẹrosíìnì.	Ohun ti a n ta la n je; ki i se oro oni-kerosiini.	remove_accents_and_underdots
 Ohun tí eèrá bá lè gbé ní ń pè ní ìgànnìkó.	Ohun ti eera ba le gbe ni n pe ni iganniko.	remove_only_accents
 Ohun tí ìrẹ̀ẹ́ ṣe tó fi kán lápá, aláàńtèté ní kí wọ́n jẹ́ kí òun ó ṣe è.	Ohun ti iree se to fi kan lapa, alaantete ni ki won je ki oun o se e.	remove_accents_and_underdots
@@ -229,11 +229,11 @@ Ojú kì í pọ́n baálé ilé kó fọwọ́ gbálẹ̀ ilé ẹ̀.	Oju ki i 
 Ojú kì í pọ́n babaláwo kó bèèrè ẹbọ àná.	Oju ki i pọn babalawo ko beere ẹbọ ana.	remove_only_accents
 Ojú kì í pọ́n òkú ọ̀run kó ní kí ará ayé gba òun.	Oju ki i pon oku orun ko ni ki ara aye gba oun.	remove_accents_and_underdots
 Ojú kì í pọ́nni ká fàbúrò ẹni ṣaya.	Oju ki i ponni ka faburo eni saya.	remove_accents_and_underdots
-Ojú kì í pọnni ká fàkísà bora.	fakisa ki i pọnni ka Oju bora.	remove_only_accents_and_swap_word
-Ojú kì í pọ́nni ká pọ́n léyín.	Oju i ki pọnni ka pọn leyin.	remove_only_accents_and_swap_word
+Ojú kì í pọnni ká fàkísà bora.	Oju ki ka pọnni i fakisa bora.	remove_only_accents_and_swap_word
+Ojú kì í pọ́nni ká pọ́n léyín.	ki Oju i pọnni ka pọn leyin.	remove_only_accents_and_swap_word
 Ojú ò rọ́lá rí; ó bímọ ẹ̀ ó sọ ọ́ ní Ọláníyọnu.	Oju o rola ri; o bimo e o so o ni Olaniyonu.	remove_accents_and_underdots
 Ojú ò ti oníṣègùn, ó ní àna òun ń kú lọ.	Oju o ti oniṣegun, o ni ana oun n ku lọ.	remove_only_accents
-Ojú ti agbọ́ń agbọ́n láfà kò léro.	ko ti agbọn agbọn lafa Oju lero.	remove_only_accents_and_swap_word
+Ojú ti agbọ́ń agbọ́n láfà kò léro.	Oju ti ko agbọn lafa agbọn lero.	remove_only_accents_and_swap_word
 Òkété pẹ̀lú ọmọ ẹ̀ẹ́ di ọgbọọgba sínú ihò; nígba tí ìyá ń feyín pàkùrọ́, ọmọ náà ń feyín pa á pẹ̀lú.	Okete pẹlu ọmọ ẹẹ di ọgbọọgba sinu iho; nigba ti n feyin pakurọ, naa n feyin pa a pẹlu.	remove_only_accents_and_any_random_word
 Òkùnkùn ò mẹni ọ̀wọ̀; ó dÍfá fún “Ìwọ́ tá nìyẹn”?	Okunkun o meni owo; o dIfa fun “Iwo ta niyen”?	remove_accents_and_underdots
 Olóbìnrin kan kì í pagbo ìja.	Olobinrin kan ki i pagbo ija.	remove_accents_and_underdots
