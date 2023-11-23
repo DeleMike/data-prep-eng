@@ -143,17 +143,19 @@ def process_and_save_yoruba_data(yoruba_sentences, statistics_file_path):
 
     # Define the output path
     output_path = Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/processed_yoruba_bible.tsv"
+    # output_path = Path('.').resolve() / f"data_prep_eng/output_data/train.tsv"
+
 
     with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
         tsv_writer = csv.writer(output_file, delimiter='\t')
-        tsv_writer.writerow(['Original Sentence', 'Modified Sentence', 'Case Rule Applied'])
+        tsv_writer.writerow(['Original Sentence', 'Modified Sentence', 'Case Rule Applied', 'Source of Data'])
 
         for sentence in yoruba_sentences:
             # print(f'Setence = {sentence}')
             modified_sentence, removal_type = apply_mixed_removal(sentence)
             counters['total_sentences'] += 1
             counters[removal_type] += 1
-            tsv_writer.writerow([sentence, modified_sentence, removal_type])
+            tsv_writer.writerow([sentence, modified_sentence, removal_type, 'bible'])
 
     # Calculate percentages
     counters['accents_and_underdots_percentage'] = (counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
