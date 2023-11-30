@@ -106,8 +106,9 @@ def create_new_menyo_dataset(type_of_dataset='dev'):
     Apply all rules to dataset
     """
     for domain in domains:
-       # Define the paths
+        # for each file in the 
 
+       # Define the paths
         output_path, absolute_path = _create_output_folders(
             base_folder='.',
             type_of_dataset=type_of_dataset,
