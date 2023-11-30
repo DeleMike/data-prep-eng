@@ -1,0 +1,505 @@
+Original Sentence	Modified Sentence	Case Rule Applied
+yoruba	yoruba	remove_accents_and_underdots
+Títí di ìgbà tí ó máa fi kó ẹrù rẹ̀ lọ pátápátá, kí oníkálùkù ní ìtẹ́lọ̀rùn pẹ̀lú ohunkóhun tó bá rí jẹ.	Titi di igba ti o maa fi ko eru re lo patapata, ki onikaluku ni itelorun pelu ohunkohun to ba ri je.	remove_accents_and_underdots
+Ó mọ bí ó ṣe má a tọ́jú ara rẹ̀ àti Tinú.	O mo bi o se ma a toju ara re ati Tinu.	remove_accents_and_underdots
+Kí Àlàmú kọ́ bí ó ṣe máa tọ́jú ara rẹ̀.	Ki Alamu ko bi o se maa toju ara re.	remove_accents_and_underdots
+Kí ìyá rẹ̀ má tún padà wá láti máa jágbe kí ó sì pòwe ìkà kankan.	Ki iya re ma tun pada wa lati maa jagbe ki o si powe ika kankan.	remove_accents_and_underdots
+Báyìí, ó ti di kí olórí dorí ẹ̀ mú, kí oníkálùkù wà fún ra ara rẹ̀, Ọlọ́run wà fún gbogbo wa.	Bayii, o ti di ki olori dori e mu, ki onikaluku wa fun ra ara re, Olorun wa fun gbogbo wa.	remove_accents_and_underdots
+"Làbákẹ́ ń ṣe ìṣe ""òun ló mọ̀"" ọkàn rẹ̀ déédé gbé sókè láti kọ orin rẹ̀ pẹ̀lú ohùn òkè, ohùn rẹ̀ dún bí i agogo."	"Labake n se ise ""oun lo mo"" okan re deede gbe soke lati ko orin re pelu ohun oke, ohun re dun bi i agogo."	remove_accents_and_underdots
+Ìrísí rẹ̀ fi inú dídùn rẹ̀ hàn.	Irisi re fi inu didun re han.	remove_accents_and_underdots
+Ó sọ fún ara rẹ̀ pé òun kò ní ìṣòro kankan.	O so fun ara re pe oun ko ni isoro kankan.	remove_accents_and_underdots
+Kò ní nǹkankan láti dààmú fún.	Ko nnkankan lati daamu	remove_only_accents_and_any_random_word
+Kò sí obìnrin náà lórí ilẹ̀ ní gbogbo ayé tí inú rẹ̀ dún tó bí inú rẹ̀ ṣe dùn.	Ko si obinrin naa lori ile ni gbogbo aye ti inu re dun to bi inu re se dun.	remove_accents_and_underdots
+Kí ló ṣe tí inú rẹ̀ kò ní dún?	Ki lo se ti inu re ko ni dun?	remove_accents_and_underdots
+Ọjọ́ rẹ̀ ti níye nínú ilé Àlàmú.	Ojo re ti niye ninu ile Alamu.	remove_accents_and_underdots
+Ọjọ́ ìbànújẹ́ àti wàhálà rẹ̀ ti níye.	Ojo ibanuje ati wahala re ti niye.	remove_accents_and_underdots
+Ẹjọ́ ìkọ̀sílẹ̀ ti wà lọ́nà, òun náà ti fẹ́rẹ̀ ẹ́ palẹ̀mọ́ àwọn nǹkan rẹ̀ tán.	tan. ikọsilẹ ti wa lọna, oun naa ti fẹrẹ ẹ palẹmọ awọn nnkan rẹ Ẹjọ	remove_only_accents_and_swap_word
+Tinú ò sì fún un ní wàhálà kankan, ọmọbìnrin kékeré náà kúnfún ìyè, ẹ̀mí àlàáfìà tó péye ni Ọlọ́run fi jíǹkí òun fún ara rẹ̀.	Tinu o si fun un ni wahala kankan, kekere ọmọbinrin naa kunfun iye, ẹmi alaafia to peye ni Ọlọrun fi jinki oun fun ara rẹ.	remove_only_accents_and_swap_word
+Ládúrú ìnira tó wà nílẹ̀ ó sì rẹ̀wà síbẹ̀, ìdúró rẹ̀ dún síbẹ̀.	nilẹ inira to wa Laduru o si rẹwa sibẹ, iduro rẹ dun sibẹ.	remove_only_accents_and_swap_word
+Kò sí ẹni tó má ri tá sọ pé obìnrin tó ní ìṣòro ni.	Ko si ẹni to ma ri ta sọ pe obinrin to ni iṣoro ni.	remove_only_accents
+Pẹ̀lú ìrísí omidan tí ó ní lọ́wọ́ lọ́wọ́ yìí, ó lè padà sí England kí ó sì tún padà sí àyè oge síse ẹ̀.	Pẹlu irisi omidan ti o ni lọwọ lọwọ yii, o le pada si England ki o si tun pada si aye oge sise ẹ.	remove_only_accents
+Á kàn nílò láti tún ara rẹ̀ ṣe fún bí oṣù mẹ́ta sí mẹ́rin, á padà sípò.	A kan nilo lati tun ara re se fun bi osu meta si merin, a pada sipo.	remove_accents_and_underdots
+Fún ìdí èyí, kò sí àbámọ̀, ó rẹ́rìn-ín tàríyá-tàríyá, ó palẹ̀mọ̀, ó jó.	Fun idi eyi, ko si abamo, o rerin-in tariya-tariya, o palemo, o jo.	remove_accents_and_underdots
+Ohùn òkè rẹ̀ tínrín, ó sì ń gbọ̀n rìrì, ó jùdí sí ìlú àti orin inú afẹ́fẹ́ tí ó ń rò lọ́kàn, ó ka ìwọ̀n ẹsẹ̀ díẹ̀ síwájú-sẹ́yìn ó ń fò sókè tìdùnnú-tìdùnnú, ó tún sọ fún ara rẹ̀ léraléra pé obìnrin tí ó láyọ̀ ni òun, ó láyọ̀... l-á-y-ọ̀! láyọ̀... láyọ̀ gidi gan.	Ohun oke rẹ tinrin, o si n gbọn riri, o judi si ilu ati orin inu afẹfẹ ti o n ro lọkan, o ka iwọn ẹsẹ diẹ siwaju-sẹyin o n fo soke tidunnu-tidunnu, o tun sọ fun ara rẹ leralera pe obinrin ti o layọ ni oun, o layọ... l-a-y-ọ! layọ... layọ gidi gan.	remove_only_accents
+Làbákẹ́ na ẹ̀yìn, ó sì ti àyà sí wájú, ó jupá láìsídìíwọ́, ó ń gbé ẹsẹ̀ sósì sọ́tùn-ún, sọ́tùn-ún sósì, ó ń làágùn!	Labake na eyin, o si ti aya si waju, o jupa laisidiiwo, o n gbe ese sosi sotun-un, sotun-un sosi, o n laagun!	remove_accents_and_underdots
+Ṣùgbọ́n dúró ná ó ... kí gan-an ló ń sẹlẹ̀?	Sugbon duro na o ... ki gan-an lo n sele?	remove_accents_and_underdots
+Làbákẹ́ dúró díẹ̀ láti bi ara rẹ̀ ní èyí.	Labakẹ duro diẹ lati bi ara rẹ ni eyi.	remove_only_accents
+Ó sé èémí fún ìṣẹ́jú kan, ó ń wòye.	O se eemi fun iṣẹju kan, o n woye.	remove_only_accents
+Kíni ìdí fún gbogbo àfihàn ìdùnnú àti ìyírí yìí?	Kini idi fun gbogbo afihan idunnu ati iyiri yii?	remove_accents_and_underdots
+Ṣe òun ti ń ya wèrè? Ṣe òun náà ti ń ya wèrè ni?	Se oun ti n ya were? Se oun naa ti n ya were ni?	remove_accents_and_underdots
+"""Rárá, Rárá o"", ó dá ará rẹ̀ lóhùn ... Rárá."	"""Rara, Rara o o"", da ara rẹ lohun ... Rara."	remove_only_accents_and_swap_word
+Àlàmú ló ń sínwín, kódà, Àlàmú ló tí ya wèrè.	Alamu lo n sinwin, koda, Alamu lo ti ya were.	remove_accents_and_underdots
+Kìí ṣe òun ...kì í ṣe òun!	Kii oun i ṣe oun!	remove_only_accents_and_any_random_word
+Níwájú Ọlọ́run àti ènìyàn!	Niwaju Olorun ati eniyan!	remove_accents_and_underdots
+Làbákẹ́ ná ọwọ́ rẹ̀ méjéèjì síwájú, ó sì jó pẹ̀lú ìtara sí ìlú àfinúrò orin náà.	Labake na owo re mejeeji siwaju, o si jo pelu itara si ilu afinuro orin naa.	remove_accents_and_underdots
+Kò sí ìṣòro fún  un mọ́.	Ko si un mọ.	remove_only_accents_and_any_random_word
+Inú rẹ̀ dùn, ó dùn dáadáa. Ó bẹ́ wọ inú yàrá ìgbafẹ́ pẹ̀lú ìgbésẹ̀ ijó rẹ̀ tó lọ́pọ̀, ìsọwọ́jùdí rẹ̀ sàjèjì, ó ń rìn súnmọ́ jígí adádúró díẹ̀díẹ̀ níbi tí inú rẹ̀ ti tún bọ̀ dùn sí i.	Inu re dun, o dun daadaa. O be wo inu yara igbafe pelu igbese ijo re to lopo, isowojudi re sajeji, o n rin sunmo jigi adaduro diedie nibi ti inu re ti tun bo dun si i.	remove_accents_and_underdots
+Ó ju ọwọ́ rẹ̀ méjéèjì sínú afẹ́fẹ́ ó sì yípoyípo láìmọye ìgbà títí tí òyì fi kọ́ ọ.	O ju ọwọ rẹ mejeeji sinu afẹfẹ o si yipoyipo laimọye igba titi ti oyi fi kọ ọ.	remove_only_accents
+Ó sì ṣubú sínú àga tí ó wà nítòsí, ó ń mí lókèlókè.	O si ṣubu sinu aga ti wa nitosi, n mi lokeloke.	remove_only_accents_and_any_random_word
+Lẹ́yìn èyí ni gbogbo ilé bẹ̀rẹ̀ ìrìnàjò àjò pàtàkì sínú òfurufú pẹ̀lú rẹ̀ gẹ́gẹ́ bí adáwakọ̀ òfurufú ...	Lẹyin eyi ni gbogbo ile bẹrẹ irinajo ajo pataki sinu ofurufu pẹlu rẹ gẹgẹ bi adawakọ ofurufu ...	remove_only_accents
+Kíni ìdí? Kíni ìdífún gbogbo èyí? Ó tún ara rẹ̀ bi. Kí ló ń sẹlẹ̀? Se orí tirẹ̀ náà o ti máa yí báyìí?	Kini idi? Kini idifun gbogbo eyi? O tun ara re bi. Ki lo n sele? Se ori tire naa o ti maa yi bayii?	remove_accents_and_underdots
+Sènábù mí kanlẹ̀ láti ẹ̀yìn ìlèkùn ilé ìkóunjẹpamọ́ sí níbi tí ó ti ń dúró wòran màdáámù rẹ̀.	Senabu mi kanle lati eyin ilekun ile ikounjepamo si nibi ti o ti n duro woran madaamu re.	remove_accents_and_underdots
+Ó ti gbọ́ àwọn orin àjèjì màdáámù, ó sì tún ti rí ijó abàmì rẹ̀ tí ò bálù mu.	O ti gbọ awọn orin ajeji madaamu, o si tun ti ri ijo abami rẹ ti o balu mu.	remove_only_accents
+Bí ó ṣe wá ń gbìyànjú àti padà sínú ilé oúnjẹ láti má jẹ́ ki wọ́n rí i, ó sẹrí mọ́ ògiri, ó sì ṣísẹ̀ sórí àwọn abọ́ tí ó sẹ̀sẹ̀ kó wọ ilé oúnjẹ náà.	Bi o se wa n gbiyanju ati pada sinu ile ounje lati ma je ki won ri i, o seri mo ogiri, o si sise sori awon abo ti o sese ko wo ile ounje naa.	remove_accents_and_underdots
+Nǹkankan máa ń wà nípa màdáámù báyìí tí ó ń lé Sènábù lára rẹ̀ ni gbogbo ìgbà.	Nnkankan maa n wa nipa madaamu bayii ti o n le Senabu lara rẹ ni gbogbo igba.	remove_only_accents
+Nígbàkúgbà tí ó ba rí i, nǹkankan máa ń sọ fún un pé kí ó sá lọ, tàbí kí ó sá pamọ́.	Nigbakugba ti o ba ri i, nnkankan maa n so fun un pe ki o sa lo, tabi ki o sa pamo.	remove_accents_and_underdots
+Màdáámù ti ń kanra ganan lẹ́nu ọjọ́ mẹ́ta yìí.	Madaamu ti n kanra ganan lenu ojo meta yii.	remove_accents_and_underdots
+Kò fẹ́ jọ pé ó fẹ́ràn rẹ̀ mọ́ ìsọwọ́ wò ó àti bí ó se ń ba sọ̀rọ̀.	Ko fe jo pe o feran re mo isowo wo o ati bi o se n ba soro.	remove_accents_and_underdots
+Nígbàkúgbà tí Màdáámù bá farahàn ní yàrá ìgbafẹ́, kíá ni Sènábù máa ń wábi gbà wọ ilé ìgbọ̀nsẹ̀ láti lọ sẹ̀yọ́!	yara ti Madaamu ba farahan ni Nigbakugba igbafẹ, kia ni Senabu maa n wabi gba wọ ile igbọnsẹ lati lọ sẹyọ!	remove_only_accents_and_swap_word
+Sùgbọ́n kò fẹ́ jọ pé ọgbọ́n yẹn máa ṣiṣẹ́ mọ́.	Sugbọn ko fẹ jọ pe ọgbọn yẹn maa ṣiṣẹ mọ.	remove_only_accents
+Nítorí àná alánàá ni màdáámù ṣì kígbe pé: Sènábù! Sènábù! Ibo ni èké kékeré yì wà?	Nitori ana alanaa ni madaamu ṣi kigbe pe: Senabu! Senabu! Ibo ni eke kekere yi wa?	remove_only_accents
+Níbí Màdáámù! Níbí Màdáámù! Sènábù dáhùn.	Nibi Madaamu! Nibi Madaamu! Senabu dahun.	remove_accents_and_underdots
+Nílé ìgbọ̀nsẹ̀, bí ó ṣe ń ṣe? Kí ni ó ń bá olòṣì kékeré yìí jà ná?	Nile igbonse, bi o se n se? Ki ni o n ba olosi kekere yii ja na?	remove_accents_and_underdots
+Gbogbo ìgbà ní ilé ìgbọ̀nsẹ̀ “kò sí nǹkankan Màdààmú, èmi rè é màdààmú” Sènábù dúró níwájú rẹ̀, ó ń wò pẹ̀lú ojú ẹ̀bẹ̀.	Gbogbo igba ni ile igbọnsẹ ko si nnkankan Madaamu, emi re e madaamu Senabu duro rẹ, n wo pẹlu oju ẹbẹ.	remove_only_accents_and_any_random_word
+Ọwọ́ màdààmú ti yára gbá etí Sènábù kékeré mú ó sì sọ àwọn ọ̀rọ̀ ìríra sí i, ó gbò ó jìgìjìgì síbí sóhùn-ún.	Owo madaamu ti yara gba eti Senabu kekere mu o si so awon oro irira si i, o gbo o jigijigi sibi sohun-un.	remove_accents_and_underdots
+Ó pariwo, “Wà á tó lọ, isẹ́ ẹ ti fẹ́rẹ̀ ẹ́ tán, ó dàbí i pé o ò mọ̀.	O pariwo, Wa a to lọ, isẹ ẹ ti fẹrẹ ẹ tan, o dabi i pe o o mọ.	remove_only_accents
+Láìpé, wọn á dá ẹ padà fún àwọn ènìyàn rẹ̀.	Laipe, won a da e pada fun awon eniyan re.	remove_accents_and_underdots
+Fúnmi lọ́jọ́ méjì sí mẹ́ta.	Funmi lojo meji si meta.	remove_accents_and_underdots
+Làbákẹ́ tú ọwọ́ rẹ̀, Sènábù sì subú, gbà!.	Labake tu owo re, Senabu si subu, gba!.	remove_accents_and_underdots
+Kò sẹ́nikẹ́ni nítòsí láti sọ gbogbo èyí fún.	Ko senikeni nitosi lati so gbogbo eyi fun.	remove_accents_and_underdots
+Ó wu Sènábù púpọ̀ láti rẹ́ni sọ ìrírí rẹ̀ fún - ẹni tó ṣe é fọkàn tán, ẹni tí yóò yé, tí yóò sì káàánú ẹ̀.	ẹni wu Senabu pupọ lati rẹni sọ iriri rẹ fun - O to ṣe e fọkan tan, ẹni ti yoo ye, ti yoo si kaaanu ẹ.	remove_only_accents_and_swap_word
+Ẹ wòye bí ayọ̀ rẹ̀ ṣe kún tó nígbẹ̀yìn gbẹ́yín tí màmá àgbà tún kan ìlẹ̀kùn ilé yẹn.	E woye bi ayo re se kun to nigbeyin gbeyin ti mama agba tun kan ilekun ile yen.	remove_accents_and_underdots
+Tí ó tún bá òun nìkan nílé!	Ti o tun ba oun nikan nile!	remove_accents_and_underdots
+Màmá ò tíì jóòkó tàìjókòó ti ahọ́n Sènábù bẹ̀rẹ̀ si í gbòn bí i ti ìrù ajá tí ó ń mì tí ó bá rí olówó rẹ̀.	Mama o tii jooko taijokoo ti ahon Senabu bere si i gbon bi i ti iru aja ti o n mi ti o ba ri olowo re.	remove_accents_and_underdots
+Màdáámù ti ya wèrè! Sènábù kéde fún màmá àgbà.	Madaamu ti ya were! Senabu kede fun mama agba.	remove_only_accents
+Wọ́n ti ya wèrè gan-an! Ó ti jọ ehànnà, bí ológbò-igbó.	Won ti ya were gan-an! O ti jo ehanna, bi ologbo-igbo.	remove_accents_and_underdots
+Irun rẹ̀ tí ó ki bí i igbó yẹn ti dà wálẹ̀ sí èjìká rẹ̀, èyí sì ń jẹ́ kí jọ èṣù.	Irun re ti o ki bi i igbo yen ti da wale si ejika re, eyi si n je ki jo esu.	remove_accents_and_underdots
+Èékánná rẹ̀ ti wá gùn gan-an ó sì mú, à fi bí ti ẹnu ẹyẹ.	Eekanna rẹ ti wa gun gan-an o si fi bi ti ẹnu ẹyẹ.	remove_only_accents_and_any_random_word
+Ọjọ́ kan ò lè kọjá kí màdáaḿù má ti èékánná yẹn bọ̀ ọ́ lẹ́rẹ̀kẹ́ kí ò sì fà á létí.	Ọjọ le o kan kọja ki madaamu ma ti eekanna yẹn bọ ọ lẹrẹkẹ ki o si fa a leti.	remove_only_accents_and_swap_word
+Ó fi etí àti ẹ̀rẹ̀kẹ́ rẹ̀ wíwú han màmá.	O fi eti ati ẹrẹkẹ rẹ wiwu han mama.	remove_only_accents
+Màdáámù á sì yá á sí wẹ́wẹ́ níjọ́ kan pẹ̀lú bí ó ṣe ń lọ yìí, pẹ̀lú èékánná gígùn rẹ̀ tí ó mú yẹn tàbí eyín irin rẹ̀ yẹn nítorí ó tí ya wèrè.	Madaamu a si ya a si wewe nijo kan pelu bi o se n lo yii, pelu eekanna gigun re ti o mu yen tabi eyin irin re yen nitori o ti ya were.	remove_accents_and_underdots
+Wèrè gidi, Sènábù jẹ́wọ́ pé ó ti sú òun, á sì wù òun láti padà sọ́dọ̀ àwọn ènìyàn rẹ̀ nílé.	Were gidi, Senabu jewo pe o ti su oun, a si wu oun lati pada sodo awon eniyan re nile.	remove_accents_and_underdots
+Màmá láyọ̀ ńlá bí ó ṣe ń tẹ́tí sí bí Sènábù ṣe ń sọ ìtàn rè.	Mama layo nla bi o se n teti si bi Senabu se n so itan re.	remove_accents_and_underdots
+Ó fi ọwọ́ lu ọmọ náà jẹ́jẹ́ lẹ́yìn, ó sì sọ fún  un pé kí ó má ṣe dààmú.	O fi ọwọ lu ọmọ naa jẹjẹ lẹyin, o si sọ fun  un pe ki o ma ṣe daamu.	remove_only_accents
+Ohun gbogbo á dára níkeyìn ...	Ohun gbogbo a dara nikeyin ...	remove_accents_and_underdots
+Ó dára bí Làbákẹ́ ṣe ń yí lórí.	O dara bi Labakẹ ṣe n yi lori.	remove_only_accents
+Ohun tí wọn ń retí ni.	Ohun ti wọn ni.	remove_only_accents_and_any_random_word
+Èyí kò sì jẹ́ ìyàlẹ́nu fún màmá.	Eyi ko si je iyalenu fun mama.	remove_accents_and_underdots
+Èṣùníyì ti sọ fún un pé Làbákẹ́ á jẹ nínú ẹ̀fọ́ ìkà tí ó ti rò kí ó tó pẹ́.	Eṣuniyi ti sọ fun un pe Labakẹ a jẹ ninu ẹfọ ika ti o ti ro ki o to pẹ.	remove_only_accents
+Ní báyìí, ó tí wá ń sẹlẹ̀, nǹkan tí ó ju èyí á tó máa sẹlẹ̀.	Ni bayii, o ti wa n sele, nnkan ti o ju eyi a to maa sele.	remove_accents_and_underdots
+Irun-orí àti èékánná Làbákẹ́ ni màmá wá gbà ní ìgboro.	Irun-ori eekanna Labakẹ ni mama wa gba igboro.	remove_only_accents_and_any_random_word
+Èṣùníyì fẹ́ lò ó láti fi túnbọ̀ ba ti Làbákẹ́ jẹ́.	Esuniyi fe lo o lati fi tunbo ba ti Labake je.	remove_accents_and_underdots
+Kò ní láti ya ẹnikẹ́ni lẹ́nu lẹ́yìn èyí láti rí Làbákẹ́ lẹ́yìn ọ̀sẹ̀ kan tàbí méjì ní àwọn òpópónà kí ó sì dúró sí gbàgede ọjà níbi tí àwọn ènìyàn tí wọn wá ṣe kárà-kátà á tí rí ìran pípé wò.	Ko ni lati ya ẹnikẹni lẹnu a eyi lati ri Labakẹ lẹyin ọsẹ kan tabi meji ni awọn opopona ki o si duro si gbagede ọja nibi ti awọn eniyan ti wọn wa ṣe kara-kata lẹyin ti ri iran pipe wo.	remove_only_accents_and_swap_word
+Èṣùníyì ti sọ ọ́, màmá sì mọ́ pé bí ó ṣe máa sẹlẹ̀ gan-an nìyẹn.	Esuniyi ti so o, mama si mo pe bi o se maa sele gan-an niyen.	remove_accents_and_underdots
+Nígbẹ̀yìn gbẹ́yín,  Làbákẹ́ á fí orúnkún rẹ̀ ráwọ ọgbà Èsúńiyì pẹ̀lụ́ ìronúpíwàdà.	Nigbeyin gbeyin,  Labake a fi orunkun re rawo ogba Esuniyi pelu ironupiwada.	remove_accents_and_underdots
+Ní ti Àlàmú, Èṣùníyì ti sọ fún màmá pé kò séwu lóko mọ́.	Ni ti Alamu, Eṣuniyi ti sọ fun mama pe ko sewu loko mọ.	remove_only_accents
+Ipò tí Àlàmú wà á máa yàtọ̀ sí dáadáa láti ìsínyì lọ.	Ipo ti Alamu wa a maa yato si daadaa lati isinyi lo.	remove_accents_and_underdots
+Inú màmá dùn, gbogbo nǹkan ti Èṣùníyì sọ fún ló ti ń wá sí ì músẹ.	Inu mama dun, gbogbo nnkan ti Eṣuniyi sọ fun lo ti n wa si i musẹ.	remove_only_accents
+Àlàmú padà délé, ó sì bá ìyá rẹ̀ pẹ̀lú ìrísí tó fi inú dídùn hàn.	Alamu pada dele, o si ba iya re pelu irisi to fi inu didun han.	remove_accents_and_underdots
+Ó kí ìyá náà pẹ́lù ẹ̀rín músẹ́ lẹ́nu ní ìdọ́bálè.	O ki iya naa pelu erin muse lenu ni idobale.	remove_accents_and_underdots
+Ó ń ti ibi isẹ́ kan pàtàkì nígboro bọ̀, èyí ti àyọrísí rẹ̀ mú un dárayá.	O n ti ibi ise kan pataki nigboro bo, eyi ti ayorisi re mu un daraya.	remove_accents_and_underdots
+Fún ìgbà àkọ́kọ́ nínú oṣù mẹ́sàn-án, Àlàmú mí ìmí ìtura.	Fun igba akoko ninu osu mesan-an, Alamu mi imi itura.	remove_accents_and_underdots
+Fún odidi oṣù mẹ́sàn-án gbáko ní ó ti yí ara rẹ̀ ká pẹ̀lú àdììtú kan tí ó rú gbogbo ènìyàn lójú; àsírí kan tí kò ṣe é ṣe fún ẹnikẹ́ni láti tú – yàtọ̀ sí ọkùnrin kan tí ó súnmọ́ ọn pẹ́kípẹ́kí - Àdìó ọ̀rẹ́ rẹ̀ kanṣoṣo.	Fun odidi oṣu mẹsan-an gbako ni ti yi ara rẹ ka pẹlu adiitu kan ti o ru gbogbo eniyan loju; asiri kan ti ko ṣe e ṣe fun ẹnikẹni lati tu yatọ si ọkunrin kan ti o sunmọ ọn pẹkipẹki - ọrẹ rẹ kanṣoṣo.	remove_only_accents_and_any_random_word
+Níbáyìí, òpin àdììtú yẹn ti wà nítòsí.	Nibayii, opin adiitu yẹn ti wa nitosi.	remove_only_accents
+Òpin sí dàrúdápò ọpọlọ àti ìrora rẹ̀ ti súnmo itòsí.	Opin si darudapo opolo ati irora re ti sunmo itosi.	remove_accents_and_underdots
+Wọn tí sọ fún un pé kí ó dúró fún  ọ̀sẹ̀ méjì sí i tí gbogbo ìṣòrorẹ̀ á fi yanjú pátápátá.	Wọn ti fun pe ki o duro fun ọsẹ meji si i ti gbogbo iṣororẹ a fi yanju patapata.	remove_only_accents_and_any_random_word
+Àlàmú kò gbà etí rẹ̀ gbọ́.	Alamu ko gba eti re gbo.	remove_accents_and_underdots
+Pẹ̀lú ìwànwara ní ó fi ń ka àwọn ọjọ́, ení, èjì, ẹ̀ta, ẹ̀rin, àrún, ẹ̀wá, mẹ́ẹ̀dógún ...	Pẹlu iwanwara ni o mẹẹdogun n ka awọn ọjọ, eni, eji, ẹta, ẹrin, arun, ẹwa, fi ...	remove_only_accents_and_swap_word
+Ọjọ́ mẹ́ẹ̀dógún sí i! Ó ń ka wákàtí! ìsẹ́jú!	Ojo meedogun si i! O n ka wakati! iseju!	remove_accents_and_underdots
+Ó jẹ́ ìyàlenu fún Àdìó bí Àlàmú ṣe ń ṣe àfihàn ìrusókè ìdùnnú rẹ̀.	O jẹ iyalenu fun Adio bi Alamu ṣe n ṣe afihan irusoke rẹ. idunnu	remove_only_accents_and_swap_word
+Bẹ́ẹ̀, ọ̀sẹ̀ méjì sì ni wọ́n sọ, ìdájọ́ á sì wáyé?	Bẹẹ, ọsẹ meji si ni wọn sọ, idajọ a si waye?	remove_only_accents
+Ìyẹn kéré púpọ̀ níye sí oṣù mẹ́sàn-án tí ó ti fi ń dúró.	Iyen kere pupo niye si osu mesan-an ti o ti fi n duro.	remove_accents_and_underdots
+Ṣé yóò sunkún ni, tàbí yóò rẹ́rìn-ín músẹ́ lẹ́yìn ọ̀sẹ̀ méjì?	Se yoo sunkun ni, tabi yoo rerin-in muse leyin ose meji?	remove_accents_and_underdots
+Wọn tisọ fún  un pé á rẹ́rìn-ín músẹ́.	Wọn tisọ musẹ. un pe a rẹrin-in fun	remove_only_accents_and_swap_word
+Gbogbo nǹkan ló sì tọ́ka sí i dájúdájú pé yóò rẹ́rìn –ín músẹ́.	Gbogbo nnkan lo si toka si i dajudaju pe yoo rerin –in muse.	remove_accents_and_underdots
+Fún ìdí èyí, ó tó kí ó kúkú bẹ̀rẹ̀ sí i rẹ́rìn- ín músẹ́ láti ìsìnyí nínú ìrètí áti ìgbàgbọ́ pé gbogbo nǹkan a sìse fún rere.	Fun idi eyi, o to ki o kuku bere si i rerin- in muse lati isinyi ninu ireti ati igbagbo pe gbogbo nnkan a sise fun rere.	remove_accents_and_underdots
+Ìdí nìyí tí ó fi fi ẹ̀rín músẹ́ tó rí yan-ran yan-ran kọ mọ̀nà pàdé ìyá rẹ̀...	Idi niyi ti o fi fi ẹrin musẹ to iya yan-ran yan-ran kọ mọna pade ri rẹ...	remove_only_accents_and_swap_word
+Màmá ń wo ọmọ rẹ̀, ọkàn rẹ̀ sì kọrin fáyọ̀.	Mama n wo ọmọ rẹ, ọkan rẹ si kọrin fayọ.	remove_only_accents
+Ọmọ rẹ̀ wa rè é tó ń rẹ́rìn-ín músẹ́ sí i tí ó sì ń fèsì bí ó ṣetọ́ sí ìbéèrè àti àsọgbà ọ̀rọ̀ wọn.	Omo re wa re e to n rerin-in muse si i ti o si n fesi bi o seto si ibeere ati asogba oro won.	remove_accents_and_underdots
+Kílótún kù, Àlàmú fi tọ̀wọ̀tọ̀wọ̀ tọrọ ìyọ̀ǹda lọ́wọ́ ìyá rẹ̀ pé òun ṣì tún ní àwọn nǹkan mìíràn láti ṣe ní ìgboro. Fún ìdí èyí ó fẹ́ padà jáde ṣùgbọ́n kò níí pẹ́.	Kilotun ku, Alamu fi tọwọtọwọ tọrọ iyọnda lọwọ iya rẹ pe oun ṣi tun ni awọn nnkan miiran lati ṣe igboro. Fun idi eyi o pada jade ṣugbọn ko nii pẹ.	remove_only_accents_and_any_random_word
+Ọmọ rẹ̀ ti wá ńi ìbuyì fún un, láti gbà ààyè! Apá kìíní iṣ́e náà ti parí! Á dáa fún Èṣùníyì.	Omo re ti wa ni ibuyi fun un, lati gba aaye! Apa kiini ise naa ti pari! A daa fun Esuniyi.	remove_accents_and_underdots
+Màmá dúró pẹ̀lú sùúrù pé kí Làbákẹ́ dé.	Mama duro pẹlu suuru pe ki Labakẹ de.	remove_only_accents
+Nígbà tí ó sì rí i tí ó ń bọ̀ lọ́ọ̀ọ́kán, ó tètè tú apẹ̀rẹ̀ tí ó gbé wá láti ìgbèríko, ó sì mú ìgò kékeré tí ó tọ́jú òògùn babaláwo rẹ̀ sí.	Nigba ti o si ri i ti o n bọ lọọọkan, o tete tu apẹrẹ ti o gbe tọju lati igberiko, o si mu igo kekere ti o wa oogun babalawo rẹ si.	remove_only_accents_and_swap_word
+Èṣùníyì ti sọ bí ó ṣe máa lò ó fún un.	Esuniyi ti so bi o se maa lo o fun un.	remove_accents_and_underdots
+Nísìnyí, ó ta gbọ̀n-ọ́n gbọ̀n-ọ́n sẹ́nu ọ̀nà yàrá Làbáké, ó sì wọn òògùn náà sílẹ̀ sórí ìlà tẹ́ẹ́rẹ́ kan.	o ta gbọn-ọn gbọn-ọn sẹnu ọna yara Labake, o si oogun naa silẹ sori ila tẹẹrẹ kan.	remove_only_accents_and_any_random_word
+Ó se pàtàkì kí Làbákẹ́ dá a kọjá bí ó bá ti ń wọ yàrá rẹ̀ kí tiẹ̀ lè túbọ̀ bá a ní tọkàn-tarà.	O se pataki ki Labakẹ da bi kọja a o ba ti n wọ yara rẹ ki tiẹ le tubọ ba a ni tọkan-tara.	remove_only_accents_and_swap_word
+Lẹ́yìn tí ó bá ti wọn òògùn náà tán, Màmá yípo yípo lẹ́ẹ̀marùn-ún gẹ́gẹ́bí babaláwo rẹ̀ ṣe la kalẹ̀.	Leyin ti o ba ti won oogun naa tan, Mama yipo yipo leemarun-un gegebi babalawo re se la kale.	remove_accents_and_underdots
+Bí ó ṣe wà lórí ẹ̀ẹ̀kẹ́rin, Làbákẹ́ wọlé, ó ń wo ìyá àgbà náà, pẹ̀lú ẹnu rẹ̀ ní lílà sílẹ̀.	Bi o se wa lori eekerin, Labake wole, o n wo iya agba naa, pelu enu re ni lila sile.	remove_accents_and_underdots
+Màmá dúró fún ìgbà díẹ̀, kanrí mọ́lẹ̀ ní èsì kíkí Làbákẹ́ ó sì fẹ̀yìntì ògiri tí ó kọjú sí ògiri yàrá Làbákẹ́, ó ń sọ àwọn ìpèdé tí wọn ní kó pè tí ó bá ti fojú gán-án-ni Làbákẹ́ sí ara rẹ̀ láìmoye ìgbà.	Mama duro fun igba die, kanri mole ni esi kiki Labake o si feyinti ogiri ti o koju si ogiri yara Labake, o n so awon ipede ti won ni ko pe ti o ba ti foju gan-an-ni Labake si ara re laimoye igba.	remove_accents_and_underdots
+Ní òpin gbogbo rẹ̀, màmá bú sẹ́rìn-ín.	Ni opin gbogbo re, mama bu serin-in.	remove_accents_and_underdots
+Ìrísí Làbákẹ́ jọ ti ẹhànnà gidi, ó tiẹ̀ tún banilẹ́rù ju bí Sènábù ti ṣàpèjúwe rẹ̀.	Irisi Labake jo ti ehanna gidi, o tie tun banileru ju bi Senabu ti sapejuwe re.	remove_accents_and_underdots
+Làbákẹ́ ti wá ya wèrè gidi báyìí – bí ó ṣe rí, ó dàbí i ewèlè tí ó wá láti inú ihò àpáta tí ó ti ṣetán ìjà!	Labake ti wa ya were gidi bayii – bi o se ri, o dabi i ewele ti o wa lati inu iho apata ti o ti setan ija!	remove_accents_and_underdots
+Irun rẹ̀ tí ó dàbí i igbó dà wálẹ̀ sọ́rùn àti èjìká rẹ̀, ó sì bo apá ibìkan lójú rẹ̀.	Irun rẹ ti o dabi i igbo da walẹ sọrun ati ejika rẹ, o si bo apa ibikan loju rẹ.	remove_only_accents
+Irun yẹn ... bẹ́ẹ̀ ni, ọ̀kan lára àwọn nǹkan ti ìyá wá wá rè é.	Irun yen ... bee ni, okan lara awon nnkan ti iya wa wa re e.	remove_accents_and_underdots
+Kí ó tó máa lọ sí ìgbéríko ní ìrọ̀lẹ́, ó gbọ́dò rí i pé ó rí èyí tó tó wọ̀n nínú irun náà gé kí ó sì tọ́jú rẹ̀ sínú apẹ̀rẹ̀ rẹ̀.	Ki o to maa lọ si igberiko ni irọlẹ, o gbọdo ri i pe o ri eyi to to wọn ninu irun naa ge ki o si tọju rẹ sinu apẹrẹ rẹ.	remove_only_accents
+Lẹ́yìn náà ní èékáná gígùn ọwọ́ Làbákẹ́, èékán gígùn pupa rè.	Lẹyin ni naa eekana gigun ọwọ Labakẹ, eekan gigun pupa re.	remove_only_accents_and_swap_word
+Ìyen tún ní nǹkan tí ó wá mú.	Iyen tun ni nnkan ti o wa mu.	remove_accents_and_underdots
+Ojú màmá ń wo láti irun orí Làbákẹ́ dúdú dé èékaná pupa rẹ̀ fún ìgbà díẹ̀.	Oju mama n wo lati irun ori Labake dudu de eekana pupa re fun igba die.	remove_accents_and_underdots
+Nígbẹ̀yìn, ó wo Làbákẹ́ tààrà ó sì ní;	Nigbeyin, o wo Labake taara o si ni;	remove_accents_and_underdots
+"""Ẹm Ẹm Ẹm!"", ó kọ́kọ́ tún ọ̀nà òfun rẹ̀ ṣe. ""Ẹm.…Ìwọ. Ìwọ sì wá níbí?"""	"""Em Em Em!"", o koko tun ona ofun re se. ""Em.…Iwo. Iwo si wa nibi?"""	remove_accents_and_underdots
+Làbákẹ́ fi ojú paárẹ́ ó sì rìn lọ sí ọ̀nà yàrá rẹ̀. “Kí lo tún ń dúró ńbí fún?”	Labake fi oju paare o si rin lo si ona yara re. “Ki lo tun n duro nbi fun?”	remove_accents_and_underdots
+"""Ṣé èmi?"", Làbákẹ́ bèèrè."	"""Se emi?"", Labake beere."	remove_accents_and_underdots
+Ó wọ yàrá rẹ̀ lọ ní dídá ibòdè màmá kọjá! Ó kó sínú páńpẹ́ màmá! Páńpẹ́ babaláwo!	O wo yara re lo ni dida ibode mama koja! O ko sinu panpe mama! Panpe babalawo!	remove_accents_and_underdots
+"Ní ìṣẹ́jú kan, ó kù gìrì jáde láti inú yàrá rẹ̀, ó dójúkọ màmá pẹ̀lú ìwò tí ó lè pànìyàn lójú rẹ̀. ""Mo ti ń gbọ́ báyìí!"""	"Ni iseju kan, o ku giri jade lati inu yara re, o dojuko mama pelu iwo ti o le paniyan loju re. ""Mo ti n gbo bayii!"""	remove_accents_and_underdots
+"Ó wo o. ""Kí ni ó ń sọ, ìyá àgbà?"""	"O wo o. ""Ki ni o n so, iya agba?"""	remove_accents_and_underdots
+"""Mò ń bi ẹ..."""	"""Mo n bi e..."""	remove_accents_and_underdots
+"""Bi mí ní kí ni, ìyá àgbà?"""	"ki mi ni ""Bi ni, iya agba?"""	remove_only_accents_and_swap_word
+"""Bóyá o ò ..."""	"""Boya o o ..."""	remove_accents_and_underdots
+"""Bóyá o ò se kí ni, ìyá àgbà!"""	"""Boya o o ki ni, agba!"""	remove_only_accents_and_any_random_word
+"""Tí ì lọ ..."""	"""Ti i lo ..."""	remove_accents_and_underdots
+"""Lọ ibo, ìyá àgbà!"", Làbákẹ́ ti súnmọ́ màmá báyìí, tí ó sì ń na èékáná pupa gígùn rẹ̀ tìhàlè-tìhàlè."	"""Lo ibo, iya agba!"", Labake ti sunmo mama bayii, ti o si n na eekana pupa gigun re tihale-tihale."	remove_accents_and_underdots
+"""Ṣe o fẹ́ nà mí ni?"""	"""Ṣe fẹ o na mi ni?"""	remove_only_accents_and_swap_word
+Wò ó ìyá! Àtẹ́lẹwọ́ ń yún mi, ó ń ṣe mí bí kí n gbá ojú àjẹ́ àgbà kan!	Wo o iya! Atelewo n yun mi, o n se mi bi ki n gba oju aje agba kan!	remove_accents_and_underdots
+Ṣé o rí bí ìka ọwọ́ mi ṣe ń sún yìí, ó ń sé wọn bí i kí wọ́n fa ẹyin ojú àjẹ́ méjéèjì yọ láti inú àkò.	o ri bi ika ọwọ mi ṣe n sun yii, o n se wọn i ki wọn fa ẹyin oju ajẹ mejeeji yọ lati inu ako.	remove_only_accents_and_any_random_word
+"""Èmi! Èmi, Làbákẹ́?"""	"""Emi! Emi, Labakẹ?"""	remove_only_accents
+"""Mo ń ní àìbalè nínú ẹnu mi! Mo fẹ dánbí ẹyín ẹnu mi ṣe mú tó wò!"	"""Mo n ni aibale ninu ẹnu mi! danbi fẹ Mo ẹyin ẹnu mi ṣe mu to wo!"	remove_only_accents_and_swap_word
+"Nípa rírì wọ́n bọ inú àwọ̀ híhunjo àgbàyà kan"""	"Nipa riri won bo inu awo hihunjo agbaya kan"""	remove_accents_and_underdots
+"""Tani? Ìwọ àgbàyà yìí ni! Ìwọ lo ya wèrè!"""	"""Tani? Iwo agbaya yii ni! Iwo lo ya were!"""	remove_accents_and_underdots
+"""Èmi? wèrè?"""	"""Emi? were?"""	remove_accents_and_underdots
+Bẹ́ẹ̀ni, wèrè! Ó wò yípo yípo bí i ẹni tí gìrì wárápá gbé.	Beeni, were! O wo yipo yipo bi i eni ti giri warapa gbe.	remove_accents_and_underdots
+Ó lẹ̀ mọ́ ògiri bí ajá gbígbó tó rẹ̀.	O lẹ mọ ogiri bi aja gbigbo to rẹ.	remove_only_accents
+Ó ń sọ̀rọ̀ kẹ́lẹ́ kẹ́lẹ́ bí ewúrẹ́ alágbàtó tí ó ń jẹ́ àpọje lẹ́nu! Wèrè! Wèrè! Wèrè ni mo sọ! Kí tún ni ẹ bí kò ṣe wèrè lobìnrin!	O n sọrọ kẹlẹ kẹlẹ bi ewurẹ alagbato o n jẹ apọje lẹnu! Were! Were ni mo sọ! Ki tun ni ẹ bi ko ṣe were lobinrin!	remove_only_accents_and_any_random_word
+Làbákẹ́ dúró, ó ń mí lókèlókè lé màmá.	Labake duro, o n mi lokeloke le mama.	remove_accents_and_underdots
+Bí màmá bá sọ gbólóhùn kan sí i, bó bá sọ ẹyọ ọ̀rọ̀ kan,  Làbákẹ́ ò bá ti bò ìyá àgbà  náà, á sì rán an lọ sí sàréè láìtó ọjọ́.	Bi mama ba so gbolohun kan si i, bo ba so eyo oro kan,  Labake o ba ti bo iya agba  naa, a si ran an lo si saree laito ojo.	remove_accents_and_underdots
+Màmá rẹ́rìn-ín músẹ́, ó sì fi ọgbọ́n ẹ̀wẹ́ jáwọ́.	Mama rerin-in muse, o si fi ogbon ewe jawo.	remove_accents_and_underdots
+Kò bínú, kò bínú rárá.	Ko binu, binu ko rara.	remove_only_accents_and_swap_word
+Òògùn ló ń sisẹ́ lára Làbákẹ́.	Oogun lo n sise lara Labake.	remove_accents_and_underdots
+Làbákẹ́ ti gbẹ́ kòtò ara rẹ̀ nísìnyí tí ó ti dá ìlà òògùn kọjá lẹnú ọ̀nà yàrá rẹ̀.	Labakẹ ti gbẹ koto ara rẹ nisinyi o ti da ila oogun kọja lẹnu ọna rẹ.	remove_only_accents_and_any_random_word
+Ohun tí ó kàn kù fún un ní kí ó gbé Làbákẹ́ sínú pósí, kí ó kàn án pa, kí ó sì sín-in sínú ilẹ̀ tí ó gbẹ́.	Ohun ti o kan ku fun ni un ki o gbe Labakẹ sinu posi, ki o kan an pa, ki o si sin-in sinu ilẹ ti o gbẹ.	remove_only_accents_and_swap_word
+Màmá yọwó, ó sì gbà  Làbákẹ́ láàyè láti tẹ̀síwájú láti máa sọ̀rọ̀ fitafita pẹ̀lú ìrunú.	Mama yowo, o si gba  Labake laaye lati tesiwaju lati maa soro fitafita pelu irunu.	remove_accents_and_underdots
+Láti ìsínyì lọ, sọ́gbá ẹ àgbàyà! Yé é na imú híhunjo rẹ̀ yẹn! Ó tí gbélé ayé kọjá ìwúlò rẹ̀.	Lati isinyi lo, sogba e agbaya! Ye e na imu hihunjo re yen! O ti gbele aye koja iwulo re.	remove_accents_and_underdots
+Fi mí sílẹ̀ àjẹ́ àgbàyà! Fi mí lọ́rùn sílẹ̀! Padà lọ sí ìgbéríko láti lọ ṣe àdúrà ìkẹyìn rẹ̀ lórí ilẹ̀ eèpè.	Fi mi sile aje agbaya! Fi mi lorun sile! Pada lo si igberiko lati lo se adura ikeyin re lori ile eepe.	remove_accents_and_underdots
+Àsìkò rẹ̀ tíẹ titó, sáré  rẹ̀ sí tì wà nílẹ̀.	Asiko re tie tito, sare  re si ti wa nile.	remove_accents_and_underdots
+Má wà sí ìgboro mọ́ láé.	Ma wa si igboro mo lae.	remove_accents_and_underdots
+Ṣóogbọ́ bẹ́ yẹn àjẹ́!	Soogbo be yen aje!	remove_accents_and_underdots
+Màmá ò fèsì ọ̀rọ̀ kan, kàkà bẹ́ẹ̀ ń ṣe ló ń rẹ́rìn-ín músẹ́, ó mọ̀ ohun tó ń sẹlẹ̀.	Mama o fesi oro kan, kaka bee n se lo n rerin-in muse, o mo ohun to n sele.	remove_accents_and_underdots
+Làbákẹ́ ti ya wèrè báyìí.	Labake ti ya were bayii.	remove_accents_and_underdots
+Wèrè sán-ún sán-ún. Gẹ́gẹ́ bí Èṣùníyì ṣe sọ fún, ìdí èyí kò ní èsì kankan, láìpẹ́, Làbákẹ́ á kẹ́rù lọ sí ilé rẹ̀ tuntun ní gbàgede ọjà. Fún ìdí èyí, kí idán ìbínú sọ̀rọ̀ náà tẹ̀síwájú: Tẹ̀síwájú!	Were san-un san-un. Gege bi Esuniyi se so fun, idi eyi ko ni esi kankan, laipe, Labake a keru lo si ile re tuntun ni gbagede oja. Fun idi eyi, ki idan ibinu soro naa tesiwaju: Tesiwaju!	remove_accents_and_underdots
+Bẹ́ẹ̀ ni, kò tẹ̀síwájú! Ṣe ó ti rẹ̀ é ní?	Bee ni, ko tesiwaju! Se o ti re e ni?	remove_accents_and_underdots
+Kò tí ì yẹ kí ó rẹ̀ ẹ́! Ó gbọ́dọ̀ jẹ́ kí ó tẹ̀síwájú lọ́nàkonà!	Ko ti i yẹ ki o rẹ ẹ! O gbọdọ jẹ ki o tẹsiwaju lọnakona!	remove_only_accents
+Ìdákẹ́rọ́rọ́ wà lẹ́yìn ìsẹ́jú márùn-ún, màmá sẹ́jú sí Sènábù; kẹ́lẹ́kẹ́lẹ́ náà ní ọmọbìnrin kékeré náà kanrí mọ́lẹ̀ padà.	Idakeroro wa leyin iseju marun-un, mama seju si Senabu; kelekele naa ni omobinrin kekere naa kanri mole pada.	remove_accents_and_underdots
+Ó ti mọwọ́ màmá tó bẹ́ẹ̀ tí ìbánisọ̀rọ̀ ti wá rọrùn láàrin wọn.	O ti to mama mọwọ bẹẹ ti ibanisọrọ ti wa rọrun laarin wọn.	remove_only_accents_and_swap_word
+Lẹ́yìn tí ó ti dá ara rẹ̀ láàmú, tí ó ti gbé ẹ̀mí ara rẹ̀ gbóná Làbákẹ́ gbọ̀nà balùwẹ̀ lọ láti sanra pẹ̀lú omi tútù, ní kíá sì ni Sènábù bẹ̀rẹ̀ isẹ́	Leyin ti o ti da ara re laamu, ti o ti gbe emi ara re gbona Labake gbona baluwe lo lati sanra pelu omi tutu, ni kia si ni Senabu bere ise	remove_accents_and_underdots
+Kì í ṣe àjèjì sí yàrá màdáámù, gbogbo ibi kọ́lọ́fín àti ikòrògún yàrá náà ni ó mọ̀.	Ki i se ajeji si yara madaamu, gbogbo ibi kolofin ati ikorogun yara naa ni o mo.	remove_accents_and_underdots
+Ó mọ gbogbo ibi tí màdáámù ń tọ́jú àwọn nǹkan ẹ̀ sí títí mọ́ àwọn nǹkan àṣírí rẹ̀.	O mọ gbogbo ibi ti madaamu n tọju awọn nnkan ẹ si titi mọ awọn nnkan aṣiri rẹ.	remove_only_accents
+Nìsínyí tí màdáámù ti fẹ́rẹ̀ ẹ́ kó ẹrù rẹ̀ tán, ó rọrùn fún un láti rí àwọn nǹkan méjì tí ó wà. Láàrin ìsẹ́jú mẹ́ta, ó tí parí isẹ́ tí wọn gbé fún un ó sì jáde láti inú yàrá màdáámù, tí ó sì di nǹkan méjéèjì mọ́wọ́, ó fi bébà àtijọ́ kan wé e, tí ó sì rí tónítóní, ó sì ń rẹ́rìn-ín músẹ́ sí màmá.	Nisinyi ti madaamu ti fere e ko eru re tan, o rorun fun un lati ri awon nnkan meji ti o wa. Laarin iseju meta, o ti pari ise ti won gbe fun un o si jade lati inu yara madaamu, ti o si di nnkan mejeeji mowo, o fi beba atijo kan we e, ti o si ri tonitoni, o si n rerin-in muse si mama.	remove_accents_and_underdots
+Màmá gbà á ó sì tètè fi sínú apẹ̀rẹ̀ rẹ̀.	Mama gba a o si tete fi sinu apere re.	remove_accents_and_underdots
+Nígbà ti màdáámù jáde láti inú balùwè, ohun tí ó rí nípé Sènábù kékeré ń bá Tinú seré lẹ́nu ọ̀nà, màmá sì ń dágbére fún Àlàmú tó sẹ̀sẹ̀ ń wọlé dé, tí wọn sí ń ṣe ìlérí láti wá wò ó kí ó to di òpin ọ̀ṣẹ̀ náà.	Nigba ti madaamu jade lati inu baluwe, ohun ti o ri nipe Senabu kekere n ba Tinu sere lenu ona, mama si n dagbere fun Alamu to sese n wole de, ti won si n se ileri lati wa wo o ki o to di opin ose naa.	remove_accents_and_underdots
+Àwọn nǹkan méjì náà wà ní ìpamó nínú apẹ̀rẹ̀ rẹ̀.	Awon nnkan meji naa wa ni ipamo ninu apere re.	remove_accents_and_underdots
+Màmá ti jí àwọn nǹkan náà wò nínú apẹ̀rẹ̀ rẹ̀, ó sì tẹ ẹ lọ́rùn; mẹ́rin nínú èékánná pupa ọwọ́ Làbákẹ́ tí ó fi nawọ sí i láìpẹ́ yìí, tí ó yọ nígbà tí ó wọ yàrá.	Mama ti ji awọn nnkan naa wo ninu apẹrẹ rẹ, o si tẹ ẹ lọrun; mẹrin ninu eekanna pupa ọwọ i ti o fi nawọ si Labakẹ laipẹ yii, ti o yọ nigba ti o wọ yara.	remove_only_accents_and_swap_word
+Èékán-ná ayédèrú! Àti díẹ̀ nínú irun Làbákẹ́ tí ò dà wálẹ̀ sára rẹ̀ láìpẹ́ yìí tí ó yọ nígbà tí ó fẹ́ wọ balùwẹ̀, ayédèrú irun rẹ̀!	Eekan-na ayederu! Ati diẹ ninu irun Labakẹ ti o da walẹ sara laipẹ yii ti o yọ nigba ti o fẹ wọ baluwẹ, ayederu rẹ!	remove_only_accents_and_any_random_word
+Àwọn nǹkan méjì yìí ti wà nílẹ̀ fún Èṣùníyì.	Awọn nnkan meji yii ti wa nilẹ fun Eṣuniyi.	remove_only_accents
+Àsìkò náà ti súnmọ́, ti Làbákẹ́ á sáré jáde nínú ilé níhòòhò wọ òpópónà: ìgbà tí ó máa ṣo gbàgede ọjà di ilé, ìgbàtí á rákò lórí orúnkún rẹ̀ wọ ọgbà Èṣùníyì tí ó wà ní agbèègbè ìyàsọ́tọ̀ nínú igbó ìgbèriko.	Asiko naa ti sunmo, ti Labake a sare jade ninu ile nihooho wo opopona: igba ti o maa so gbagede oja di ile, igbati a rako lori orunkun re wo ogba Esuniyi ti o wa ni agbeegbe iyasoto ninu igbo igberiko.	remove_accents_and_underdots
+Gbogbo ìyẹn ló yọ́risí ìdánmọ́rántó hàn lójú màmá bí ó ṣe ń ròyìn ìtàn àseyọrí ìrìnàjò rẹ̀ sí ìgboro fún Èṣùníyì.	Gbogbo iyẹn lo yọrisi idanmọranto han loju mama bi o ṣe n royin itan aseyọri irinajo rẹ si igboro fun Eṣuniyi.	remove_only_accents
+Ipò Àlàmú ti yàtọ̀, kò ní i kan àbùkù orí fífọ́ mọ́. Kò ní jiyà ìrẹnisílẹ̀ tí wọn á ti jù ú sí yàrádúdú ilé ẁer̀e pẹ̀lú àwọn ògidì asínwín tí won máa ń han tí won tún ń pariwo gẹ́gẹ́ bí alágbàágbé.	Ipo Alamu ti yato, ko ni i kan abuku ori fifo mo. Ko ni jiya irenisile ti won a ti ju u si yaradudu ile were pelu awon ogidi asinwin ti won maa n han ti won tun n pariwo gege bi alagbaagbe.	remove_accents_and_underdots
+"""Wàhálà ni mo sì i ń ri yìí"", màmá gbọ́ ti Èṣùníyì sọ èyí “Ìjọ̀ngbọ̀n ó tí ì parí pátápátá."	"""Wahala ni mo si i n ri yii"", mama gbo ti Esuniyi so eyi “Ijongbon o ti i pari patapata."	remove_accents_and_underdots
+Ní wọ̀n ìgbà tí aṣojú àwọn ọ̀tá bá sì wà nínú ilé pẹ̀lú ọmọ rẹ̀, ohunkohun ló sì le sẹlẹ̀.	igba wọn Ni ti aṣoju awọn ọta ba si wa ninu ile pẹlu ọmọ rẹ, ohunkohun lo si le sẹlẹ.	remove_only_accents_and_swap_word
+"Màmá wò Èṣùníyì, ""Kí la wá fẹ́ ṣe pẹ̀lú Làbákẹ́ báyìí?""."	"Mama wo Esuniyi, ""Ki la wa fe se pelu Labake bayii?""."	remove_accents_and_underdots
+Làbákẹ́ ẹni ègún.	Labake eni egun.	remove_accents_and_underdots
+Aṣojú àwọn ọ̀tá.	Asoju awon ota.	remove_accents_and_underdots
+Ó ń ṣe màmá bí ìgbà tí abẹ́rẹ́ tó mú gún-un lọ́kàn Làbákẹ́ sí ní abẹ́rẹ́  náà.	O n se mama bi igba ti abere to mu gun-un lokan Labake si ni abere  naa.	remove_accents_and_underdots
+"""A ní láti tì í jáde"", Èṣùníyì tẹ̀síwájú, ""kíákíá sì ní pẹ̀lú."""	"""A ni lati ti i jade"", Esuniyi tesiwaju, ""kiakia si ni pelu."""	remove_accents_and_underdots
+Lẹ́yìn náà ní á tó le rímú mí.	naa a to le rimu mi.	remove_only_accents_and_any_random_word
+Sùgbọ́n pẹ̀lú nǹkan méjì tí ẹ ti mú wáyìí ...	Sugbọn pẹlu nnkan meji ti ẹ ti mu wayii ...	remove_only_accents
+"Èṣùníyì yọ bébà ti wọn di irun àti èékáná Làbákẹ́ sí yìí jáde... ""Kò sí wàhálà, Màmá""."	"Esuniyi yo beba ti won di irun ati eekana Labake si yii jade... ""Ko si wahala, Mama""."	remove_accents_and_underdots
+Màmá tún ọ̀nà ọ̀fun rẹ̀ ṣe.	Mama tun ọna ọfun rẹ ṣe.	remove_only_accents
+Bẹ́ẹ̀, ẹ ṣeun. Ohun tí mo fẹ́ kí ẹ ṣe nísìnyí ní pé kí..kí ... kí ...	ẹ ṣeun. Ohun ti mo fẹ ẹ ṣe nisinyi ni pe ki..ki ... ki ...	remove_only_accents_and_any_random_word
+Ohùn ẹjọ́ wuuru kíkí kan láti ọ́kan nínú àwọn yàrá ilé wèrè náà ní ó dà ọ̀rọ̀ mọ́ wọn lẹ́nu	Ohun ejo wuuru kiki kan lati okan ninu awon yara ile were naa ni o da oro mo won lenu	remove_accents_and_underdots
+"""Ohun tí màá fẹ́ kí ẹ ...ẹ ...ẹ ..."""	"""Ohun fẹ maa ti ki ẹ ...ẹ ...ẹ ..."""	remove_only_accents_and_swap_word
+Ohùn wuuru tí ó wa láti inú ilé wèrè náà ti wá di ariwo ńlá, tí ó fẹ̀rẹ̀ dí ènìyàn létí.	Ohun wuuru ti o wa lati inu ile were naa ti wa di ariwo nla, ti o fere di eniyan leti.	remove_accents_and_underdots
+Èyí ni àbùdá àhámọ́ Èṣùníyì kan.	Eyi ni abuda ahamo Esuniyi kan.	remove_accents_and_underdots
+Láìsí àní-àní, àwọn èèyàn rẹ̀ ti bẹ̀rẹ̀ eré ìje wọn bí wọ́n ṣe máa ń ṣe.	Laisi ani-ani, awon eeyan re ti bere ere ije won bi won se maa n se.	remove_accents_and_underdots
+Ìjà tí wọ́n máa ń já fún  ti bẹ̀rẹ̀ níyẹn.	Ija ti won maa n ja fun  ti bere niyen.	remove_accents_and_underdots
+Nígbàkugbà tí wọ́n bá si bẹ̀rẹ̀, gbẹgẹdẹ máa ń gbiná.	Nigbakugba wọn ba bẹrẹ, gbẹgẹdẹ maa n gbina.	remove_only_accents_and_any_random_word
+Wọn á bo ara wọn bí i ajá ọlọ́kúnr̀un, wọn á lu ara wọn, wọn á tún ya arà wọn jẹ.	Won a bo ara won bi i aja olokunrun, won a lu ara won, won a tun ya ara won je.	remove_accents_and_underdots
+Ariwo àwọn wèrè náà mú ohùn màmá wálẹ̀.	Ariwo awọn were naa mu ohun mama walẹ.	remove_only_accents
+Màmá ti bẹ̀rẹ̀ si í bẹ Bàbá olóògùn pẹ̀lú ìtara, pé kí ó lọ gbogbo agbára rẹ̀ láti yanjú Làbákẹ́ ní kíákíá – lónìí sọ́la.	ti bẹrẹ si i bẹ Baba oloogun pẹlu itara, pe ki o gbogbo agbara rẹ lati yanju Labakẹ ni kiakia lonii sọla.	remove_only_accents_and_any_random_word
+Kí ó mú un wálẹ̀ lórí orúnkún rẹ̀.	o mu walẹ lori orunkun rẹ.	remove_only_accents_and_any_random_word
+Kí ó jẹ́ kí àwọn ọ̀tá ọmọ rẹ̀ yòókù tí ò ṣe é́ fojú rí rìn lọ níhòòhò sinú igbó kìjikìji tí ìkòkò àti àmọ̀tẹ́kùn á ti máa dúró láti dojú kọ wọ́n, ohun tí Màmá fẹ́ nìyẹn.	Ki o je ki awon ota omo re yooku ti o se e foju ri rin lo nihooho sinu igbo kijikiji ti ikoko ati amotekun a ti maa duro lati doju ko won, ohun ti Mama fe niyen.	remove_accents_and_underdots
+Nǹkan tí ó ń sọ fún Èṣùníyì pé kí ó ṣe nìyẹn tí ariwo àwọn wèrè yẹn fi tún pọ̀ sí i.	Nnkan ti o n sọ fun Eṣuniyi pe ki o ṣe niyẹn ti ariwo awọn were yẹn fi tun pọ si i.	remove_only_accents
+Èṣùníyì dìde gírí, ó sáré sọ́na ibi tí ariwo  náà ti ń wá.	Esuniyi dide giri, o sare sona ibi ti ariwo  naa ti n wa.	remove_accents_and_underdots
+Láàárín ìṣẹ́jú kan, ó ti sárẹ padà.	Laaarin iṣẹju kan, ti sarẹ	remove_only_accents_and_any_random_word
+Ó sáré wọ yàrá kan nínú iyẹwù tirẹ̀.	O sare wọ yara kan ninu iyẹwu tirẹ.	remove_only_accents
+Ó jáde pẹ̀lú àtòrì kan tí ó ká yí orí rẹ̀.	O jade pelu atori kan ti o ka yi ori re.	remove_accents_and_underdots
+Ojú rẹ̀ ràn. Isan dá dúró lọ́tọ̀ ní ọwọ́ rẹ̀ líle, ètè rẹ̀ ń gbọ̀n, ara rẹ̀ ń gbọ̀n pẹ̀lú ìbínú àti ìmí-ẹ̀dùn.	Oju rẹ ran. Isan da duro lọtọ ni ọwọ rẹ lile, ete rẹ n gbọn, ara rẹ n gbọn pẹlu ibinu ati imi-ẹdun.	remove_only_accents
+Ní àwọn ìgbà tó ṣe gẹ́gẹ́, Èṣùníyì máa ń tutù, á jọ aláìsẹ̀, ara rẹ̀ balẹ̀, á máa sọ̀rọ̀ díẹ̀díẹ̀, láìpariwo pẹ̀lú ìfọ̀kansì.	Ni awọn igba to gẹgẹ, Eṣuniyi maa n tutu, a jọ alaisẹ, ara rẹ a maa sọrọ diẹdiẹ, laipariwo pẹlu ifọkansi.	remove_only_accents_and_any_random_word
+Á rẹ́rìn-ín músẹ́ jẹ́jẹ́, á máa wojú yín bí ó ṣe ń sọ̀rọ̀.	A rerin-in muse jeje, a maa woju yin bi o se n soro.	remove_accents_and_underdots
+Nígbà yẹn ó dàbí i gbogbo ọkùnrin, bí ọkùnrin gidi bí ìwọ àti èmi.	Nigba yẹn o dabi ọkunrin, bi ọkunrin gidi bi iwọ ati emi.	remove_only_accents_and_any_random_word
+Sùgbọ́n lẹ́ẹ̀kọ̀ọ̀kan báyìí, ti yán-pọn-yán-rin bá wà nínú àgọ́ yì, Èṣùníyì máa ń di ọkùnrin àrà ọ̀tọ̀.	Sugbon leekookan bayii, ti yan-pon-yan-rin ba wa ninu ago yi, Esuniyi maa n di okunrin ara oto.	remove_accents_and_underdots
+Á pariwo àsẹ rẹ̀, pẹ̀lú ohùn rẹ̀ tí ó ń búramú-ramù bí àtẹ́wó ààrá. Ó jẹ́ òkùnrin tí ó kúnfún okun ńlá àti ìrísí.	A pariwo asẹ rẹ, pẹlu ohun rẹ ti o n buramu-ramu bi atẹwo aara. O jẹ okunrin ti o kunfun okun nla ati irisi.	remove_only_accents
+A gbá ẹni tí ó ṣè mú pẹ̀lú ìwà èérí àti ìrorò ẹkùn.	A gba eni ti o se mu pelu iwa eeri ati iroro ekun.	remove_accents_and_underdots
+Iṣan apá rẹ̀ á yi, á wá le koko.	Iṣan apa rẹ a yi, a wa le koko.	remove_only_accents
+Egungun rẹ̀ á nà, á fẹ́rẹ̀ ẹ́ lè kán.	Egungun re a na, a fere e le kan.	remove_accents_and_underdots
+Ẹni tí ó gbá mú náà á pariwo ìbẹ̀rù, á sì padà sẹ́yìn pẹ̀lú ìjọ̀wọ́ pátápátá bí i ti ọ̀ọ̀kùn tí ati ra mọ́lẹ̀.	Eni ti o gba mu naa a pariwo iberu, a si pada seyin pelu ijowo patapata bi i ti ookun ti ati ra mole.	remove_accents_and_underdots
+Yàtọ̀ sí ti ipá ojú kó-ojú, Èṣùníyì ní àwọn ìlànà mìíràn.	Yato si ti ipa oju ko-oju, Esuniyi ni awon ilana miiran.	remove_accents_and_underdots
+Wà á rí i tí ó di ìwo ẹtù rẹ̀ ti ẹ̀jẹ̀ ti yí mú sókè nínú afẹ́fẹ́, á máa bá àwọn àwòmọ́ mẹ́rin ayé sọ̀rọ̀, àwọn adarí kádàrá ẹ̀dá – ó ń perí àwọn ẹ̀mí inú afẹ́fẹ́ láti sisẹ́ nínú iṣan gbígbóná àwọn wèrè náà kí ara wọn lè wálẹ̀.	Wa a ri i ti o di iwo ẹtu rẹ ti ẹjẹ ti yi mu soke ninu afẹfẹ, a ba awọn awomọ mẹrin aye sọrọ, awọn adari ẹda o n peri awọn ẹmi inu afẹfẹ lati sisẹ ninu iṣan gbigbona awọn were naa ki ara wọn le walẹ.	remove_only_accents_and_any_random_word
+Ó sì máa ri bẹ́ẹ̀, bí ó tilẹ̀ jẹ́ fún ìgbà díẹ̀.	O si maa ri bee, bi o tile je fun igba die.	remove_accents_and_underdots
+Sùgbọ́n nísìnyí, ìlànà wámú-wámú-wámú ni ó fẹ́ lò.	Sugbon nisinyi, ilana wamu-wamu-wamu ni o fe lo.	remove_accents_and_underdots
+Fúnbí ì ìsẹ́jú márùn-ún, Màmá ń gbọ́ ohùn àtòrì lára àwọn ènìyàn ara rẹ̀ sì súnkì.	Funbi i iseju marun-un, Mama n gbo ohun atori lara awon eniyan ara re si sunki.	remove_accents_and_underdots
+Ibí yìí kì í ṣe ibi lásán rárá.	Ibi yii ki i se ibi lasan rara.	remove_accents_and_underdots
+Ní òpin ìgbésẹ̀ ìfìyà-jẹ̀nìyàn rẹ, Èṣùníyì padà lọ bá màmá pẹ̀lú ìkórajo ènìyàn tí ó pé, pẹ̀lú ojú ọmọlúàbí lẹ́ẹ̀kan sí i.	Ni opin igbese ifiya-jeniyan re, Esuniyi pada lo ba mama pelu ikorajo eniyan ti o pe, pelu oju omoluabi leekan si i.	remove_accents_and_underdots
+"""Ó ní láti rí báyẹn"", ó sọ fún màmá, ""Bí ó ṣe yẹ kí ó rí ní yẹn màmá ...bí bẹ́ẹ̀kọ́ ...bí bẹ́ẹ̀kọ́..."" Màmá kanrí mọ́lẹ̀ ní ìdáhùn."	"""O mọlẹ lati ri bayẹn"", o sọ fun mama, ""Bi o ṣe yẹ ki o ri ni yẹn mama ...bi bẹẹkọ ...bi bẹẹkọ..."" Mama kanri ni ni idahun."	remove_only_accents_and_swap_word
+"Ó mọ ohun tí ìtumọ̀ ""bí bẹ́ẹ̀kọ́"" Èṣùníyì jẹ́..."	"O mo ohun ti itumo ""bi beeko"" Esuniyi je..."	remove_accents_and_underdots
+Bí bẹ́ẹ̀kọ́, àwọn wèrè fúnrawọn náà ágbàjọba ilé náà.	Bi bẹẹkọ, awọn were funrawọn naa agbajọba ile naa.	remove_only_accents
+Bí bẹ́ẹ̀kọ́, wọn á sọ ibẹ̀ di pápá ogun.	Bi bẹẹkọ, wọn a sọ ibẹ di papa ogun.	remove_only_accents
+Bí bẹ́ẹ̀kọ́ wọn a dojúkọ Èṣùníyì lọ́jọ kan, wọn á sì lé e jáde kúrò nínú ọgbà rẹ̀. Wọn tún lè pá a	Bi bẹẹkọ wọn a dojukọ Eṣuniyi lọjọ kan, wọn a si le e jade kuro ninu ọgba rẹ. Wọn tun pa	remove_only_accents_and_any_random_word
+Bí bẹ́ẹ̀kọ́, wọn á dáná sun gbogbo ilé inú àgọ́ náà, wọn à sì na pápá bora.	Bi beeko, won a dana sun gbogbo ile inu ago naa, won a si na papa bora.	remove_accents_and_underdots
+Kò sí nǹkan tí wọn ó le ṣe tí òfin àti àsẹ bá dàrú.	Ko si nnkan ti wọn o le ṣe ti ofin asẹ daru.	remove_only_accents_and_any_random_word
+Màmá mí ìmí ìtura.	Mama mi imi itura.	remove_accents_and_underdots
+Ò ní ìdí láti máa fọpẹ́ fún Elédúmàrè.	O ni idi lati maa fope fun Eledumare.	remove_accents_and_underdots
+Kí ni ìbá ṣe kání pé Àlàmú wà láàrin àwọn ènìyàn yìí, tí yóò sì gba ìhùwàsí ìroro burúku yìí?	Ki ni iba ṣe kani pe Alamu wa laarin awọn eniyan yii, ti yoo si gba ihuwasi iroro buruku yii?	remove_only_accents
+Kí ni ìbá ṣe kání ọmọ rẹ̀ ní ó dúró lábẹ́ igi ọ̀kánkán yẹn, tí ó ti fẹ́rẹ̀ ẹ́ já sí ìhòòhò tán, tí ó ń nawọ́ sí nǹkan tí ò sí, tí ó sì ń bá afẹ́fẹ́ òfìfo sọ̀rọ̀?	Ki ni iba ṣe kani ọmọ rẹ ni o duro labẹ igi ọkankan yẹn, ti o ti fẹrẹ ẹ ja si ihooho tan, ti o n nawọ si nnkan ti o si, ti o si n ba afẹfẹ ofifo sọrọ?	remove_only_accents
+Bí ó bá jẹ́ Àlàmú ní ó ń rìn yíká ilé kékeré yẹn láìnídìí nínú irú ìrìn láyípo yìí? Kí ni ìbá ṣe? Kò sí.	Ko o ba jẹ Alamu ni o n rin yika ile kekere yẹn lainidii ninu iru irin layipo yii? Ki ni iba ṣe? Bi si.	remove_only_accents_and_swap_word
+Bí ó bá jẹ́ Àlàmú  ni ó wọ àkísà tí ó tún ń tọ̀ sí àtẹ́lẹwọ́ ọwọ́-òsì rẹ̀ tí ó ná síwájú tí ó tún ń rẹ́rìn-ín?	Bi o ba je Alamu  ni o wo akisa ti o tun n to si atelewo owo-osi re ti o na siwaju ti o tun n rerin-in?	remove_accents_and_underdots
+Èṣùníyì wo màmá, ó sì ṣàkíyèsí ìkorò tó wá lójú rẹ̀.	mama, o si ṣakiyesi ikoro to wa loju rẹ.	remove_only_accents_and_any_random_word
+Màmá, kò sí ìdí fún ìbẹ̀rù.	ibẹru. ko si idi fun Mama,	remove_only_accents_and_swap_word
+Ohun gbogbo á dára níkẹyìn.	dara gbogbo a Ohun nikẹyin.	remove_only_accents_and_swap_word
+Gbogbo isẹ́ náà ti fẹ́rẹ̀ ẹ́ parí.	Gbogbo ise naa ti fere e pari.	remove_accents_and_underdots
+Sùgbọ́n ẹ ṣì ní láti mú u wá sibí	Sugbon e si ni lati mu u wa sibi	remove_accents_and_underdots
+"""Mú tani wá?"" Màmá bèèrè"	"""Mu tani wa?"" Mama beere"	remove_accents_and_underdots
+"""Ẹ mú ọmọ yín wá màmá. Ọmọkùnrin ti yin?"""	"""Ẹ mu ọmọ yin wa mama. Ọmọkunrin ti yin?"""	remove_only_accents
+"""Èyí túmọ̀ sí pé... pé... Àlàmú tún ní láti... láti... wá"""	"""Eyi tumọ si pe... pe... ni lati... lati... wa"""	remove_only_accents_and_any_random_word
+Bẹ́ẹ̀ ni, ó ní láti wà níbí, fúnrarẹ̀.	Bẹẹ o ni lati wa funrarẹ.	remove_only_accents_and_any_random_word
+Á mu láti inú ìkòkò àgbo, á wẹ̀ nínú odò àgbo ní gbangba, à á sì sín gbẹ́rẹ́ sí i lẹ́rẹ̀kẹ́, ní igbá àyà àti abíyá rẹ̀.	A mu lati inu ikoko agbo, a wẹ ninu odo agbo ni gbangba, a a si sin gbẹrẹ si i lẹrẹkẹ, ni igba aya ati abiya rẹ.	remove_only_accents
+Ọmọ yín ní láti ní ìdáàbòbò tó péye.	Ọmọ ni lati ni idaabobo peye.	remove_only_accents_and_any_random_word
+Nǹkankan ò gbọdọ̀ yọ ọ́ lẹ̀.	Nnkankan o gbodo yo o le.	remove_accents_and_underdots
+Ìwò ìdààmú wà lójú màmá.	Iwo idaamu wa loju mama.	remove_only_accents
+Báwo ní yóò ṣe rọrùn fún  un láti mú Àlàmú  wá sí ìgbèríko, páàpáà júlo, sí ọgbà Èṣùníyì? Apá ọrọ yìí sẹ̀sẹ̀ hàn de sí ni. Báwo nì ó ṣe máa ṣe é?	Bawo ni yoo ṣe rọrun fun un mu Alamu wa si igberiko, paapaa julo, si Eṣuniyi? Apa ọrọ yii sẹsẹ han de si ni. Bawo ni o ṣe maa ṣe e?	remove_only_accents_and_any_random_word
+Ṣé kí ó dọ́gbọ́n àìsàn, kí ó ránsẹ́ sí i nígboro pé kí ó wá rí i kíákíá ní dùbúlẹ̀ àìsàn rẹ̀?	Ṣe ki o dọgbọn aisan, ki o ransẹ si i nigboro pe ki o wa ri i kiakia ni dubulẹ aisan rẹ?	remove_only_accents
+Kí ni yóò sọ fún un tó bá ti wá dé?	Ki ni yoo so fun un to ba ti wa de?	remove_accents_and_underdots
+ṣé kí ó wá sọ òótó fún un ni?	se ki o wa so ooto fun un ni?	remove_accents_and_underdots
+Òtítò tí ó korò nípa ipò rẹ̀?	ti Otito o koro nipa ipo rẹ?	remove_only_accents_and_swap_word
+Òtítò ti òun gan alára kò mọ̀ láti iye ọjọ́ yìí?	Otito ti oun gan alara ko mo lati iye ojo yii?	remove_accents_and_underdots
+Màmá rò ó fún ìsẹ́jú kan.	Mama ro o fun iseju kan.	remove_accents_and_underdots
+Ọkàn rẹ̀ ṣáko lọ.	lọ. rẹ ṣako Ọkan	remove_only_accents_and_swap_word
+Bẹ́ẹ̀, kò sí àní-àní, kò sí àní-àní, ó ní láti ṣe é.	lati ko si ani-ani, ko si ani-ani, o ni Bẹẹ, ṣe e.	remove_only_accents_and_swap_word
+Ó jẹ́ isẹ́ tí ó gbọ́dọ̀ ṣe.	O je ise ti o gbodo se.	remove_accents_and_underdots
+Paríparí ẹ̀, ọmọ rẹ̀ ṣáà ni, ọmọ rẹ kan ṣoṣo.	Paripari e, omo re saa ni, omo re kan soso.	remove_accents_and_underdots
+Ẹ̀tọ́ rẹ̀ ni láti jẹ́ kí ó mọ̀ gbogbo òótọ́ ọ̀rọ̀ náà, bí ò bá tiẹ̀ dùn mọ́ ọ́n.	Eto re ni lati je ki o mo gbogbo ooto oro naa, bi o ba tie dun mo on.	remove_accents_and_underdots
+"""O ti ya wèrè!"", Á jẹ́ kí ọmọ rẹ̀ mọ̀, á dijú sọ ọ́ láìdéènàpẹnu."	"""O ti ya were!"", A je ki omo re mo, a diju so o laideenapenu."	remove_accents_and_underdots
+Dájúdájú kò ní gba eti rẹ̀ gbọ́, ó lè dùn-un, ó lè tàbùkù bá a.	Dajudaju ko ni gba eti re gbo, o le dun-un, o le tabuku ba a.	remove_accents_and_underdots
+Ṣùgbọ́n kò ní wò ìyẹn.	Sugbon ko ni wo iyen.	remove_accents_and_underdots
+Á tún un sọ dáadáa.	A tun un so daadaa.	remove_accents_and_underdots
+"""Ó ti ya wèrè Àlàmú! Ìṣọwọ́sọ̀rọ̀ rẹ̀ gan-an fi hàn pé o ya wèrè."	"""O ti ya were Alamu! Isowosoro re gan-an fi han pe o ya were."	remove_accents_and_underdots
+Ìhùwàsí rẹ fihàn pé o ya wèrè.	Ihuwasi re fihan pe o ya were.	remove_accents_and_underdots
+Bí ó ṣe ń wò gan-an fi hàn pé ó ya wèrè.	Bi o se n wo gan-an fi han pe o ya were.	remove_accents_and_underdots
+Bẹ́ẹ̀ ni. Ọmọ mí ó ti ya wèrè! Sùgbọ́n Àlàmú, isẹ́ àwọn ọ̀tá ní.	Bẹẹ ni. Ọmọ mi o ti ya were! Sugbọn Alamu, isẹ awọn ọta ni.	remove_only_accents
+"Ó máa ṣe pàtàkì láti jẹ́ kí ó mọ̀, ""Iṣẹ́ àwọn ọ̀tá ni èyí."""	"O maa ṣe pataki lati jẹ ki o mọ, ""Iṣẹ awọn ọta ni eyi."""	remove_only_accents
+Àti wí pé, pabanbarì gbogbo rẹ̀ ò ṣẹ̀yìn ìyàwó rẹ̀, ìyàwó rẹ̀ gan-an. Òun ní àsojú àwọn ọ̀tá.	Ati wi pe, pabanbari gbogbo re o seyin iyawo re, iyawo re gan-an. Oun ni asoju awon ota.	remove_accents_and_underdots
+Bóyá Àlàmú gba èyí gbọ́ tàbí kò gbà á kò ṣe pàtàkì sí i.	Boya Alamu gba eyi gbo tabi ko gba a ko se pataki si i.	remove_accents_and_underdots
+Kò kàn án bín-in-tín báyìí.	Ko kan an bin-in-tin bayii.	remove_accents_and_underdots
+Wàhálà ti Àlàmú nìyẹn.	Wahala ti Alamu niyen.	remove_accents_and_underdots
+"Nǹkan tí ó ṣe pàtàkì ni láti jẹ́ kí ó mọ̀ ǹkan tó ń sẹlẹ̀ lẹ́kùn-ún rẹ́rẹ́, gbogbo òtítọ́ ibẹ̀. ""ṣùgbọ́n jẹ́ kí n sọfún ẹ Àlàmú, Làbákẹ́ yẹn á fẹnu họra. Ìwọ ṣáà má ṣèyọnu."", á tu ọmọ rẹ̀ nínú pẹ̀lú èyí."	"Nnkan ti o se pataki ni lati je ki o mo nkan to n sele lekun-un rere, gbogbo otito ibe. ""sugbon je ki n sofun e Alamu, Labake yen a fenu hora. Iwo saa ma seyonu."", a tu omo re ninu pelu eyi."	remove_accents_and_underdots
+Ìwọ ṣáà má ṣèyọnu.	ṣaa Iwọ ma ṣeyọnu.	remove_only_accents_and_swap_word
+"""Mo ti sa gbogbo ipá mi láti wá ojútùú sí i, Èṣùníyì sì ti ń ràn wá lọ́wọ́ gidi."	"""Mo ti sa gbogbo ipa mi lati wa ojutuu si i, Esuniyi si ti n ran wa lowo gidi."	remove_accents_and_underdots
+Èyí ló fà á tí o fi wà láàyè lónìí, ìdí níyì tó ò ṣe tí ì já sí ìgboro – ìwọ lè má mọ̀.	Eyi lo fa a ti o fi wa laaye lonii, idi niyi to o se ti i ja si igboro – iwo le ma mo.	remove_accents_and_underdots
+Nítorí tìrẹ. Mo ti rubo àwọn òrìsà pẹ̀lú ewúrẹ́, orógbó, ataare àti epo pupa.	Nitori tire. Mo ti rubo awon orisa pelu ewure, orogbo, ataare ati epo pupa.	remove_accents_and_underdots
+Màmá mọ̀ pé gbogbo èyí á já Àlàmú  láyà bí ó bá gbọ́, sùgbọ́n ṣé ó yẹ kí ìyẹn tún da òun fún rarẹ̀ láàmú?	Mama mo pe gbogbo eyi a ja Alamu  laya bi o ba gbo, sugbon se o ye ki iyen tun da oun fun rare laamu?	remove_accents_and_underdots
+Rárá, kò ní wulẹ̀ gbé orí sókè láti wojú ọmọ rẹ̀.	Rara, ko ni wulẹ gbe ori soke lati woju ọmọ rẹ.	remove_only_accents
+"""Àlàmú  gbaradì"", á pàpà sọ fún un ""A jọ ń lọ rí Èṣùníyì nísìnyí""."	"""Alamu  gbaradi"", a papa so fun un ""A jo n lo ri Esuniyi nisinyi""."	remove_accents_and_underdots
+"""Èmi? Fún kí ni?"", Ó ń rò ó bí ọmọ rẹ̀ ṣe ń dáhùn ìbéèrè padà, tí ó ń tẹnumọ pé."	"""Emi? Fun ki ni?"", O n ro o bi omo re se n dahun ibeere pada, ti o n tenumo pe."	remove_accents_and_underdots
+"""Èmi kọ́! Èmi kọ́!"""	"Emi kọ!"""	remove_only_accents_and_any_random_word
+"""Ìwọ ni Àlàmú !"", ó pinnu láti pariwo mọ́ ọn padà, Ìwọ ni, Ìwọ, Ìwọ àti èmi! A jọ ń lọ nísìnyí ni, sọ́dọ̀ oníṣègùn."	"""Iwo ni Alamu !"", o pinnu lati pariwo mo on pada, Iwo ni, Iwo, Iwo ati emi! A jo n lo nisinyi ni, sodo onisegun."	remove_accents_and_underdots
+Wà á mu láti inú ìkòkò àgbo rẹ̀. Wà á wẹ̀ nínú ibú omi tí ó wà ní ààrin ibùdó rẹ̀, wọn á sì sín gbẹ́rẹ́ sí ọ́ lára.	Wa a mu agbo inu ikoko lati rẹ. Wa a wẹ ninu ibu omi ti o wa ni aarin ibudo rẹ, wọn a si sin gbẹrẹ si ọ lara.	remove_only_accents_and_swap_word
+Àfàìmọ̀ kí Àlàmú má fi ṣe yẹ̀yẹ́ tàbí kí ó kàn kúrò níwájú rẹ̀, tàbí kí ó tilẹ̀ ki eré mọ́lẹ̀.	Afaimo ki Alamu ma fi se yeye tabi ki o kan kuro niwaju re, tabi ki o tile ki ere mole.	remove_accents_and_underdots
+Màmá fúnrarẹ̀ á lé e mú.	a le e mu.	remove_only_accents_and_any_random_word
+Màmá wóye ara rẹ̀ bí ó ṣe ń lé Àlàmú lọ sọ́nà igbó olókùúta náà.	Mama woye ara rẹ bi o ṣe n le Alamu lọ sọna igbo olokuuta naa.	remove_only_accents
+Tí ó ń lé e lọ sọ́nà etí odò Akókurà, tí ó bẹ̀ẹ́ pé kí ó padà, tí ó ń bẹ́ẹ̀ kí ó tó di wí pé ó kọjá odò náà.	Ti o n le e lo sona eti odo Akokura, ti o bee pe ki o pada, ti o n bee ki o to di wi pe o koja odo naa.	remove_accents_and_underdots
+Kí ó tó di wí pé ó kọjá ibi tí kò ti ní lè padà.	Ki o di wi pe o ibi ti ko ti ni le pada.	remove_only_accents_and_any_random_word
+Bí ó bá filè kọjá odò Akókurà, kò ní í sí ìrètí kankan fún un mọ́.	Bi o ba file koja odo Akokura, ko ni i si ireti kankan fun un mo.	remove_accents_and_underdots
+Kò gbọdọ̀ kọjá odò kankan, bí bẹ́ẹ̀ kọ́... Ó ń wòye bí ọmọ rẹ̀ ṣe ń kánjú lọ.	Ko gbodo koja odo kankan, bi bee ko... O n woye bi omo re se n kanju lo.	remove_accents_and_underdots
+Ọwọ́ agbára ńlá àwọn ọ̀tá wà lára rẹ̀, ó ń tí í, tì í, ó ń jẹ́ kí ó máa kọ gbogbo ìgbìyànjú láti mú kí orí-rẹ̀ pé. Ó ń gbọ́ bi Àlàmú ṣe ń jágbe mọ́ ọn.	Owo agbara nla awon ota wa lara re, o n ti i, ti i, o n je ki o maa ko gbogbo igbiyanju lati mu ki ori-re pe. O n gbo bi Alamu se n jagbe mo on.	remove_accents_and_underdots
+Màmá, ẹ padà sábúlé! Ẹ lọ sinmi lábúlé! Èmi á padà sí ìgboro.	Mama, e pada sabule! E lo sinmi labule! Emi a pada si igboro.	remove_accents_and_underdots
+Nǹkan ò ṣe mí! Mo ní iṣẹ́ tí mo fẹ́ ṣe ní ìgboro, mo tètè ń lọ!	Nnkan mo ṣe mi! Mo ni iṣẹ ti o fẹ ṣe ni igboro, mo tete n lọ!	remove_only_accents_and_swap_word
+Màmá tún wòye ara rẹ̀ bí ó ṣe gbá a mú, ó gba mú gírí-gírí, ìgbámú 'pamí-nísìnyí, pamí nísìnyí'.	Mama tun woye ara re bi o se gba a mu, o gba mu giri-giri, igbamu 'pami-nisinyi, pami nisinyi'.	remove_accents_and_underdots
+Èṣùníyì rẹ́rìn-ín, Màmá jókòó sára, ó déédé tají lójú àlá àsìkò tí ó ń lá.	Esuniyi rerin-in, Mama jokoo sara, o deede taji loju ala asiko ti o n la.	remove_accents_and_underdots
+Èṣùníyì tí ń wò ó látẹ̀ẹ̀kan ti ó ń ka nǹkan tí ó ń lọ lọ́kàn rẹ̀.	Eṣuniyi ti n latẹẹkan o wo ti o n ka nnkan ti o n lọ lọkan rẹ.	remove_only_accents_and_swap_word
+Ń ṣe ni ó dàbí i pé ó ti rí àwòrán nǹkan tí ó ń lọ níbẹ̀.	N ṣe ni o dabi i pe o ti ri aworan nnkan ti lọ nibẹ.	remove_only_accents_and_any_random_word
+Màmá, ọmọ yín ò ní kọ̀ láti wá sí abúlé'. Èṣùníyì sọ, Màá tẹ̀lé yín lọ láti mú un wá.	Mama, omo yin o ni ko lati wa si abule'. Esuniyi so, Maa tele yin lo lati mu un wa.	remove_accents_and_underdots
+Tayọ̀tayọ̀ ló máa fi tẹ̀lé wa.	Tayọtayọ lo maa fi tẹle wa.	remove_only_accents
+Ẹ má da ara yín láàḿu màmá, màá kàn yọ fóró sínú ilé wọn fún bí ìsẹ́jú kan sí méjì.	E ma da ara yin laamu mama, maa kan yo foro sinu ile won fun bi iseju kan si meji.	remove_accents_and_underdots
+Ojú wa á ṣe mẹ́rin, o dẹ ma tan sibẹ. Màá sáré padà wá sí abúlé, á sì tẹ̀lé mi bí ó bá yá bóyá ni òní jẹ́ lọ́jọ́ náà tàbí ọjọ́ kejì.	Oju wa a se merin, o de ma tan sibe. Maa sare pada wa si abule, a si tele mi bi o ba ya boya ni oni je lojo naa tabi ojo keji.	remove_accents_and_underdots
+Màmá tún mí kanlẹ̀, ó ní ìgbẹkẹ̀lé tó dúró gírí nínú agbára bàbá olóògùn.	Mama tun mi kanle, o ni igbekele to duro giri ninu agbara baba oloogun.	remove_accents_and_underdots
+Pẹ̀lú ọkùnrin yìí, Èṣùníyì, ó fẹ́rẹ̀ ẹ́ lè má sí nǹkan tí ò ṣeéṣe.	Pelu okunrin yii, Esuniyi, o fere e le ma si nnkan ti o seese.	remove_accents_and_underdots
+Fún ìdí èyí, ó gbọ̀nà abúlé lọ, pẹ̀lú ìtura lọ́kàn rẹ̀.	Fun idi eyi, o abule pẹlu itura lọkan rẹ.	remove_only_accents_and_any_random_word
+Yàrá òfìfo wà nínú ilé alámọ̀ Màmá níbi tí Àlàmú  lè dúró sí, bí ó bá nílò, lẹ́yìn tí ó bá ti jàjà ṣàṣeyọ́rí nínú mímú un wá si abúlé.	Yara jaja wa ninu ile alamọ Mama nibi ti Alamu le duro si, bi o ba nilo, lẹyin ti o ba ti ofifo ṣaṣeyọri ninu mimu un wa si abule.	remove_only_accents_and_swap_word
+Kò nílò láti padà sí ìgboro ní ọjọ́  náà.	Ko nilo lati pada si igboro ni ojo  naa.	remove_accents_and_underdots
+Èṣùníyì lè fẹ́ kí ó sùn mọ́jú.	Esuniyi le fe ki o sun moju.	remove_accents_and_underdots
+Fún ìdí ìyẹn, Àlàmú lè wá sí Abúlé kí ó sì sùn mọ́jú ọjọ́ kejì.	Fun idi iyẹn, Alamu wa si Abule ki o si sun mọju ọjọ	remove_only_accents_and_any_random_word
+Màmá bẹ̀rẹ̀ sì í tún yàrá náà ṣe lẹ́sẹ̀kẹsẹ̀, ó gbọn gbogbo jàǹkárìwọ̀ sílẹ̀, ó sì lé àwọn ááyán àti ọmọ-onílé lọ.	Mama bere si i tun yara naa se lesekese, o gbon gbogbo jankariwo sile, o si le awon aayan ati omo-onile lo.	remove_accents_and_underdots
+Ó wọ́n omi sílẹ̀, ó sì bẹ̀rẹ̀ si í gba a, ó ń sín láìmoye ìgbà, orí rẹ̀ ń ró bí agogo.	O won omi sile, o si bere si i gba a, o n sin laimoye igba, ori re n ro bi agogo.	remove_accents_and_underdots
+Ó fún imú rẹ̀, omi jáde lójú rẹ̀, etí rẹ̀ di fún ìsẹ́jú kan.	O fun imu re, omi jade loju re, eti re di fun iseju kan.	remove_accents_and_underdots
+Nígbà tó yá ti ó yán, ìlèkùn inú eti rẹ̀ ṣí gbayawu, atẹ́gùn tó ti há síbẹ̀ sá jadé ó tún sín.	Nigba to ya ti o yan, ilekun inu eti re si gbayawu, ategun to ti ha sibe sa jade o tun sin.	remove_accents_and_underdots
+Ìjìyà gbá à ní ayé jẹ́.	gba ni aye jẹ.	remove_only_accents_and_any_random_word
+Bí ó ṣe rí fún màmá gan-an rè é.	Bi o se ri fun mama gan-an re e.	remove_accents_and_underdots
+Ó ti jìyà, irú ìyà ti obìnrin kankan ò jẹ rí.	O ti jiya, iru iya ti obinrin kankan o je ri.	remove_accents_and_underdots
+Ẹ̀ẹ̀mẹ́rin ní ayé rẹ̀ ni oyún ti bàjẹ́ mọ́ ọn lára. Méjì kí ó tó bí Àlàmú àti méjì mìíràn lẹ́yìn Àlàmú.	Ẹẹmẹrin ni aye rẹ ni oyun ti bajẹ mọ ọn lara. Meji ki o to bi Alamu ati meji miiran lẹyin Alamu.	remove_only_accents
+Lẹ́yìn náà kò lè lóyún mọ́, ó wọ iye ọjọ́ orí tí kò ti lè ṣabiyamọ mọ́.	Leyin naa ko le loyun mo, o wo iye ojo ori ti ko ti le sabiyamo mo.	remove_accents_and_underdots
+Àlàmú  nìkan lọmọ kan ṣoṣo tí ó ṣẹ́kù fún un.	Alamu  nikan lomo kan soso ti o seku fun un.	remove_accents_and_underdots
+Níbí i ọdún mẹ́wàá sẹ́yìn, tí ọmọ rẹ̀ lọ sí ìlú Òyìnbó, Màmá rò wí pé ogun wíwá ayọ̀ ayérayé ti borí rẹ̀.	Nibi i odun mewaa seyin, ti omo re lo si ilu Oyinbo, Mama ro wi pe ogun wiwa ayo ayeraye ti bori re.	remove_accents_and_underdots
+Ń ṣe ní ó dàbí ẹni pé Àlàmú  ti rìn ìrìnàjò àrèmabọ̀.	N se ni o dabi eni pe Alamu  ti rin irinajo aremabo.	remove_accents_and_underdots
+Màmá nìkan ló dàbí ẹni pé ó kù láyé.	Mama nikan lo dabi eni pe o ku laye.	remove_accents_and_underdots
+"""Aṣọ"" rẹ̀ kanṣoṣo ní wọn ti bọ́ lára rẹ̀."	"""Aso"" re kansoso ni won ti bo lara re."	remove_accents_and_underdots
+Ó wá wà ní ògòlòǹto.	O wa wa ni ogolonto.	remove_accents_and_underdots
+Ayé ti pàdánù àwọ̀ àti ẹwà rẹ̀.	Aye ti padanu awọ ati ẹwa rẹ.	remove_only_accents
+Bàbá Àlàmú tí ì bá ṣe alátìlẹ́yìn àti olùfọ kàntán ti dùbúlẹ̀ àìsàn tí ò sí jẹ orúkọ ọmọ rẹ̀ lẹ́nu títí ó fi ku, èyí gbo màmá dé ọpọlọ àti ìmọ̀lára lẹ́yìn ìgbà  náà.	Baba Alamu ti i ba se alatileyin ati olufo kantan ti dubule aisan ti o si je oruko omo re lenu titi o fi ku, eyi gbo mama de opolo ati imolara leyin igba  naa.	remove_accents_and_underdots
+Òótọ́ ni pé wọn máa ń ka lẹ́tà Àlàmú sí eti ìgbọ́ rẹ̀, láti fi jẹ́ kí ó mọ̀ pé Àlàmú ṣì wà láàyè.	Ooto ni pe won maa n ka leta Alamu si eti igbo re, lati fi je ki o mo pe Alamu si wa laaye.	remove_accents_and_underdots
+Ṣùgbọ́n síbẹ̀síbẹ̀, Màmá ò gbàgbọ́.	Mama sibẹsibẹ, Ṣugbọn o gbagbọ.	remove_only_accents_and_swap_word
+Á dijú rẹ̀, á sì tẹ́tí sí àwọn ọ̀rọ̀ ìtura tó wà nínú lẹ́tà Àlàmú. Ara rẹ̀ á yá, ó sì mókun, ó sì ń ṣe dáadáa nínú ẹ̀kọ́ rẹ̀, ó wà níbẹ̀ nínú òtútù, ó ń tiraka láti wá ọjọ́ iwájú fún ara rẹ̀ àti Màmá, láìpẹ́ á máa padà bọ̀ nílé láti wá dara pọ̀ mọ́ ọn.	A diju re, a si teti si awon oro itura to wa ninu leta Alamu. Ara re a ya, o si mokun, o si n se daadaa ninu eko re, o wa nibe ninu otutu, o n tiraka lati wa ojo iwaju fun ara re ati Mama, laipe a maa pada bo nile lati wa dara po mo on.	remove_accents_and_underdots
+Kí Màmá mọ́kàn, kí ó wà láàyè kí ó si tẹ̀síwájú láti máa gbàdúrà fún un.	Ki Mama mọkan, ki o wa laaye ki o si tẹsiwaju lati maa gbadura fun un.	remove_only_accents
+"""Ọmọ yín onífẹ̀ẹ́ òótọ́ – Àlàmú """	"""Omo yin onifee ooto – Alamu """	remove_accents_and_underdots
+Màmá á lajú rẹ̀, á sì ṣàṣàrò sí ara rẹ̀ ni àìgbàgbọ́.	Mama a laju rẹ, a si ṣaṣaro si ara rẹ ni aigbagbọ.	remove_only_accents
+Ṣe gbogbo èyí lè jẹ́ òtítọ́ ṣá?	gbogbo le jẹ otitọ ṣa?	remove_only_accents_and_any_random_word
+Gbogbo èyí lè jẹ́ àlá dídùn lásán.	Gbogbo eyi le je ala didun lasan.	remove_accents_and_underdots
+Tàbíkí ó jẹ́ ète àwọn èèyàn dáadáa kan tí kò fẹ́ kí ó wọ sàréè láìtọ́jọ́.	Tabiki o je ete awon eeyan daadaa kan ti ko fe ki o wo saree laitojo.	remove_accents_and_underdots
+Àwọn tí kò fẹ kí ó ku ikú àdágbé, tí wọn sì ní láti tù ú lọ́kàn pẹ̀lú lẹ́tà tí wọn ní ọmọ rẹ́ kọ.	Awọn ti ko fẹ ki o ku iku adagbe, ti wọn si ni lati tu u lọkan pẹlu lẹta ti wọn ni ọmọ rẹ kọ.	remove_only_accents
+Ọmọ rẹ̀ tí ó mọ̀, lọ́kàn ara rẹ̀ ti lọ sí ìrìnàjò àrèmabọ̀.	Ọmọ rẹ ti o mọ, lọkan ara rẹ ti lọ si irinajo aremabọ.	remove_only_accents
+Ó ti sọnù títí láé, lẹ́yìn tí ó tí dúró ìdúró asán fún ọdún mẹ́jọ fún ìpàdabọ̀ Àlàmú, kò sí ìpinnu mìíràn tí màmá lè ní.	O ti sọnu titi lae, lẹyin ti o ti duro iduro asan mẹjọ ọdun fun fun ipadabọ Alamu, ko si ipinnu miiran ti mama le ni.	remove_only_accents_and_swap_word
+Ìyẹn ni ó sì sàlàyé ìdí tí ìyá àgbà náà ṣe wo ọmọ rẹ̀ ni ìwò ìyanu àti àìgbàgbọ́ ní ọjọ́ tí ó jàjà padà sílé láti ìlú England.	Iyẹn ni o si salaye ti iya naa ṣe wo ọmọ rẹ ni iwo iyanu ati aigbagbọ ni ọjọ ti o jaja pada sile lati ilu England.	remove_only_accents_and_any_random_word
+Ìyẹn sàláyé ìdí, tí màmá fi ń bí ara rẹ̀ bóyá ọmọkùnrin tí o dá ṣáṣá yìí ni Àlàmú, tàbí òkú rẹ̀ ni fún odidi ọ̀sẹ̀ kan gbáko.	Iyen salaye idi, ti mama fi n bi ara re boya omokunrin ti o da sasa yii ni Alamu, tabi oku re ni fun odidi ose kan gbako.	remove_accents_and_underdots
+Ó sì ń pè é ní gbogbo orúkọ rẹ̀ - gbogbo àwọn orúkọ tókúnfún ìfẹ́ tí ó ń pè é nígbà kékeré, láì mọyè ìgbà lọ́jọ́ kọ̀ọ̀kan fún odidi ọ̀ṣẹ̀ kan.	O si n pe e ni gbogbo oruko re - gbogbo awon oruko tokunfun ife ti o n pe e nigba kekere, lai moye igba lojo kookan fun odidi ose kan.	remove_accents_and_underdots
+Ó jẹ ṣónṣó ayọ̀ rẹ̀, irú ìgbà ayọ̀ bẹ́ẹ̀ ò padà dè bá Màmá mọ́. Ilé ayé jẹ́ ṣẹkẹ́ṣẹkẹ̀ ìyà gígùn kan. Tí kò lópin.	O je sonso ayo re, iru igba ayo bee o pada de ba Mama mo. Ile aye je sekeseke iya gigun kan. Ti ko lopin.	remove_accents_and_underdots
+Ó jẹ́ ìgbésẹ̀ tí ó ń tẹ̀síwájú.	O je igbese ti o n tesiwaju.	remove_accents_and_underdots
+Màmá rò ó wí pé òpin ìjìyà òun ti dé nígbà ti ọmọ rẹ̀ dé.	Mama ro o wi pe opin ijiya oun ti de nigba ti ọmọ rẹ de.	remove_only_accents
+Ṣùgbọ́n kété tí ó pé ọdún méjì lẹ́yìn ti Àlàmú dé, ìbànújẹ́ tí ó gbọ̀nà àràmìíràn yọ ló tún dé bá Màmá.	Ṣugbọn kete ti pe ọdun meji lẹyin ti Alamu de, ibanujẹ ti o gbọna yọ lo tun de ba Mama.	remove_only_accents_and_any_random_word
+Ìbànújẹ́ tí ó fún un ni ọ̀pọ̀lọpọ̀ àìroóorún-sùn òru, tí ó jẹ́ kí ó máa lá àìmọye àlákàlàá, ti ó ń jẹ́ kí omú rẹ̀ máa já pàtì láì mọyè ìgbà, tí ó wá sọ ọ́ di àlejò gbogbo ìgbà sí ọgbà babaláwo.	Ibanujẹ ti o fun un ni ọpọlọpọ airooorun-sun oru, ti o jẹ ki o maa la aimọye alakalaa, ti o n jẹ ki omu rẹ maa ja pati lai mọye igba, ti o wa sọ ọ di alejo gbogbo igba si ọgba babalawo.	remove_only_accents
+Gbogbo èyí, fún ìfẹ́ ọmọ.	Gbogbo eyi, fun ifẹ ọmọ.	remove_only_accents
+Kò ṣeé ṣe láti mọ̀ ìjìnlẹ̀ ìyà ìyá lórí ọmọ.	Ko ṣee ṣe lori mọ ijinlẹ iya iya lati ọmọ.	remove_only_accents_and_swap_word
+Èyí ni ìdí kan pàtàkì tó fi jẹ́ pé ìyá ní ó lọmọ lóòótọ́.	Eyi ni idi kan pataki to fi je pe iya ni o lomo loooto.	remove_accents_and_underdots
+Màmá ní ìpinnu líle kan lọ́kàn rẹ̀ pé nígbà tí ó bá tún fojú kan Làbákẹ́, ìtàn náà á yàtọ̀.	Mama ni ipinnu lile kan lokan re pe nigba ti o ba tun foju kan Labake, itan naa a yato.	remove_accents_and_underdots
+Á gbé e gbóná fún un, á sẹ orí rẹ̀ mọ́ Làbákẹ́ láyà, á ya á jẹ.	A gbe e gbona fun un, a se ori re mo Labake laya, a ya a je.	remove_accents_and_underdots
+Kòní í dúró de ẹ̀san díẹ̀díẹ̀ ti babaláwo yẹn mọ́.	Koni i duro de yẹn diẹdiẹ ti babalawo ẹsan mọ.	remove_only_accents_and_swap_word
+Lọ́jọ́ tí ó bá tún padé Làbákẹ́, á pa á run ní kíákíá.	Lọjọ ti o ba tun kiakia. Labakẹ, a pa a run ni pade	remove_only_accents_and_swap_word
+Fi Àlàmú sílẹ̀! Á pariwo lé aṣojú àwọn ọ̀tá, á dì ì lọ́fun mú “Fi ọmọ mi sílẹ̀! Ọmọ mí kan ṣoṣo.	Fi Alamu silẹ! A pariwo le aṣoju awọn ọta, a di i lọfun mu Fi ọmọ kan silẹ! Ọmọ mi mi ṣoṣo.	remove_only_accents_and_swap_word
+Asọ mi, fi asọ mi kan ṣoṣo sílẹ̀ kí ó gbádùn ayé rẹ̀. Kẹ́rù ẹ kí o lọ!	Aso mi, fi aso mi kan soso sile ki o gbadun aye re. Keru e ki o lo!	remove_accents_and_underdots
+"""Kó ẹrù rẹ̀ kí ó lọ nísìnyí! Á jẹ́ àṣẹ."	"""Ko ẹru rẹ ki o lọ nisinyi! A jẹ aṣẹ."	remove_only_accents
+Kò sí ìtàkùrọsọ pẹ̀lú ọ̀tá tí ó wà nílé mọ.	Ko si itakuroso pelu ota ti o wa nile mo.	remove_accents_and_underdots
+Kò ní fún un láyè láti dá gbọn un bí ó ṣe ṣe níjọ́sí, tí ó ń pè é ni ìyá àgbà, àgbàyà, àjẹ́...	Ko ni fun un laye lati da gbọn un bi o ṣe ṣe nijọsi, ti n pe e ni iya agba, ajẹ...	remove_only_accents_and_any_random_word
+Kó ẹrù ẹ́ kí o lọ nísìnyí! Jẹ́ ká rí ẹ̀yìn rẹ Làbákẹ́. O ò gbọdọ̀ wẹ̀yìn!	Ko eru e ki o lo nisinyi! Je ka ri eyin re Labake. O o gbodo weyin!	remove_accents_and_underdots
+Obìnrin tí wọn fí ń sépè obìnrin! Ọmọ ìyá àjẹ́! Asojú Èṣù! Lọ! Máa lọ!	Obinrin ti won fi n sepe obinrin! Omo iya aje! Asoju Esu! Lo! Maa lo!	remove_accents_and_underdots
+Màmá jù ìgbálẹ̀ tí ó dìmú sílẹ̀, omijé bẹ̀rẹ̀ sí ṣàn wálẹ̀ lẹ́rẹ̀kẹ́ rẹ̀ tí ó ti hunjọ.	Mama ju igbale ti o dimu sile, omije bere si san wale lereke re ti o ti hunjo.	remove_accents_and_underdots
+Nígbà tí ó yá, ó bẹ̀rẹ̀ si í sunkún gidi.	Nigba ti o ya, o bẹrẹ si i sunkun gidi.	remove_only_accents
+Ṣé á lè ní okun láti kojú Làbákẹ́?	Se a le ni okun lati koju Labake?	remove_accents_and_underdots
+Ṣé ọwọ́ rẹ̀ tí ò lágbara yìí ò ní dójú tì í lọ́jọ́ náà?	Se owo re ti o lagbara yii o ni doju ti i lojo naa?	remove_accents_and_underdots
+Ṣé agbára ọ̀dọ́ tó wà lára Làbákẹ́ òní da inú rẹ̀ tí ó ti rẹ̀ yìí rú, Ṣé kò ní ran eruku jáde nímú rẹ̀, tí á sì yọ ahọ́n kúrò lẹ́nu rẹ̀?	Se agbara odo to wa lara Labake oni da inu re ti o ti re yii ru, Se ko ni ran eruku jade nimu re, ti a si yo ahon kuro lenu re?	remove_accents_and_underdots
+Oh! Bí ó bá jẹ́ pé ó mọ bí wọn se ń fa irebọn ìbọn ni!	Oh! Bi o jẹ pe o mọ bi wọn se n irebọn ibọn ni!	remove_only_accents_and_any_random_word
+Ṣùgbọ́n, kí ó mú Àlàmú wá ná! Kí ó gba ọmọ rẹ̀ sílẹ̀ ná!	Sugbon, ki o mu Alamu wa na! Ki o gba omo re sile na!	remove_accents_and_underdots
+Inú màmá kò dùn sí fífi okun inú rẹ̀ ṣòfò lórí wàhálà ojú-fún-ojú, eyín-fún-eyín.	Inu mama ko dun si fifi okun inu re sofo lori wahala oju-fun-oju, eyin-fun-eyin.	remove_accents_and_underdots
+Ìyẹn á wáyé bí ó bá ya.	Iyẹn a waye bi o ba ya.	remove_only_accents
+Ṣùgbọ́n báyìí, kí wọ́n kọ́kọ́ gba Àlàmú sílẹ̀ ná.	Ṣugbọn bayii, ki wọn kọkọ gba Alamu silẹ na.	remove_only_accents
+Èṣùníyì ti ṣe ìlérí láti tẹ̀lé e.	tẹle ti ṣe ileri lati Eṣuniyi e.	remove_only_accents_and_swap_word
+Wọ́n jọ máa lọ sí ìgboro láti mú un wá ni.	Wọn igboro maa lọ si jọ lati mu un wa ni.	remove_only_accents_and_swap_word
+Ní gbogbo òru, Màmá kò le sùn.	Ni gbogbo oru, Mama ko le sun.	remove_accents_and_underdots
+Láìsí àní-àní, ojú á ti Àlàmú láti rí i pẹ̀lú babaláwo tí ó wọ ẹ̀wù apẹtẹ tí ó kuńfún ẹ̀rù.	Laisi ani-ani, oju a Alamu lati ri i pẹlu babalawo ti o wọ ẹwu apẹtẹ ti kunfun ẹru.	remove_only_accents_and_any_random_word
+Ṣùgbọ́n bí ó ṣe yẹ kí ó rí nìyẹn, ó yẹ kí ó yée.	Sugbon bi o se ye ki o ri niyen, o ye ki o yee.	remove_accents_and_underdots
+A gbìyànjú láti ní òye... O gbọ́dọ̀ yé e.	A gbiyanju lati ni oye... O gbodo ye e.	remove_accents_and_underdots
+Màmá bẹ̀rẹ̀ sí i ṣẹ́ ojú... ṣẹ́ ojú.	Mama bẹrẹ si i ṣẹ oju... ṣẹ oju.	remove_only_accents
+Nígbẹ̀yìn gbẹ́yín, ó sùn.	Nigbeyin gbeyin, o sun.	remove_accents_and_underdots
+Ọkàn ìyá àgbàlagbà kúrò nínú gbogbo nǹkan nígbà tó yá.	Ọkan agbalagba kuro ninu gbogbo nigba to ya.	remove_only_accents_and_any_random_word
+Ó kúrò nínú híhó ẹyẹ òwìwí lórí àwọn igi igbó àyíká.	O kuro ninu hiho ẹyẹ owiwi lori awọn igi igbo ayika.	remove_only_accents
+Ó kúrò nínú gbígbó àwọn ajá ń ààrin gùngun ìlú.	O kuro ninu gbigbo awọn aja n aarin gungun ilu.	remove_only_accents
+Kì í ṣe ohun tí ó rọrùn láti ṣe “ó dààbọ̀” sí ilé tí ó tí jẹ́ ti ẹni fún  ìgbà pípẹ́ .	Ki i ṣe ohun ti o rọrun lati ṣe o daabọ si ile ti o ti jẹ ti ẹni fun  igba pipẹ .	remove_only_accents
+Láìwo bí ilé náà ti ṣe gbé ara rẹ̀ kalẹ̀, fún ẹni tí ó ń fi í lẹ.	Laiwo bi ile naa ti se gbe ara re kale, fun eni ti o n fi i le.	remove_accents_and_underdots
+Làbákẹ́ mọ èyí dáadáa.	Labake mo eyi daadaa.	remove_accents_and_underdots
+Ní báyìí, ó mí àmíkàn ó sì wo gbogbo nǹkan inú ilé yíká tìlọ́ra tìlọ́ra.	Ni o mi amikan o si wo gbogbo nnkan inu ile yika tilọra	remove_only_accents_and_any_random_word
+Bóyá, ọjọ́ rẹ̀ tí ó kẹ́yìn, ní ó ń lò yìí nílé Àlàmú.	Boya, Alamu. rẹ ti o kẹyin, ni o n lo yii nile ọjọ	remove_only_accents_and_swap_word
+Ó ti múra ó sì fẹ jáde láti lọ ṣe àwọn òwò kíá kíá kan ní ìgboro.	O ti mura o si fe jade lati lo se awon owo kia kia kan ni igboro.	remove_accents_and_underdots
+Ó ti bá awakọ̀ ọ̀kọ̀ akẹ́rù kan dú nàá-dúrà sílẹ̀.	O ti ba awakọ ọkọ akẹru kan du naa-dura silẹ.	remove_only_accents
+Awakọ̀ náà ń bọ̀ lọ́la pẹ̀lú ọ̀kọ̀ rẹ̀ láti wá fi kó àwọn nǹkan rẹ̀ lọ.	Awakọ naa n bọ lọla rẹ lati wa fi ko awọn nnkan rẹ lọ.	remove_only_accents_and_any_random_word
+Ó ti sọ fún dẹ́rẹ́bà náà bí ó ṣe fẹ́ kí isẹ́ náà ṣe rí.	O ti so fun dereba naa bi o se fe ki ise naa se ri.	remove_accents_and_underdots
+Ó fẹ́ kí isẹ́ náà parí láìfàkókò ṣòfò, kí ó má ju bí i, kání wákàtí méjì.	O fe ki ise naa pari laifakoko sofo, ki o ma ju bi i, kani wakati meji.	remove_accents_and_underdots
+Kò gbọdọ̀ pe àkíyèsí àwọn aládúgbò rárá.	Ko gbodo pe akiyesi awon aladugbo rara.	remove_accents_and_underdots
+Awakọ̀ ọkọ̀-akẹ́rù náà ti ṣe ìlérí ìfọwọ́sọwọ́pọ̀ rẹ̀, ó sì fi Làbákẹ́ lọ́kàn balẹ̀ pé isẹ́ náà kò ní gba òun àti àwọn èèyàn òun ju wákàtí kan lọ.	Awakọ ọkọ-akẹru naa ṣe ti ileri ifọwọsọwọpọ rẹ, o si fi Labakẹ lọkan balẹ pe isẹ naa ko ni gba oun ati awọn eeyan oun ju wakati kan lọ.	remove_only_accents_and_swap_word
+Mo fi Ọlọrún tó dámi ṣẹlẹ́rìí, awakọ̀ náà sọ èyí, ó fa ìka ìlábẹ̀ rẹ̀ mú, ó sìnáàsí ojú ọ̀runfún àtẹnumọ́.	Mo fi Ọlọrun to dami ṣẹlẹrii, awakọ naa sọ eyi, o fa ika ilabẹ rẹ mu, o sinaasi oju ọrunfun atẹnumọ.	remove_only_accents
+Inú Làbákẹ́ dùn.	Inu Labake dun.	remove_accents_and_underdots
+Ìdágbére ìkẹyìn! Èyí kì í ṣe ohun tí ó rọrùn fún ẹnikẹ́ni.	Idagbere ikẹyin! Eyi ki i ṣe ohun ti o rọrun fun ẹnikẹni.	remove_only_accents
+Kò sì lè jẹ́ nǹkan tí ó rọrùn fún Làbákẹ́ náà.	Ko si le je nnkan ti o rorun fun Labake naa.	remove_accents_and_underdots
+Okàn rẹ bẹ̀rẹ̀ sí í lù kì kì kì.	Okan rẹ bẹrẹ si i lu ki ki ki.	remove_only_accents
+Àwọn nǹkan tí ó fẹ ki pé ó dì gbóṣe pọ̀.	Awon nnkan ti o fe ki pe o di gbose po.	remove_accents_and_underdots
+Ówọ ilé ìdáná, ó sọ̀rọ̀ wúyẹ́wúyẹ́ ara rẹ̀, ó sì jadé. Ó wọ balùwẹ̀, ó sọ̀rọ̀ kẹ́lẹ́kẹ́lẹ́ sí ara rẹ̀, ó sì wọ ilé-ìgbé.	Owo ile idana, o soro wuyewuye ara re, o si jade. O wo baluwe, o soro kelekele si ara re, o si wo ile-igbe.	remove_accents_and_underdots
+Ní ìṣẹ́jú kan, ó jáde kúrò nínú yàrá kékeré, ó sì yọjú wo ìyàrá Àlàmú.	Ni iseju kan, o jade kuro ninu yara kekere, o si yoju wo iyara Alamu.	remove_accents_and_underdots
+Ó wo yàrá ofìfo náà fírí...	O wo yara ofifo naa firi...	remove_only_accents
+Ó rí asọ ìdọ̀tí Àlàmú tí ó kó jọ sórí ibi ìfasọkọ́ onídùró, àti àwọn mìíràn tí ó fọ́nká sí orí ibùsùn.	O ri aso idoti Alamu ti o ko jo sori ibi ifasoko oniduro, ati awon miiran ti o fonka si ori ibusun.	remove_accents_and_underdots
+Atòjọ fáílì ìwé dúró lórí tábílì rẹ̀.	Atojo faili iwe duro lori tabili re.	remove_accents_and_underdots
+Lẹ́yìn náà ni àwọn jà-ǹ-kárìwọ̀ kọ̀rọ̀ yàrá.	Lẹyin naa ni awọn ja-n-kariwọ kọrọ yara.	remove_only_accents
+Òórùn burúkú kan gba afẹ́fẹ́ inú yàrá Àlàmú.	Oorun inu kan gba afẹfẹ buruku yara Alamu.	remove_only_accents_and_swap_word
+Làbákẹ́ fi ọwọ́ di ihò imú rẹ̀.	Labakẹ imu ọwọ di iho fi rẹ.	remove_only_accents_and_swap_word
+Gbogbo nǹkan ní ó doríkodò nínú yàrá àjòjì yìí – yàrá ọkùnrin wèrè kan! Làbákẹ́ jan ilẹ̀kùn náà padé, ó sì tún wọ inú yàrá tirẹ̀.	Gbogbo nnkan ni o dorikodo ninu yara ajoji yii – yara okunrin were kan! Labake jan ilekun naa pade, o si tun wo inu yara tire.	remove_accents_and_underdots
+Ní ìṣẹ́jú mìíràn, ó jáde níbẹ̀ ó sì wọ yàrá ìgbafẹ́, ojú rẹ̀ pọ́n gidi.	Ni iseju miiran, o jade nibe o si wo yara igbafe, oju re pon gidi.	remove_accents_and_underdots
+Òpin nì yẹn! Ó kù gìrì jáde kúrò ní ilé náà wọ òpópónà.	Opin ni yen! O ku giri jade kuro ni ile naa wo opopona.	remove_accents_and_underdots
+Tiyè-tiyè, ó padà wo ilé wọn.	Tiye-tiye, o pada wo ile won.	remove_accents_and_underdots
+Irú àwòrán ìbẹ̀rù wo ní ilé Àlàmú wá dà lójú rẹ̀.	Iru aworan iberu wo ni ile Alamu wa da loju re.	remove_accents_and_underdots
+Nígbà tí wọn kọ́kọ́kó wọ inú ilé náà ní kété tí wọn ṣègbeyàwó, ó wà pẹ̀lú ìrètí gíga láti sọ ilé náà di párádísè.	Nigba ti wọn kọkọko wọ inu ile naa ni kete ti wọn ṣegbeyawo, o wa pẹlu lati sọ ile naa di paradise.	remove_only_accents_and_any_random_word
+Ó gba Àlàmú níyànjú pé kí ó ra àwọn nǹkan ti yóò mú kí ilé náà rẹwà.	O gba Alamu niyanju pe ki o ra awon nnkan ti yoo mu ki ile naa rewa.	remove_accents_and_underdots
+Ó sì lo gbogbo ìrírí rẹ̀ gẹ́gẹ́ bí ológe àti olùdárà láti jẹ́ kí ilé náà rí dáadáa.	O si lo gbogbo iriri rẹ gẹgẹ bi ologe ati oludara lati jẹ ki ile naa ri daadaa.	remove_only_accents
+Ó kó àwọn àpótí òdòdó sí ojú àwọn fèrèsé, ó fi àwòrán kọ́ sára ògiri ní kọ̀rọ̀ yàrá ìgbafẹ́ àti àwọn iyẹ̀wù.	O ko apoti awọn ododo si oju awọn ferese, o fi aworan kọ sara ogiri ni kọrọ yara igbafẹ ati awọn iyẹwu.	remove_only_accents_and_swap_word
+Wọ́n ra kápéétì ara ọ̀tọ̀ fún yàrá ìgbafẹ́.	Won ra kapeeti ara oto fun yara igbafe.	remove_accents_and_underdots
+Àwọn kọ́tíìnì àti ìbòjú fèrèsé jẹ́ gidi.	Awọn kọtiini ati ferese jẹ	remove_only_accents_and_any_random_word
+Gbogbo nǹkan inú ilé ló wà létò-létò.	Gbogbo ile inu nnkan lo wa leto-leto.	remove_only_accents_and_swap_word
+Àwọn àlejò tó bá wá sí ilé wọn máa ń gbóòórùn òdòdó tútù, wọn sì máa ń kan sárá sí ìyá-ilé náà.	Awon alejo to ba wa si ile won maa n gbooorun ododo tutu, won si maa n kan sara si iya-ile naa.	remove_accents_and_underdots
+Èyí tẹ́ Làbákẹ́ lọ́rùn.	Labakẹ tẹ Eyi lọrun.	remove_only_accents_and_swap_word
+Ilé ọkọ náà ti bẹ̀rẹ̀ ní ara ọ̀tọ̀ bí ó ṣe jọ.	Ile oko naa ti bere ni ara oto bi o se jo.	remove_accents_and_underdots
+Ṣùgbọ́n, ṣe ilé nìyẹn?	Sugbon, se ile niyen?	remove_accents_and_underdots
+Làbákẹ́ padà bẹ̀rẹ̀ si í tún ara rẹ̀ bi.	Labake pada bere si i tun ara re bi.	remove_accents_and_underdots
+Ṣé kì í ṣe pé ó kàn dára sí ilé lásán ni, kàkà kí ó fi kọ́ ilé?	Ṣe ki i ṣe pe o kan dara si ile lasan ni, kaka ki o fi kọ ile?	remove_only_accents
+Kò pẹ́ kí ó tó yé Làbàkẹ́ pé kíkó ilé ọkọ ẹni ju títò àti dídárà si àwọn yàrá ilé lọ.	Ko pe ki o to ye Labake pe kiko ile oko eni ju tito ati didara si awon yara ile lo.	remove_accents_and_underdots
+Ilé gidi ni àwọn ènìyàn – ọkọ àti ìyàwó tí wọn ń bá ara wọn sọ̀rọ̀ tímọ́-tímọ́, tí wọn nífẹ̀ẹ́ ara wọn, tí wọn jọ ń ṣètò, tí wọ́n jọ ń wo ọjọ́ iwájú pẹ̀lú ìrètí àti ìgbàgbọ́ pé ohun gbogbo á dára.	Ile gidi ni awon eniyan – oko ati iyawo ti won n ba ara won soro timo-timo, ti won nifee ara won, ti won jo n seto, ti won jo n wo ojo iwaju pelu ireti ati igbagbo pe ohun gbogbo a dara.	remove_accents_and_underdots
+Ilé ọkọ gidi kún fún ènìyàn àti ìmọ̀lára ènìyàn.	Ile oko gidi kun fun eniyan ati imolara eniyan.	remove_accents_and_underdots
+Kì í ṣe ilé lásán – òrùlé àti ògiri.	Ki i se ile lasan – orule ati ogiri.	remove_accents_and_underdots
+Kì í ṣe bí á ṣe dára sí àwọn yàrá, Làbákẹ́ ṣẹ̀ṣẹ̀ mọ̀.	Ki i se bi a se dara si awon yara, Labake sese mo.	remove_accents_and_underdots
+Ó fi báàgì ìkọ́pá rẹ̀ sábẹ́ apá rẹ̀ ó sì rìn wọ òpòpónà náà, tí ó ń pé kabúkabú.	O fi baagi ikọpa rẹ sabẹ apa rẹ o si wọ opopona naa, ti n pe kabukabu.	remove_only_accents_and_any_random_word
+Kò pẹ ẹ́, lásìkò yìí, kí ó tó dé Òkè-Àdó.	Ko pẹ ẹ, lasiko yii, ki de to o Oke-Ado.	remove_only_accents_and_swap_word
+Bí ó tilẹ̀ jẹ́ pé, ọ̀nà àbùjá ò tí ko ṣe é gbà, ọ̀pọ̀lọpọ̀ iṣẹ́ ni ìjọba ń ṣe ní títì Agbeni sí Ògùnpa gígùn yẹn.	Bi o tile je pe, ona abuja o ti ko se e gba, opolopo ise ni ijoba n se ni titi Agbeni si Ogunpa gigun yen.	remove_accents_and_underdots
+Àwọn òfin ìkóni-níjàánu kan ti wọ ara àwọn awakọ̀ dánfó àti kabúkabú, àti ogun tí wọn dàkọ, àíní-ikora-ẹni-nìjàánu àwọn ọlọ́jà òpòpónà tí ó ti ṣe.	Awọn ofin ikoni-nijaanu kan ti wọ ara awọn awakọ danfo ati kabukabu, ati wọn ti ogun dakọ, aini-ikora-ẹni-nijaanu awọn ọlọja opopona ti o ti ṣe.	remove_only_accents_and_swap_word
+Gbogbo wọn ni wọ́n bẹ̀rù òfin tuntun tí àwọn ìjọba fẹ́ fi lẹ́lẹ̀ láìpẹ́.	Gbogbo won ni won beru ofin tuntun ti awon ijoba fe fi lele laipe.	remove_accents_and_underdots
+Awakọ̀ kí awakọ̀ tó bá gbé ọkọ̀ rẹ̀ sọ́nà lọ́nà àìtọ́ á fojú winá ní àwọn ilé ẹjọ́ alágbèéká; awakọ̀ to bá dá “súnkẹrẹ-fàkẹrẹ” ọkọ̀ sílẹ̀, wọn á fà á lé ilé-ẹjọ́ lọ́wọ́; àwọn ọlọ́jà tí ó bá tajà ní òpópónà, ìjìyà tí ó le ń dúró dè wọ́n.	Awakọ ki awakọ to ba gbe ọkọ rẹ sọna lọna aitọ a foju wina ni awọn ile ẹjọ alagbeeka; awakọ to ba da sunkẹrẹ-fakẹrẹ ọkọ silẹ, wọn a fa a le ile-ẹjọ lọwọ; awọn ọlọja ti o ba taja ni opopona, ijiya ti o le n duro de wọn.	remove_only_accents
+Ní báyìí, òpòpónà wá mọ́ féfé, wíwakọ̀ lópòópónà Agbeni Ògùnpa wá ń dùn mọ́ bí i tí àwọn títì mìíràn nílùú ńlá.	Ni bayii, opopona wa mo fefe, wiwako lopoopona Agbeni Ogunpa wa n dun mo bi i ti awon titi miiran niluu nla.	remove_accents_and_underdots
+Láìpẹ́,  Làbákẹ́ ti dé ìyẹ̀wù àwọn agbejọ́rò.	Laipe,  Labake ti de iyewu awon agbejoro.	remove_accents_and_underdots
+Àyíká ìyẹ̀wù náà kì í bà á lẹ́rù mọ́.	Ayika iyewu naa ki i ba a leru mo.	remove_accents_and_underdots
+Ó tí mọ́ ọn lára.	O ti mo on lara.	remove_accents_and_underdots
+Ìpayà àti àìbalẹ̀ ọkàn tí ó gbá a mú nígbà àkọ́kọ́ tí ó máa dé ibẹ̀ ti pòórá pátápátá.	Ipaya ati aibale okan ti o gba a mu nigba akoko ti o maa de ibe ti poora patapata.	remove_accents_and_underdots
+Ara rẹ̀ balẹ̀ báyìí bí ó ṣe ń bá olùgbàlejò iléeṣẹ́ náà sọ̀rọ̀.	Ara re bale bayii bi o se n ba olugbalejo ileese naa soro.	remove_accents_and_underdots
+“Ẹ ṣoríire lónìí màdáámú”, olùgbàlejò náà sọ̀rọ̀ pẹ̀lú ẹ̀rín músẹ́ lẹ́nu,	Ẹ ṣoriire lonii madaamu, olugbalejo naa sọrọ pẹlu ẹrin musẹ lẹnu,	remove_only_accents
+“Bẹ́ẹ̀ ni, ẹ mọ̀ ọ́n rìn. Wọ́n wà nínú ilé”. “Ṣé lóòótọ́?”	Bẹẹ ni, ẹ mọ ọn rin. Wọn ninu Ṣe loootọ?	remove_only_accents_and_any_random_word
+“Bẹ́ẹ̀ ni”, “Mo ṣoríire nìyẹn”, “Lóòótọ́ ni màdáámú.	“Bee ni”, “Mo soriire niyen”, “Loooto ni madaamu.	remove_accents_and_underdots
+Ṣùgbọ́n ẹ ní láti dúró fún bí i ìṣẹ́jú díẹ̀.	Ṣugbọn ẹ ni i duro fun bi lati iṣẹju diẹ.	remove_only_accents_and_swap_word
+Ẹnìkan wà pẹ̀lú wọn”.	wa Ẹnikan pẹlu wọn.	remove_only_accents_and_swap_word
+“Ẹ ṣeun, màá dúró”.	Ẹ duro.	remove_only_accents_and_any_random_word
+Èyí ni ìgbà ẹ̀ẹ̀kẹ́rin tí Làbákẹ́ ti ṣe àbẹ̀wò sí ìyẹ̀wù náà.	Eyi ni igba eekerin ti Labake ti se abewo si iyewu naa.	remove_accents_and_underdots
+Kò ní àǹfààní láti bá wọn, yàtọ̀ sí ìgbà àkọ́kọ́, kí ó bá ìkankan nínú àwọn agbẹjọ́rò méjèèjì.	Ko ni anfaani lati ba wọn, yatọ si igba akọkọ, ki o ba ikankan ninu awọn agbẹjọro mejeeji.	remove_only_accents
+Ní ọ̀pọ̀ ìgbà wọ́n ti sọ fún un pé wọ́n jáde.	Ni opo igba won ti so fun un pe won jade.	remove_accents_and_underdots
+Nígbà kan, wọ́n sọ fún un pé agbẹjọ́rò Mústàfá ti lọ fún ìrìnàjò òwò lókè-òkun.	Nigba kan, won so fun un pe agbejoro Mustafa ti lo fun irinajo owo loke-okun.	remove_accents_and_underdots
+Kò ya Làbákẹ́ lẹ́nu láti gbọ́ ìyẹn.	Ko ya Labake lenu lati gbo iyen.	remove_accents_and_underdots
+Ó rántí pé ó ti sọ nǹkan tí ó jọ èyí ní ìgbàtí órí iyẹn.	O ranti pe o ti so nnkan ti o jo eyi ni igbati ori iyen.	remove_accents_and_underdots
+Ó ní òun á rìn ìrìnàjò lọ sí Englandi, Àbí ṣé Amẹ́ríkà ni?	O ni oun a rin irinajo lo si Englandi, Abi se Amerika ni?	remove_accents_and_underdots
+Ní ìgbà àbẹ̀wò mìíràn, wọ́n sọ fún un pé ìkejì agbẹjọ́rò Mústàfá ti lọ ṣe àwíjàre ẹjọ́ kan ní ilé-ẹjọ́ Èkó.	Ni igba abewo miiran, won so fun un pe ikeji agbejoro Mustafa ti lo se awijare ejo kan ni ile-ejo Eko.	remove_accents_and_underdots
+Nígbà àbẹwò ìgbẹ̀yìn Làbákẹ́ sí ibẹ̀, ó pàdé akọ̀wé àṣírí àwọn agbẹjọ́rò náà, tí ó fi í lọ́kàn balè pé iṣẹ́ti bẹ̀rẹ̀ lórí ẹjọ́ rẹ̀.	Nigba abẹwo igbẹyin Labakẹ si ibẹ, o pade akọwe aṣiri awọn agbẹjọro naa, fi o ti i lọkan bale pe iṣẹti bẹrẹ lori ẹjọ rẹ.	remove_only_accents_and_swap_word
+Wón ti ṣe àkọsílè ẹjọ́ rẹ̀, ọ̀nà àti ṣiṣẹ́ rẹ̀ sì ti jáde.	Won ti se akosile ejo re, ona ati sise re si ti jade.	remove_accents_and_underdots
+Ìwé àkójopọ̀ àwòrán ìgbéyàwó, òrùka ìgbéyàwó, àti ìwé-ẹ̀rí ìgbéyàwó tí ó mú wá ni wọ́n ti yẹ̀wò fínní fínní, wọn á sì fi hàn nílé ẹjọ́ gẹ́gẹ́ bí ẹ̀rí.	Iwe akojopo aworan igbeyawo, oruka igbeyawo, ati iwe-eri igbeyawo ti o mu wa ni won ti yewo finni finni, won a si fi han nile ejo gege bi eri.	remove_accents_and_underdots
+Làbákẹ́ ti tẹ́tí pẹ̀lú ìfọkànsí.	Labake ti teti pelu ifokansi.	remove_accents_and_underdots
+Ohun tí ó kù fún un tí akọ̀wé náà sọ ni pé, kí ó pàdé ọ̀kan lára àwọn agbẹjọ́rò méjèèjì fún ìtàkùrọ̀sọ ráńpé.	Ohun ti o ku fun un ti akowe naa so ni pe, ki o pade okan lara awon agbejoro mejeeji fun itakuroso ranpe.	remove_accents_and_underdots
+Lẹ́yìn náà ni wọ́n á gbé ẹjọ́ náà lọ ilé-ẹjọ́, tí wọ́n á fi ìwé ìpèlẹ́jọ́ ráńṣ́ẹ́ sí ọkọ rẹ̀, wọn á sì gbaradì láti lọ sí ilé-ẹjọ́ láti ṣe àwíjàre ẹjọ́ náà.	Leyin naa ni won a gbe ejo naa lo ile-ejo, ti won a fi iwe ipelejo ranse si oko re, won a si gbaradi lati lo si ile-ejo lati se awijare ejo naa.	remove_accents_and_underdots
+Akọ̀wé àṣírí náà fi í lọ́kàn balẹ̀ pé ẹjọ́ rẹ̀ á rọrùn láti gbá mú, ó yàtọ̀ sí àwọn ẹjọ́ gbẹ̀ ẹ́ gbẹ̀ ẹ́, tí àwọn agbẹjọ́rò náà ti gbá mú.	Akọwe aṣiri naa fi i lọkan balẹ pe ẹjọ rẹ a rọrun lati gba mu, o yatọ si awọn ẹjọ gbẹ ẹ gbẹ ẹ, ti awọn agbẹjọro naa ti gba mu.	remove_only_accents
+Wọn átètè parí tirẹ̀ ní ìjókòó ẹ̀ẹ̀mejì.	Won atete pari tire ni ijokoo eemeji.	remove_accents_and_underdots
+Ní báyìí, oríti bá Làbákẹ́ ṣe é, Á gbọ́ ọ̀rọ̀ lẹ́nu ọlọ́rọ̀.	Ni bayii, oriti ba Labake se e, A gbo oro lenu oloro.	remove_accents_and_underdots
+Ìkejì agbẹjọ́rò Mústàfá wà nínú ilé, á sì lọ bá a láìpẹ́ lórí ọ̀rọ̀ náà.	Ikeji agbẹjọro si wa ninu ile, a Mustafa lọ ba a laipẹ lori ọrọ naa.	remove_only_accents_and_swap_word
+Á pàdé agbẹjọ́rò kejì yìí fún ìgbà àkọ́kọ́.	A pade agbejoro keji yii fun igba akoko.	remove_accents_and_underdots
+Olùgbàlejò tó kóni mọ́ra náà fi í lára balẹ̀, ó ń bá a sọ̀rọ̀ tímọ́tímọ́.	Olugbalejo to koni mora naa fi i lara bale, o n ba a soro timotimo.	remove_accents_and_underdots
+“Àwọn ọmọ náà ńkọ́?”	“Awon omo naa nko?”	remove_accents_and_underdots
+“Ẹ ṣeun”	Ẹ ṣeun	remove_only_accents_and_any_random_word
+“Àti bàbá wọn, màdáámú?”	“Ati baba won, madaamu?”	remove_accents_and_underdots
+“Wọ́n wà dáadáa, ẹ ṣeun”, Kí tún ni kí Làbákẹ́ sọ?	“Won wa daadaa, e seun”, Ki tun ni ki Labake so?	remove_accents_and_underdots
+Ojú rè wò. rá-rà-rá oníkálùkù pẹ̀lú ìṣòro tirẹ̀.	Oju re wo. ra-ra-ra onikaluku pelu isoro tire.	remove_accents_and_underdots
+Bàbá Tinú wà lálàáfíà, àbí ṣe yóò sọ pé kò sí lálàáfíà ni?	Baba Tinu wa lalaafia, ṣe yoo sọ pe ko si ni?	remove_only_accents_and_any_random_word
+Ojú Làbákẹ́ rí aago ọ̀rún-ọwọ́ wúrà tí ó ń kọ mọ̀nà lọ́rùn ọwọ́ olùgbàlejò náà.	Oju Labakẹ ri aago ọrun-ọwọ wura ti o n kọ mọna lọrun ọwọ olugbalejo naa.	remove_only_accents
+Ó ṣàkíyèsí ọwọ́ aago náà tí ó ń tàn.	O ṣakiyesi ọwọ aago naa ti o	remove_only_accents_and_any_random_word
+Èyí jẹ́ àǹfàànì fún un láti yí kókó ọ̀rọ̀ wọn padà sí nǹkan gbogbo ògbò.	Eyi jẹ anfaani fun un lati yi koko ọrọ wọn pada si nnkan gbogbo ogbo.	remove_only_accents
+“Ẹ ní aago ọrùn-ọwọ́ tó rẹwà”, Làbákẹ́ sọ èyí, ó ń bá olùgbàlejò náàwí, “Tuntun ni, àbí?”	“E ni aago orun-owo to rewa”, Labake so eyi, o n ba olugbalejo naawi, “Tuntun ni, abi?”	remove_accents_and_underdots
+“Bẹ́ẹ̀ ni, màdáámú.	madaamu.	remove_only_accents_and_any_random_word
+Oṣù méjì sèyín la rà á.	Oṣu meji seyin la ra a.	remove_only_accents
+Ìlú Washington la ti rà á, nígbà ìgbádùn àṣẹ̀ṣẹ̀ṣe ìgbéyàwó.	Ilu Washington la ra a, igbadun aṣẹṣẹṣe igbeyawo.	remove_only_accents_and_any_random_word
+Ọ̀ko mi náàní irú ẹ̀.	Ọko mi naani iru ẹ.	remove_only_accents
+Ṣéẹ rí i, a jọ máa ń ra nǹkan papọ̀ ni.	Ṣeẹ ri i, a maa n ra papọ ni.	remove_only_accents_and_any_random_word
+Bí mo bá ra búláòsì, òun náà á fẹ́ ṣẹ́ẹ̀tì!	Bi mo ba ra bulaosi, oun naa a fe seeti!	remove_accents_and_underdots
+Bí mo ra ṣẹ́ẹ̀tì kan òun náà á fẹ́ ṣòkòtò kan.	Bi mo ra seeti kan oun naa a fe sokoto kan.	remove_accents_and_underdots
+Bí mo bá ra irun aláwọ̀sórí, Olúwa ò! Dàpọ̀ náàá fẹ́ fìlà”.	Bi mo ba ra irun alawosori, Oluwa o! Dapo naaa fe fila”.	remove_accents_and_underdots
+”Mo rí i. Ó dáa bẹ́ẹ̀”	Mo ri i. O daa bẹẹ	remove_only_accents
+“Ẹ ṣeun màdáámú.	madaamu. ṣeun Ẹ	remove_only_accents_and_swap_word
+À ń gbèrò láti padà lọ ní òpin ọdún yìí láti lọ ra àwọn nǹkan sí i.	A n gbero lati pada lo ni opin odun yii lati lo ra awon nnkan si i.	remove_accents_and_underdots
+Ìlú Amẹ́ríkà mà rẹwà.	Ilu Amerika ma rewa.	remove_accents_and_underdots
+Ọ̀pọ̀lọpọ̀ nǹkan tó rẹwà ni ó wà láti rà.	Ọpọlọpọ nnkan to rẹwa ni o wa lati ra.	remove_only_accents
+Ọ̀pọ̀lọpọ̀ àwọn èèyàn dáadáa dáadáa ló wà níbẹ̀ láti pàdé”	Ọpọlọpọ awọn eeyan daadaa daadaa lo wa nibẹ lati pade	remove_only_accents
+“Òótọ́ ni”, Kání àsìkò tí inú rẹ̀ dùn ni,  Làbákẹ́ ò bá sọ fún olùgbàlejò náà pé òun náà kì í ṣe àjèjì sí ilẹ̀ aláwọ̀ funfun.	Ootọ ni, Kani asiko ti inu rẹ dun ni,  Labakẹ o ba sọ fun olugbalejo naa pe oun naa ki i ṣe ajeji si ilẹ alawọ funfun.	remove_only_accents
+Kò bá so ó pé òun ti ṣe àìmọye àbèwò sí Amẹ́ríkà láti Brítéènì, ó sì ti dé gbogbo ìlú ńlá náà.	Ko ba so o pe oun ti ṣe aimọye abewo si Amẹrika lati Briteeni, o si ti de gbogbo ilu nla naa.	remove_only_accents
+Ó lọ sí Philadelphia, Los Angeles àti San Francisco; New Orleans àti Chicago.	O lo si Philadelphia, Los Angeles ati San Francisco; New Orleans ati Chicago.	remove_accents_and_underdots
+Bẹ́ẹ̀ ni, nígbà tí inú rẹ̀ ń dùn,  Làbákẹ́ ò bá ti ṣe ìdánilẹ́kọ̀ọ́ tó péye fún olùgbàlejò náà lórí àwọn ibi tí ó lè lọ ní Amẹ́ríkà tíó bá fẹ́ ra nǹkan – párádísè àwọn òǹràjà ni òpópónà Madison ní New York, Neiman Marcus ńlá ní Washington DC àti Tower complex olómí ńlá – tí ó jẹ́ ẹwà Chicago.	Bẹẹ ni, nigba ti inu rẹ n dun,  Labakẹ o ba ti ṣe idanilẹkọọ to peye fun olugbalejo naa lori awọn ibi ti o le lọ ni Amẹrika tio ba fẹ ra nnkan  paradise awọn onraja ni opopona Madison ni New York, Neiman Marcus nla ni Washington DC ati Tower complex olomi nla  ti o jẹ ẹwa Chicago.	remove_only_accents

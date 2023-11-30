@@ -97,7 +97,7 @@ def _create_output_folders(base_folder, type_of_dataset, domain):
 
     # Construct the final output path
     output_path = output_path_folders[-1] / f'yor_{type_of_dataset}_{domain}.tsv'
-    absolute_path = data_path / f'menyo20k_data/{type_of_dataset}_{domain}.tsv'
+    absolute_path = data_path / f'menyo20k_data/new_dev_test_files/{type_of_dataset}_{domain}.tsv'
 
     return output_path, absolute_path
 
@@ -136,7 +136,7 @@ def create_new_menyo_dataset(type_of_dataset='dev'):
         print(f'Absolute Path = {absolute_path}')
         yoruba_sentences = _extract_yoruba_sentences(absolute_path)
         statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/menyo20k_data/{type_of_dataset}_prep_data/yor_{type_of_dataset}_{domain}_stats.txt"
-        process_and_save_yoruba_data(yoruba_sentences, statistics_file_path=statistics_file_path)
+        process_and_save_menyo_data(output_path, yoruba_sentences, statistics_file_path=statistics_file_path)
 
 def split_test_data(type_of_dataset='test'):
     for domain in domains:
@@ -149,10 +149,7 @@ def split_test_data(type_of_dataset='test'):
 
         print(f'Output = ${output_path}')
         print(f'Absolute Path = {absolute_path}')
-        # open the file and read it
-        # get 50% content of the file into dev_{domain}.tsv and 50% into test_{domain}.tsv
-        # save it to the output_path. all devs to to dev_prep_data and all tests go to test_prep_data
-
+    
         # Read the data from the absolute path
         with open(absolute_path, 'r') as file:
             lines = file.readlines()
