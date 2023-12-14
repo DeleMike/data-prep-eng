@@ -7,7 +7,6 @@ def extract_labels_to_text_file(type_of_dataset='test'):
     This will extract the data 'dcyo' from test.json or dev.json
     If it does not exist, then we will not extract labels
     """
-    # /mnt/disk/makindele/data_prep_eng/data_prep_eng/output_data/test.json
     file_path = Path('.').resolve() / f"data_prep_eng/output_data/{type_of_dataset}.json"
     file_content = ''
 
