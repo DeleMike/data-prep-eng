@@ -33,5 +33,5 @@ def extract_labels_to_text_file(type_of_dataset='test'):
     
 extract_labels_to_text_file()
 extract_labels_to_text_file(type_of_dataset='dev')
-extr
+extract_labels_to_text_file(type_of_dataset='menyo_train')
 
