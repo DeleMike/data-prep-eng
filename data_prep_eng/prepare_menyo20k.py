@@ -138,6 +138,20 @@ def create_new_menyo_dataset(type_of_dataset='dev'):
         statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/menyo20k_data/{type_of_dataset}_prep_data/yor_{type_of_dataset}_{domain}_stats.txt"
         process_and_save_menyo_data(output_path, yoruba_sentences, statistics_file_path=statistics_file_path)
 
+def create_menyo_train_dataset():
+    """Process Menyo20k data and produce our dataset
+    """
+    absolute_path = Path('.').resolve() / f'data_prep_eng/menyo20k_data/train.tsv'
+    output_path = Path('.').resolve() / f"data_prep_eng/output_data/train.tsv"
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path)
+    
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/train_stats.txt"
+    
+    # we do this because the train.tsv file has the first line as English Yoruba
+    only_yoruba_sentences = yoruba_sentences[1:]
+    process_and_save_menyo_data(output_path, only_yoruba_sentences, statistics_file_path=statistics_file_path)
+
 def split_test_data(type_of_dataset='test'):
     for domain in domains:
         # Construct the final output path
