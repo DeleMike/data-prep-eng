@@ -1,22 +1,26 @@
+from pathlib import Path
 import unicodedata
 import random
 import csv
 
 domains = ['book', 'digital', 'news', 'proverbs', 'tedTalks']
 
-def remove_accents_and_underdots(text:str):
+
+def remove_accents_and_underdots(text: str):
     """
     We will remove all accents and underdots from the text
     """
     # Normalize the string to decomposed form (NFD)
     normalized_str = unicodedata.normalize('NFD', text)
-    
+
     # Filter out characters that are not combining diacritical marks
-    result_str = ''.join(char for char in normalized_str if unicodedata.category(char) != 'Mn')
-    
+    result_str = ''.join(
+        char for char in normalized_str if unicodedata.category(char) != 'Mn')
+
     return result_str
 
-def remove_only_accents(text:str):
+
+def remove_only_accents(text: str):
     """
     We will remove all accents only. So underdots will still appear in text
     """
@@ -33,7 +37,8 @@ def remove_only_accents(text:str):
     # Step 3: Re-compose the string into precomposed characters
     return unicodedata.normalize('NFC', filtered_text)
 
-def remove_only_accents_and_any_random_word(text:str):
+
+def remove_only_accents_and_any_random_word(text: str):
     """
     We will do the same as _remove_only_accents but here we will also remove some random words from the text
     """
@@ -44,7 +49,8 @@ def remove_only_accents_and_any_random_word(text:str):
     words = decomposed_text.split()
 
     # Step 3: Determine the number of words to remove (between 1 and 2)
-    num_words_to_remove = min(2, len(words))  # Ensure not to remove more words than available
+    # Ensure not to remove more words than available
+    num_words_to_remove = min(2, len(words))
 
     # Step 4: Remove the random number of words
     if num_words_to_remove < len(words):
@@ -55,6 +61,7 @@ def remove_only_accents_and_any_random_word(text:str):
     # Step 5: Re-compose the string into precomposed characters
     result_text = ' '.join(words)
     return unicodedata.normalize('NFC', result_text)
+
 
 def remove_only_accents_and_swap_word(text: str):
     """
@@ -98,6 +105,8 @@ def remove_only_accents_and_swap_word(text: str):
     result_text = ' '.join(words)
     return unicodedata.normalize('NFC', result_text)
 
+
+
 def apply_mixed_removal(sentence):
     """Determine which case to apply
 
@@ -110,11 +119,10 @@ def apply_mixed_removal(sentence):
     'remove_only_accents_and_swap_word' also has a 10% chance
     """
     case = random.choices([
-        'remove_accents_and_underdots', 
-        'remove_only_accents', 
+        'remove_accents_and_underdots',
+        'remove_only_accents',
         'remove_only_accents_and_any_random_word',
         'remove_only_accents_and_swap_word'], weights=[0.6, 0.2, 0.1, 0.1])[0]
-
 
     if case == 'remove_accents_and_underdots':
         return remove_accents_and_underdots(sentence), case
@@ -125,14 +133,11 @@ def apply_mixed_removal(sentence):
     elif case == 'remove_only_accents_and_swap_word':
         return remove_only_accents_and_swap_word(sentence), case
 
-import csv
-from pathlib import Path
-
 
 def process_and_save_menyo_data(output_path, yoruba_sentences, statistics_file_path):
-     # Counters for verification
+    # Counters for verification
     counters = {
-        'total_sentences': 0, 
+        'total_sentences': 0,
         'remove_accents_and_underdots': 0,
         'remove_only_accents': 0,
         'remove_only_accents_and_any_random_word': 0,
@@ -142,26 +147,31 @@ def process_and_save_menyo_data(output_path, yoruba_sentences, statistics_file_p
     # Define the output path
     with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
         tsv_writer = csv.writer(output_file, delimiter='\t')
-        tsv_writer.writerow(['Original Sentence', 'Modified Sentence', 'Case Rule Applied'])
+        tsv_writer.writerow(
+            ['Original Sentence', 'Modified Sentence', 'Case Rule Applied'])
         for sentence in yoruba_sentences:
             modified_sentence, removal_type = apply_mixed_removal(sentence)
             counters['total_sentences'] += 1
             counters[removal_type] += 1
             tsv_writer.writerow([sentence, modified_sentence, removal_type])
-    
+
     # Calculate percentages
-    counters['accents_and_underdots_percentage'] = (counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
-    counters['only_accents_percentage'] = (counters['remove_only_accents'] / counters['total_sentences']) * 100
-    counters['only_accents_and_any_random_word_percentage'] = (counters['remove_only_accents_and_any_random_word'] / counters['total_sentences']) * 100
-    counters['only_accents_and_swap_word_word_percentage'] = (counters['remove_only_accents_and_swap_word'] / counters['total_sentences']) * 100
-    
+    counters['accents_and_underdots_percentage'] = (
+        counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
+    counters['only_accents_percentage'] = (
+        counters['remove_only_accents'] / counters['total_sentences']) * 100
+    counters['only_accents_and_any_random_word_percentage'] = (
+        counters['remove_only_accents_and_any_random_word'] / counters['total_sentences']) * 100
+    counters['only_accents_and_swap_word_word_percentage'] = (
+        counters['remove_only_accents_and_swap_word'] / counters['total_sentences']) * 100
+
     # Print the counters
     print("\nCounters:")
     for key, value in counters.items():
         print(f"{key}: {value}")
     print(f"\nOutput file created at: {output_path}")
     # Output file path for statistics
-    
+
     # Write counters to the statistics file
     with open(statistics_file_path, 'w', encoding='utf-8') as statistics_file:
         statistics_file.write("Counters:\n")
@@ -176,7 +186,7 @@ def process_and_save_yoruba_data(yoruba_sentences, statistics_file_path):
     """
     # Counters for verification
     counters = {
-        'total_sentences': 0, 
+        'total_sentences': 0,
         'remove_accents_and_underdots': 0,
         'remove_only_accents': 0,
         'remove_only_accents_and_any_random_word': 0,
@@ -184,26 +194,32 @@ def process_and_save_yoruba_data(yoruba_sentences, statistics_file_path):
     }
 
     # Define the output path
-    output_path = Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/processed_yoruba_bible.tsv"
+    output_path = Path('.').resolve(
+    ) / f"data_prep_eng/output_data/yoruba_bible_data/processed_yoruba_bible.tsv"
     # output_path = Path('.').resolve() / f"data_prep_eng/output_data/train.tsv"
-
 
     with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
         tsv_writer = csv.writer(output_file, delimiter='\t')
-        tsv_writer.writerow(['Original Sentence', 'Modified Sentence', 'Case Rule Applied', 'Source of Data'])
+        tsv_writer.writerow(
+            ['Original Sentence', 'Modified Sentence', 'Case Rule Applied', 'Source of Data'])
 
         for sentence in yoruba_sentences:
             # print(f'Setence = {sentence}')
             modified_sentence, removal_type = apply_mixed_removal(sentence)
             counters['total_sentences'] += 1
             counters[removal_type] += 1
-            tsv_writer.writerow([sentence, modified_sentence, removal_type, 'bible'])
+            tsv_writer.writerow(
+                [sentence, modified_sentence, removal_type, 'bible'])
 
     # Calculate percentages
-    counters['accents_and_underdots_percentage'] = (counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
-    counters['only_accents_percentage'] = (counters['remove_only_accents'] / counters['total_sentences']) * 100
-    counters['only_accents_and_any_random_word_percentage'] = (counters['remove_only_accents_and_any_random_word'] / counters['total_sentences']) * 100
-    counters['only_accents_and_swap_word_word_percentage'] = (counters['remove_only_accents_and_swap_word'] / counters['total_sentences']) * 100
+    counters['accents_and_underdots_percentage'] = (
+        counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
+    counters['only_accents_percentage'] = (
+        counters['remove_only_accents'] / counters['total_sentences']) * 100
+    counters['only_accents_and_any_random_word_percentage'] = (
+        counters['remove_only_accents_and_any_random_word'] / counters['total_sentences']) * 100
+    counters['only_accents_and_swap_word_word_percentage'] = (
+        counters['remove_only_accents_and_swap_word'] / counters['total_sentences']) * 100
 
     # Print the counters
     print("\nCounters:")
@@ -226,4 +242,48 @@ def process_and_save_yoruba_data(yoruba_sentences, statistics_file_path):
 # user_statistics_file_path = input("Enter the statistics file path: ")
 # process_and_save_yoruba_data(yoruba_sentences, user_statistics_file_path)
 
- 
+
+def remove_only_accents_and_underdots_on_yoruba_data(yoruba_sentences, statistics_file_path):
+    """
+    Process the Yoruba dataset. Use only the remove_accents_and_underdots rule
+    """
+    # Counters for verification
+    counters = {
+        'total_sentences': 0,
+        'remove_accents_and_underdots': 0,
+    }
+    # Define the output path
+    output_path = Path('.').resolve(
+    ) / f"data_prep_eng/output_data/yoruba_bible_data/no_accents_and_underdots_yoruba_bible.tsv"
+    with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
+        tsv_writer = csv.writer(output_file, delimiter='\t')
+        tsv_writer.writerow(
+            ['Original Sentence', 'Modified Sentence', 'Case Rule Applied', 'Source of Data'])
+
+        for sentence in yoruba_sentences:
+            # print(f'Setence = {sentence}')
+            modified_sentence, removal_type = remove_accents_and_underdots(sentence), 'remove_accents_and_underdots'
+            counters['total_sentences'] += 1
+            counters[removal_type] += 1
+            tsv_writer.writerow(
+                [sentence, modified_sentence, removal_type, 'bible'])
+
+    # Calculate percentages
+    counters['accents_and_underdots_percentage'] = (
+        counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
+
+    # Print the counters
+    print("\nCounters:")
+    for key, value in counters.items():
+        print(f"{key}: {value}")
+
+    print(f"\nOutput file created at: {output_path}")
+
+    # Output file path for statistics
+    # Write counters to the user-provided statistics file
+    with open(statistics_file_path, 'w', encoding='utf-8') as statistics_file:
+        statistics_file.write("Counters:\n")
+        for key, value in counters.items():
+            statistics_file.write(f"{key}: {value}\n")
+
+    print(f"\nStatistics file created at: {statistics_file_path}")

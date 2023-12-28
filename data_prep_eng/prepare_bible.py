@@ -82,3 +82,22 @@ def create_new_yoruba_dataset(combined_file_path):
         # process it using those four rules
         statistics_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/processed_yoruba_bible.txt"
         process_and_save_yoruba_data(yoruba_sentences, statistics_file_path=statistics_file_path)
+        
+def create_no_accents_and_no_underdots_yoruba_dataset(combined_file_path):
+    """
+    Apply the case rule, remove accents and underdots to the Yoruba dataset and save the processed output.
+    """
+    # open the combined file path and read the contents
+    yoruba_sentences = []
+    with open(combined_file_path, 'r', encoding='utf-8') as file:
+        txt_reader = csv.reader(file)
+
+        for row in txt_reader:
+            yoruba_sentences.append(row[0])
+
+    # print(f'Yoruba sentences = {yoruba_sentences[:20]}')
+
+    if(len(yoruba_sentences) != 0):
+        # process it using those four rules
+        statistics_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/no_accents_and_underdots_yoruba_bible.txt"
+        remove_only_accents_and_underdots_on_yoruba_data(yoruba_sentences, statistics_file_path=statistics_file_path)
