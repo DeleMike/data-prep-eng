@@ -13,8 +13,8 @@ def main():
    random.seed(seed_value)
    
    # split_test_data()
-   # create_new_menyo_dataset() # create dev menyo dataset based on our 4 rules
-   # create_new_menyo_dataset(type_of_dataset='test') # create train menyo dataset based on our 4 rules
+   create_new_menyo_dataset() # create dev menyo dataset based on our 4 rules
+   create_new_menyo_dataset(type_of_dataset='test') # create train menyo dataset based on our 4 rules
 
    # # test_prepare()
    
