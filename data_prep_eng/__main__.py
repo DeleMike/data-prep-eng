@@ -33,7 +33,10 @@ def main():
     # create_menyo_train_dataset()
     
     # prepare JW300 data
-    create_jw300_train_dataset()
+    # create_jw300_train_dataset()
+    
+    # prepare mix
+    prepare_mix_train_data()
     
 
 
