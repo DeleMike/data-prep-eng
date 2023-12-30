@@ -28,7 +28,10 @@ def main():
     # combine_data(type_of_dataset='test') # create test dataset based on our 4 rules
 
     # prepare menyo 20k data
-    create_menyo_train_dataset()
+    # create_menyo_train_dataset()
+    
+    # prepare JW300 data
+    
 
 
 if __name__ == "__main__":
