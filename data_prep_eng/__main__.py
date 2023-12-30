@@ -1,4 +1,6 @@
 from data_prep_eng.prepare_menyo20k import create_new_menyo_dataset, split_test_data, create_menyo_train_dataset
+from data_prep_eng.prepare_jw300  import create_jw300_train_dataset
+from data_prep_eng.prepare_mix  import prepare_mix_train_data
 from data_prep_eng.prepare_bible import combine_all_bible_data, create_new_yoruba_dataset, create_no_accents_and_no_underdots_yoruba_dataset
 from data_prep_eng.prepare import combine_data
 
@@ -31,6 +33,7 @@ def main():
     # create_menyo_train_dataset()
     
     # prepare JW300 data
+    create_jw300_train_dataset()
     
 
 
