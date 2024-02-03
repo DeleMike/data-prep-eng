@@ -40,11 +40,11 @@ def main():
     
     # prepare menyo train and dev without accents but leave underdots
     # create_menyo_train_with_no_accents_only()
-    create_menyo_dev_with_no_accents_only()
+    # create_menyo_dev_with_no_accents_only()
     
     # prepare menyo train and dev without accents and underdots
     # create_menyo_train_with_no_accents_and_underdots()
-    create_menyo_dev_with_no_accents_and_underdots()
+    # create_menyo_dev_with_no_accents_and_underdots()
     
 
 
