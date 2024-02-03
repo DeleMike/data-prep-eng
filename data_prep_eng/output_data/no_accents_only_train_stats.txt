@@ -1,0 +1,4 @@
+Counters:
+total_sentences: 10070
+remove_only_accents: 10070
+only_accents_percentage: 100.0
