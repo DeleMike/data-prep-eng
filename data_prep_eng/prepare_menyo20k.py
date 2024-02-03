@@ -210,3 +210,33 @@ def create_menyo_train_with_no_accents_and_underdots():
     # we do this because the train.tsv file has the first line as English Yoruba
     only_yoruba_sentences = yoruba_sentences[1:]
     remove_accents_and_underdots_from_menyo(output_path, only_yoruba_sentences, statistics_file_path=statistics_file_path)
+    
+def create_menyo_dev_with_no_accents_only(type_of_dataset='dev'):
+    """
+    Apply all rules to dataset
+    """
+    absolute_path = Path('.').resolve() / f'data_prep_eng/menyo20k_data/dev.tsv'
+    output_path = Path('.').resolve() / f"data_prep_eng/output_data/dev_with_no_accents.tsv"
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path)
+    
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/dev_with_no_accents_stats.txt"
+    
+    # we do this because the dev.tsv file has the first line as English Yoruba
+    only_yoruba_sentences = yoruba_sentences[1:]
+    remove_only_accents_from_menyo(output_path, only_yoruba_sentences, statistics_file_path=statistics_file_path)
+        
+def create_menyo_dev_with_no_accents_and_underdots(type_of_dataset='dev'):
+    """
+    Apply all rules to dataset
+    """
+    absolute_path = Path('.').resolve() / f'data_prep_eng/menyo20k_data/dev.tsv'
+    output_path = Path('.').resolve() / f"data_prep_eng/output_data/dev_with_no_accents_and_underdots.tsv"
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path)
+    
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/dev_with_no_accents_and_underdots.txt"
+    
+    # we do this because the dev.tsv file has the first line as English Yoruba
+    only_yoruba_sentences = yoruba_sentences[1:]
+    remove_accents_and_underdots_from_menyo(output_path, only_yoruba_sentences, statistics_file_path=statistics_file_path)

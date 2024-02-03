@@ -1,4 +1,4 @@
-from data_prep_eng.prepare_menyo20k import create_new_menyo_dataset, split_test_data, create_menyo_train_dataset, create_menyo_train_with_no_accents_only, create_menyo_train_with_no_accents_and_underdots
+from data_prep_eng.prepare_menyo20k import create_new_menyo_dataset, split_test_data, create_menyo_train_dataset, create_menyo_train_with_no_accents_only, create_menyo_train_with_no_accents_and_underdots,create_menyo_dev_with_no_accents_only,create_menyo_dev_with_no_accents_and_underdots
 from data_prep_eng.prepare_jw300  import create_jw300_train_dataset
 from data_prep_eng.prepare_mix  import prepare_mix_train_data
 from data_prep_eng.prepare_bible import combine_all_bible_data, create_new_yoruba_dataset, create_no_accents_and_no_underdots_yoruba_dataset
@@ -39,10 +39,12 @@ def main():
     # prepare_mix_train_data()
     
     # prepare menyo train and dev without accents but leave underdots
-    create_menyo_train_with_no_accents_only()
+    # create_menyo_train_with_no_accents_only()
+    create_menyo_dev_with_no_accents_only()
     
     # prepare menyo train and dev without accents and underdots
-    create_menyo_train_with_no_accents_and_underdots()
+    # create_menyo_train_with_no_accents_and_underdots()
+    create_menyo_dev_with_no_accents_and_underdots()
     
 
 
