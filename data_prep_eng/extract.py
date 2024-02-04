@@ -30,8 +30,17 @@ def extract_labels_to_text_file(type_of_dataset='test'):
             new_file.write(file_content.strip())
     except:
         print(f'Something happened. We could not write to {type_of_dataset}.txt file')
-    
-extract_labels_to_text_file()
-extract_labels_to_text_file(type_of_dataset='dev')
-extract_labels_to_text_file(type_of_dataset='menyo_train')
+  
+  
+""" The following lines below were used to generate the text files that will be used during the bleu score calculation
+We have to use .txt files. Hence, for each dev file we wish to perfrom the Sacrebleu calculation on, just do the following:
+Your file must be a json file. Simply just pass it pass the  name of the file `file_to_convert` and you will get a generated file 
+as `file_to_extract.txt`
+""" 
+# extract_labels_to_text_file()
+# extract_labels_to_text_file(type_of_dataset='dev')
+# extract_labels_to_text_file(type_of_dataset='menyo_train')
+# extract_labels_to_text_file(type_of_dataset='dev_with_no_accents')
+extract_labels_to_text_file(type_of_dataset='dev_with_no_accents_and_underdots')
+
 
