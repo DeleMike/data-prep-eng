@@ -32,7 +32,7 @@ def extract_labels_to_text_file(type_of_dataset='test'):
         print(f'Something happened. We could not write to {type_of_dataset}.txt file')
   
   
-""" The following lines below were used to generate the text files that will be used during the bleu score calculation
+""" The following lines below were used to generate the text files that n will be used during the bleu score calculation
 We have to use .txt files. Hence, for each dev file we wish to perfrom the Sacrebleu calculation on, just do the following:
 Your file must be a json file. Simply just pass it pass the  name of the file `file_to_convert` and you will get a generated file 
 as `file_to_extract.txt`
