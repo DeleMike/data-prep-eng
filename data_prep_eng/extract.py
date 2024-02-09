@@ -41,6 +41,8 @@ as `file_to_extract.txt`
 # extract_labels_to_text_file(type_of_dataset='dev')
 # extract_labels_to_text_file(type_of_dataset='menyo_train')
 # extract_labels_to_text_file(type_of_dataset='dev_with_no_accents')
-extract_labels_to_text_file(type_of_dataset='dev_with_no_accents_and_underdots')
+# extract_labels_to_text_file(type_of_dataset='dev_with_no_accents_and_underdots')
+extract_labels_to_text_file(type_of_dataset='global_voices')
+
 
 
