@@ -1,4 +1,4 @@
-from data_prep_eng.prepare_menyo20k import create_new_menyo_dataset, split_test_data, create_menyo_train_dataset, create_menyo_train_with_no_accents_only, create_menyo_train_with_no_accents_and_underdots,create_menyo_dev_with_no_accents_only,create_menyo_dev_with_no_accents_and_underdots
+from data_prep_eng.prepare_menyo20k import create_new_menyo_dataset, create_menyo_train_dataset_without_processing ,split_test_data, create_menyo_train_dataset, create_menyo_train_with_no_accents_only, create_menyo_train_with_no_accents_and_underdots,create_menyo_dev_with_no_accents_only,create_menyo_dev_with_no_accents_and_underdots
 from data_prep_eng.prepare_jw300  import create_jw300_train_dataset
 from data_prep_eng.prepare_mix  import prepare_mix_train_data
 from data_prep_eng.prepare_global_vo  import create_global_voices_train_dataset
@@ -34,6 +34,9 @@ def main():
 
     # prepare menyo 20k data
     # create_menyo_train_dataset()
+    
+    # create_menyo_train_dataset_without_processing()
+    
     
     # prepare JW300 data
     # create_jw300_train_dataset()

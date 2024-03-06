@@ -159,6 +159,26 @@ def create_menyo_train_dataset():
     print(f'The total number of sentences for train dataset is = {len(total_yoruba_sentences)}')
     process_and_save_menyo_data(output_path, total_yoruba_sentences, statistics_file_path=statistics_file_path)
 
+def create_menyo_train_dataset_without_processing():
+    """Process Menyo20k train and dev data and produce our new train dataset. No heursitics applied.
+    """
+    absolute_path = Path('.').resolve() / f'data_prep_eng/menyo20k_data/train.tsv'
+    absolute_path_2 = Path('.').resolve() / f'data_prep_eng/menyo20k_data/dev.tsv'
+    output_path = Path('.').resolve() / f"data_prep_eng/output_data/new_train_no_heuristic.txt"
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path)
+    yoruba_sentences_2 = _extract_yoruba_sentences(absolute_path_2)
+    
+    # Combine the lists
+    total_yoruba_sentences = []
+    total_yoruba_sentences.extend(yoruba_sentences[1:]) # [1:] --> to remove header
+    total_yoruba_sentences.extend(yoruba_sentences_2[1:])
+    
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/new_train_no_heuristics_stats.txt"
+    
+    print(f'The total number of sentences for train dataset is = {len(total_yoruba_sentences)}')
+    process_and_save_menyo_data_no_heuristics(output_path, total_yoruba_sentences, statistics_file_path=statistics_file_path)
+
 def split_test_data(type_of_dataset='test'):
     for domain in domains:
         # Construct the final output path

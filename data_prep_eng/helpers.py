@@ -180,6 +180,35 @@ def process_and_save_menyo_data(output_path, yoruba_sentences, statistics_file_p
     print(f"\nStatistics file created at: {statistics_file_path}")
 
 
+def process_and_save_menyo_data_no_heuristics(output_path, yoruba_sentences, statistics_file_path):
+    # Counters for verification
+    counters = {
+        'total_sentences': 0,
+    }
+
+    # Define the output path
+    with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
+        # tsv_writer = csv.writer(output_file, delimiter='\t')
+        # tsv_writer.writerow(['Yoruba Sentence', 'Source of Data'])
+        for sentence in yoruba_sentences:
+            counters['total_sentences'] += 1
+            output_file.write(sentence + "\n")
+            
+    # Print the counters
+    print("\nCounters:")
+    for key, value in counters.items():
+        print(f"{key}: {value}")
+    print(f"\nOutput file created at: {output_path}")
+    # Output file path for statistics
+
+    # Write counters to the statistics file
+    with open(statistics_file_path, 'w', encoding='utf-8') as statistics_file:
+        statistics_file.write("Counters:\n")
+        for key, value in counters.items():
+            statistics_file.write(f"{key}: {value}\n")
+    print(f"\nStatistics file created at: {statistics_file_path}")
+
+
 def process_and_save_yoruba_data(yoruba_sentences, statistics_file_path):
     """
     Process the Yoruba dataset, save the modified sentences along with statistics.

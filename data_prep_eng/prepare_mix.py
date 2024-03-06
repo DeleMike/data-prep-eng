@@ -9,13 +9,13 @@ Then, we will run `csv_to_json.py` from lafand-mt repository to get our mix.json
 """
 
 def prepare_mix_train_data():
-    """Get mix file by combining train.tsv[menyo], processed_yoruba_bible.tsv[NIV Bible]
+    """Get mix file by combining new_train.tsv[menyo], processed_yoruba_bible.tsv[NIV Bible]
     and jw300.tsv into one file called, mix.tsv.
     We will run `csv_to_json.py` from lafand-mt repository to get our mix.json training file
     """
     # define the path to the training files
     files_to_combine = [
-        Path('.').resolve() / 'data_prep_eng/output_data/train.tsv',
+        Path('.').resolve() / 'data_prep_eng/output_data/new_train.tsv',
         Path('.').resolve(
         ) / 'data_prep_eng/output_data/yoruba_bible_data/processed_yoruba_bible.tsv',
         Path('.').resolve() / 'data_prep_eng/output_data/jw300.tsv'
