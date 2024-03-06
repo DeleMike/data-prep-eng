@@ -139,18 +139,25 @@ def create_new_menyo_dataset(type_of_dataset='dev'):
         process_and_save_menyo_data(output_path, yoruba_sentences, statistics_file_path=statistics_file_path)
 
 def create_menyo_train_dataset():
-    """Process Menyo20k data and produce our dataset
+    """Process Menyo20k train and dev data and produce our new train dataset
     """
     absolute_path = Path('.').resolve() / f'data_prep_eng/menyo20k_data/train.tsv'
-    output_path = Path('.').resolve() / f"data_prep_eng/output_data/train.tsv"
+    absolute_path_2 = Path('.').resolve() / f'data_prep_eng/menyo20k_data/dev.tsv'
+    output_path = Path('.').resolve() / f"data_prep_eng/output_data/new_train.tsv"
     
     yoruba_sentences = _extract_yoruba_sentences(absolute_path)
+    yoruba_sentences_2 = _extract_yoruba_sentences(absolute_path_2)
     
-    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/train_stats.txt"
+    # Combine the lists
+    total_yoruba_sentences = []
+    total_yoruba_sentences.extend(yoruba_sentences[1:]) # [1:] --> to remove header
+    total_yoruba_sentences.extend(yoruba_sentences_2[1:])
+    # print(total_yoruba_sentences[10070:10072])
     
-    # we do this because the train.tsv file has the first line as English Yoruba
-    only_yoruba_sentences = yoruba_sentences[1:]
-    process_and_save_menyo_data(output_path, only_yoruba_sentences, statistics_file_path=statistics_file_path)
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/new_train_stats.txt"
+    
+    print(f'The total number of sentences for train dataset is = {len(total_yoruba_sentences)}')
+    process_and_save_menyo_data(output_path, total_yoruba_sentences, statistics_file_path=statistics_file_path)
 
 def split_test_data(type_of_dataset='test'):
     for domain in domains:

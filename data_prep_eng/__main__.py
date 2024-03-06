@@ -50,7 +50,7 @@ def main():
     # create_menyo_dev_with_no_accents_and_underdots()
     
     # create_global_voices_train_dataset()
-    remove_accents_and_underdots()
+    # remove_accents_and_underdots()
 
 
 if __name__ == "__main__":
