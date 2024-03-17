@@ -3,7 +3,7 @@ from data_prep_eng.prepare_jw300  import create_jw300_train_dataset
 from data_prep_eng.prepare_mix  import prepare_mix_train_data
 from data_prep_eng.prepare_global_vo  import create_global_voices_train_dataset
 
-from data_prep_eng.prepare_bible import combine_all_bible_data, create_new_yoruba_dataset, create_no_accents_and_no_underdots_yoruba_dataset
+from data_prep_eng.prepare_bible import split_bible_combined_data, combine_all_bible_data, create_new_yoruba_dataset, create_no_accents_and_no_underdots_yoruba_dataset
 from data_prep_eng.prepare import combine_data
 from data_prep_eng.remove_accents_and_underdots_menyo_test import remove_accents_and_underdots
 
@@ -42,7 +42,7 @@ def main():
     # create_jw300_train_dataset()
     
     # prepare mix
-    prepare_mix_train_data()
+    # prepare_mix_train_data()
     
     # prepare menyo train and dev without accents but leave underdots
     # create_menyo_train_with_no_accents_only()
@@ -53,7 +53,9 @@ def main():
     # create_menyo_dev_with_no_accents_and_underdots()
     
     # create_global_voices_train_dataset()
-    # remove_accents_and_underdots()
+    remove_accents_and_underdots()
+    
+    split_bible_combined_data()
 
 
 if __name__ == "__main__":
