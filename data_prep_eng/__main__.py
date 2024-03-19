@@ -2,10 +2,12 @@ from data_prep_eng.prepare_menyo20k import create_new_menyo_dataset, create_meny
 from data_prep_eng.prepare_jw300  import create_jw300_train_dataset
 from data_prep_eng.prepare_mix  import prepare_mix_train_data
 from data_prep_eng.prepare_global_vo  import create_global_voices_train_dataset
+from data_prep_eng.prepare_greetings  import create_greetings_test_dataset, create_greetings_test_dataset_no_accent
+
 
 from data_prep_eng.prepare_bible import split_bible_combined_data, combine_all_bible_data, create_new_yoruba_dataset, create_no_accents_and_no_underdots_yoruba_dataset
 from data_prep_eng.prepare import combine_data
-from data_prep_eng.remove_accents_and_underdots_menyo_test import remove_accents_and_underdots
+from data_prep_eng.remove_accents_and_underdots_menyo_test import remove_accents_and_underdots, remove_accents_and_underdots_for_YAD_test
 
 import random
 
@@ -53,9 +55,14 @@ def main():
     # create_menyo_dev_with_no_accents_and_underdots()
     
     # create_global_voices_train_dataset()
-    remove_accents_and_underdots()
+    # remove_accents_and_underdots()
     
-    split_bible_combined_data()
+    # split_bible_combined_data()
+    
+    # remove_accents_and_underdots_for_YAD_test()
+    
+    # create_greetings_test_dataset()
+    create_greetings_test_dataset_no_accent()
 
 
 if __name__ == "__main__":

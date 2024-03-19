@@ -1,0 +1,241 @@
+Original Sentence	Modified Sentence	Case Rule Applied	Source of Data
+Ẹ kú ọdún àjínde	E ku odun ajinde	remove_accents_and_underdots	greetings
+Ẹ kú ọdún iléyá	E ku odun ileya	remove_accents_and_underdots	greetings
+Ẹ ǹlẹ́ o	E nle o	remove_accents_and_underdots	greetings
+Ẹ jíire	E jiire	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ̀lẹ́	E ku irole	remove_accents_and_underdots	greetings
+Ó dìgbóṣe	O digbose	remove_accents_and_underdots	greetings
+Ẹ kú ojúmọ́	E ku ojumo	remove_accents_and_underdots	greetings
+Ẹ kú àbòsí	E ku abosi	remove_accents_and_underdots	greetings
+Ẹ kú ìmọtaraẹni	E ku imotaraeni	remove_accents_and_underdots	greetings
+Ẹ kú ọ̀tẹ̀	E ku ote	remove_accents_and_underdots	greetings
+Ẹ kú ìdájí	E ku idaji	remove_accents_and_underdots	greetings
+Ẹ jèbùrẹ́	E jebure	remove_accents_and_underdots	greetings
+Ẹ kú ìdami ara	E ku idami ara	remove_accents_and_underdots	greetings
+Ẹ kú ìmú ǹkan jẹ	E ku imu nkan je	remove_accents_and_underdots	greetings
+Ẹ kú ọjọ́ gbọọrọ	E ku ojo gbooro	remove_accents_and_underdots	greetings
+Ẹ máa báwa kálọ	E maa bawa kalo	remove_accents_and_underdots	greetings
+Ẹ kú ìgbádùn	E ku igbadun	remove_accents_and_underdots	greetings
+Ẹ kú àìbínú	E ku aibinu	remove_accents_and_underdots	greetings
+Ẹ kú àárẹ̀	E ku aare	remove_accents_and_underdots	greetings
+Ẹ kú oríire	E ku oriire	remove_accents_and_underdots	greetings
+Ẹ kú ayẹyẹ	E ku ayeye	remove_accents_and_underdots	greetings
+Ẹ kú ọrọ̀-ajé	E ku oro-aje	remove_accents_and_underdots	greetings
+Ẹ kú ẹwà	E ku ewa	remove_accents_and_underdots	greetings
+Ẹ kú iṣẹ́	E ku ise	remove_accents_and_underdots	greetings
+Ẹ kú àmúmọ́ra	E ku amumora	remove_accents_and_underdots	greetings
+Ẹ kú ṣíṣe	E ku sise	remove_accents_and_underdots	greetings
+Ẹ kú àfọkànsìn	E ku afokansin	remove_accents_and_underdots	greetings
+Ẹ kú ewu àárẹ̀	E ku ewu aare	remove_accents_and_underdots	greetings
+Ẹ kú ìgbìyànjú	E ku igbiyanju	remove_accents_and_underdots	greetings
+Ẹ kú ọjà	E ku oja	remove_accents_and_underdots	greetings
+Ẹ kú àfaradà	E ku afarada	remove_accents_and_underdots	greetings
+Ẹ kú àìbéérè ẹni	E ku aibeere eni	remove_accents_and_underdots	greetings
+Ẹ kú àmójúba	E ku amojuba	remove_accents_and_underdots	greetings
+Ẹ kú àpèjẹ	E ku apeje	remove_accents_and_underdots	greetings
+Ẹ kú àsè	E ku ase	remove_accents_and_underdots	greetings
+ẹ kú àtìlẹyìn	e ku atileyin	remove_accents_and_underdots	greetings
+Ẹ kú oríkádún	E ku orikadun	remove_accents_and_underdots	greetings
+ẹ kú ìrọ́jú	e ku iroju	remove_accents_and_underdots	greetings
+Ẹ kú àjàbọ́.	E ku ajabo.	remove_accents_and_underdots	greetings
+Ẹ kú ìfarajìn	E ku ifarajin	remove_accents_and_underdots	greetings
+Ẹ káàsán ìyá, ẹ kú odún àjínde.	E kaasan iya, e ku odun ajinde.	remove_accents_and_underdots	greetings
+Mò ń kíi gbogbo ọmọ lẹ́yìn Jésù, a kú ojú odún àjínde.	Mo n kii gbogbo omo leyin Jesu, a ku oju odun ajinde.	remove_accents_and_underdots	greetings
+Òní lọjọ́ àjínde, a kú ọdún àjínde o.	Oni lojo ajinde, a ku odun ajinde o.	remove_accents_and_underdots	greetings
+Alàgbà ní ká kíi yín kú ọdún àjínde.	Alagba ni ka kii yin ku odun ajinde.	remove_accents_and_underdots	greetings
+A kí àwọn kìrìsìtẹ́ni kú ọdún àjínde.	A ki awon kirisiteni ku odun ajinde.	remove_accents_and_underdots	greetings
+Ẹ kú ọdún iléyá Alájì.	E ku odun ileya Alaji.	remove_accents_and_underdots	greetings
+A kú ọdún iléyá, ojú á máa rọ́dún.	A ku odun ileya, oju a maa rodun.	remove_accents_and_underdots	greetings
+Mo kí yín Àlájà, ẹ kú ọdún iléyá.	Mo ki yin Alaja, e ku odun ileya.	remove_accents_and_underdots	greetings
+A kú ọdún iléyá o, ọ̀bẹ ò ní sélẹ̀.	A ku odun ileya o, obe o ni sele.	remove_accents_and_underdots	greetings
+Lọ sọ́dọ ìya Mọ̀nsúrù pé mo ní wọ́n kú ọdún iléyá.	Lo sodo iya Monsuru pe mo ni won ku odun ileya.	remove_accents_and_underdots	greetings
+Ẹ ǹlẹ́ o ẹ̀yin èyàn mi, ṣe àlàáfíà ni?	E nle o eyin eyan mi, se alaafia ni?	remove_accents_and_underdots	greetings
+Ẹ ǹlẹ́ nílé yìí o, ta ló wà nílé?	E nle nile yii o, ta lo wa nile?	remove_accents_and_underdots	greetings
+Ẹ ǹlẹ́ níbẹ̀ yẹn, ìroyìn ayọ̀ ni mo mú wá.	E nle nibe yen, iroyin ayo ni mo mu wa.	remove_accents_and_underdots	greetings
+Ẹ ǹlẹ́ o Títí, bàbá rẹ ńkọ́?	E nle o Titi, baba re nko?	remove_accents_and_underdots	greetings
+Ẹ ǹlẹ́ o ẹ̀yin olùgbọ wa, ẹ káàbọ̀.	E nle o eyin olugbo wa, e kaabo.	remove_accents_and_underdots	greetings
+Ẹ jíire o ẹ̀yin ará ilé.	E jiire o eyin ara ile.	remove_accents_and_underdots	greetings
+Dọ̀bábẹ̀ kí o sọ pé ẹ jíire.	Dobabe ki o so pe e jiire.	remove_accents_and_underdots	greetings
+Ó dàárọ̀, a ó jíire.	O daaro, a o jiire.	remove_accents_and_underdots	greetings
+Ẹ jíire ẹ̀yin ọ̀rẹ́.	E jiire eyin ore.	remove_accents_and_underdots	greetings
+Ẹ jíire ìya wa, a kú àná.	E jiire iya wa, a ku ana.	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ̀lẹ́, ẹ sì kú iṣẹ́ òní.	E ku irole, e si ku ise oni.	remove_accents_and_underdots	greetings
+Kúnlẹ̀ kí o sì kú ìyá àgbà kú ìrọ̀lẹ́.	Kunle ki o si ku iya agba ku irole.	remove_accents_and_underdots	greetings
+Bí mo ṣe rí wọn ni mo dọ̀bálẹ̀ mo sì kí wọn kú ìrọ̀lẹ́.	Bi mo se ri won ni mo dobale mo si ki won ku irole.	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ̀lẹ́ o, ta lẹ̀ ń wá?	E ku irole o, ta le n wa?	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ̀lẹ́, ẹ káábọ̀.	E ku irole, e kaabo.	remove_accents_and_underdots	greetings
+Àwá ń lọ, ó dígbóṣe.	Awa n lo, o digbose.	remove_accents_and_underdots	greetings
+Ó dìgbóṣe o, ká má fikú yara wa.	O digbose o, ka ma fiku yara wa.	remove_accents_and_underdots	greetings
+Ó dìgbóṣe ẹ̀yin ará.	O digbose eyin ara.	remove_accents_and_underdots	greetings
+Ááyun rẹ yóò hun wá gidi gan-an ni, ó dìgbóṣe.	Aayun re yoo hun wa gidi gan-an ni, o digbose.	remove_accents_and_underdots	greetings
+Ó dígbóṣe, ọkọ̀ á réfò.	O digbose, oko a refo.	remove_accents_and_underdots	greetings
+Ẹ kú ojúmọ́ bàbá, ṣé ẹ sùn dáadáa?	E ku ojumo baba, se e sun daadaa?	remove_accents_and_underdots	greetings
+Ẹ kú ojúmọ́ ẹ̀yin ará ilé.	E ku ojumo eyin ara ile.	remove_accents_and_underdots	greetings
+Ẹ kú ojúmọ́, ẹ sì kú dédé àsìkò yìí.	E ku ojumo, e si ku dede asiko yii.	remove_accents_and_underdots	greetings
+Ẹ kú ojúmọ́ o, ṣe ẹ ṣẹ̀ṣẹ̀ jí ni?	E ku ojumo o, se e sese ji ni?	remove_accents_and_underdots	greetings
+Mo kíi yín, ẹ kú ojúmọ́.	Mo kii yin, e ku ojumo.	remove_accents_and_underdots	greetings
+Ẹ kú àbòsí ẹ̀yin ẹni ibi.	E ku abosi eyin eni ibi.	remove_accents_and_underdots	greetings
+Ẹ kú ìjókòó ẹ sì kú àbòsí.	E ku ijokoo e si ku abosi.	remove_accents_and_underdots	greetings
+Ó wà lára yín, ẹ kú àbòsì.	O wa lara yin, e ku abosi.	remove_accents_and_underdots	greetings
+Ẹ tún ti bẹ̀rẹ̀, ẹ kú àbòsí.	E tun ti bere, e ku abosi.	remove_accents_and_underdots	greetings
+Ẹ ṣì wà lẹ́nu ọ̀rọ̀ yìí? ẹ kú àbòsí o.	E si wa lenu oro yii? e ku abosi o.	remove_accents_and_underdots	greetings
+Ẹ̀yin aládàjẹ, ẹ kú ìmọtaraẹni.	Eyin aladaje, e ku imotaraeni.	remove_accents_and_underdots	greetings
+Ẹ̀yin alájẹbánu, ẹ kú ìmọtaraẹni nìkan.	Eyin alajebanu, e ku imotaraeni nikan.	remove_accents_and_underdots	greetings
+Ẹ kú ìmọtaraẹni ẹ̀yin olóṣèlu.	E ku imotaraeni eyin oloselu.	remove_accents_and_underdots	greetings
+Ahun niyín, ẹ kú ìmọtaraẹni.	Ahun niyin, e ku imotaraeni.	remove_accents_and_underdots	greetings
+Ṣé ìwọ nìkan lọlọ́hun dáyé fún ni? o kú ìmọtaraẹni.	Se iwo nikan lolohun daye fun ni? o ku imotaraeni.	remove_accents_and_underdots	greetings
+Ẹ fẹ́ dítẹ̀ mọ́ mi? ẹ kú ọ̀tẹ̀.	E fe dite mo mi? e ku ote.	remove_accents_and_underdots	greetings
+Ẹ kú ọ̀tẹ̀ ẹ̀yin ọlọ́tẹ̀.	E ku ote eyin olote.	remove_accents_and_underdots	greetings
+Ẹ fi wọ́n sílẹ̀, wọ́n kú ọ̀tẹ̀.	E fi won sile, won ku ote.	remove_accents_and_underdots	greetings
+Ẹ kú ọ̀tẹ̀ o ẹ̀yin abanijẹ́.	E ku ote o eyin abanije.	remove_accents_and_underdots	greetings
+Ẹ kú àbòsí, ẹ sì kú ọ̀tẹ̀.	E ku abosi, e si ku ote.	remove_accents_and_underdots	greetings
+Ẹ kú ìdájí, ṣé ẹ sùn dáadáa?	E ku idaji, se e sun daadaa?	remove_accents_and_underdots	greetings
+Ẹ kú ìdájí bàbá, ilẹ̀ ti mọ.	E ku idaji baba, ile ti mo.	remove_accents_and_underdots	greetings
+Ẹ kú ìdájí o, ṣe dáadáa lẹ jí?	E ku idaji o, se daadaa le ji?	remove_accents_and_underdots	greetings
+Ẹ kú ìdájí ẹ̀yin ọlọ́dẹ, ẹ kú iṣẹ́.	E ku idaji eyin olode, e ku ise.	remove_accents_and_underdots	greetings
+Ẹ ǹ lẹ o, ẹ kú ìdájí.	E n le o, e ku idaji.	remove_accents_and_underdots	greetings
+Ẹ má bìnú bàbá, ẹ jèbùrẹ́.	E ma binu baba, e jebure.	remove_accents_and_underdots	greetings
+A wá bẹ̀ yín ni ìya wa, ẹ jèbùrẹ́.	A wa be yin ni iya wa, e jebure.	remove_accents_and_underdots	greetings
+Ẹ jèbùrẹ́ awo olùgbẹ́bẹ̀.	E jebure awo olugbebe.	remove_accents_and_underdots	greetings
+Ẹ jẹ̀bùrẹ́ ẹ̀yin awo, ẹ dáríjì mí.	E jebure eyin awo, e dariji mi.	remove_accents_and_underdots	greetings
+Mo tọrọ àforíjìn lọ́wọ́ yin, ẹ jèbùrẹ́.	Mo toro aforijin lowo yin, e jebure.	remove_accents_and_underdots	greetings
+Baba o, ẹ kú ìdami ara.	Baba o, e ku idami ara.	remove_accents_and_underdots	greetings
+Ẹ kú ìgbádùn, ẹ sì kú ìdami ara.	E ku igbadun, e si ku idami ara.	remove_accents_and_underdots	greetings
+Ẹ kú ìdami ara ẹ̀yin olólùfẹ́.	E ku idami ara eyin ololufe.	remove_accents_and_underdots	greetings
+Ẹkùn! kú ìdami ara.	Ekun! ku idami ara.	remove_accents_and_underdots	greetings
+Ẹ kú iṣẹ́ o, ẹ sì kú ìdami ara.	E ku ise o, e si ku idami ara.	remove_accents_and_underdots	greetings
+Ẹ kú ìgbádùn, ẹ sì kú ìmú ǹkan jẹ.	E ku igbadun, e si ku imu nkan je.	remove_accents_and_underdots	greetings
+Ojú yín ló ń dán yìí, ẹ kú ìmú ǹkan jẹ.	Oju yin lo n dan yii, e ku imu nkan je.	remove_accents_and_underdots	greetings
+Ẹ kú ìmú ǹkan jẹ, ẹ sá máa rántí àwa náà.	E ku imu nkan je, e sa maa ranti awa naa.	remove_accents_and_underdots	greetings
+Ẹ kú fàájì, ẹ sù kú ìmú ǹkan jẹ.	E ku faaji, e su ku imu nkan je.	remove_accents_and_underdots	greetings
+Ìgbádùn rè é, ẹ kú ìmú ǹkan jẹ.	Igbadun re e, e ku imu nkan je.	remove_accents_and_underdots	greetings
+Ojúù rẹ rè é Bámidélé? o kú ọjọ́ gbọọrọ.	Ojuu re re e Bamidele? o ku ojo gbooro.	remove_accents_and_underdots	greetings
+Ẹ kásàán, ẹ kú ọjọ́ gbọọrọ.	E kasaan, e ku ojo gbooro.	remove_accents_and_underdots	greetings
+Ó pẹ́ díẹ̀ tí mo fi ojú kàn yín, ẹ kú ọjọ́ gbọọrọ.	O pe die ti mo fi oju kan yin, e ku ojo gbooro.	remove_accents_and_underdots	greetings
+Ẹ káàbọ̀, ẹ kú ọjọ́ gbọọrọ.	E kaabo, e ku ojo gbooro.	remove_accents_and_underdots	greetings
+Ọ̀rẹ́ mi àtijọ́ rẹ̀ é o, ẹ kú ọjọ́ gbọọrọ.	Ore mi atijo re e o, e ku ojo gbooro.	remove_accents_and_underdots	greetings
+Àwá ti bọ́ sọ́nà o, ẹ máa báwa kálọ.	Awa ti bo sona o, e maa bawa kalo.	remove_accents_and_underdots	greetings
+Ẹ má pẹ̀ ẹ́ o, ẹ máa báwa kálọ.	E ma pe e o, e maa bawa kalo.	remove_accents_and_underdots	greetings
+Abíólá ló ń róyìn, ẹ máa báwa kálọ.	Abiola lo n royin, e maa bawa kalo.	remove_accents_and_underdots	greetings
+Ẹ má gbẹ́yìn o, ẹ máa báwa kálọ.	E ma gbeyin o, e maa bawa kalo.	remove_accents_and_underdots	greetings
+Ẹ máa báwa kálọ ẹ̀yin ará.	E maa bawa kalo eyin ara.	remove_accents_and_underdots	greetings
+Bàba olówó, ẹ kú ìgbádùn.	Baba olowo, e ku igbadun.	remove_accents_and_underdots	greetings
+Ayé lẹ̀ ń jẹ o, ẹ kú ìgbádùn.	Aye le n je o, e ku igbadun.	remove_accents_and_underdots	greetings
+Ẹ kú ìgbádùn ẹ̀yin aláfẹ́ ènìyàn.	E ku igbadun eyin alafe eniyan.	remove_accents_and_underdots	greetings
+Ìgbádùn ń ṣàn níbí o, ẹ kú ìgbádùn.	Igbadun n san nibi o, e ku igbadun.	remove_accents_and_underdots	greetings
+ẹ kú ìgbádùn, ọwọ́ yín layé wà.	e ku igbadun, owo yin laye wa.	remove_accents_and_underdots	greetings
+Mo dúpẹ́ o, ẹ kú àìbínú.	Mo dupe o, e ku aibinu.	remove_accents_and_underdots	greetings
+Ẹ pẹ̀lẹ́, ẹ kú àìbínú.	E pele, e ku aibinu.	remove_accents_and_underdots	greetings
+Ẹ kú àìbínú ẹ̀yin olólùfẹ wa.	E ku aibinu eyin ololufe wa.	remove_accents_and_underdots	greetings
+Ẹ ṣeun, ẹ kú àìbínú.	E seun, e ku aibinu.	remove_accents_and_underdots	greetings
+Ẹ kú àìbínú ẹ̀yin ará ìlú, a ó ṣe àtúnṣe.	E ku aibinu eyin ara ilu, a o se atunse.	remove_accents_and_underdots	greetings
+Ẹ kú àárẹ̀ bàbá, ara yín fẹ́ ìsinmi.	E ku aare baba, ara yin fe isinmi.	remove_accents_and_underdots	greetings
+Ẹ kú iṣẹ́ ìya Dáre, ẹ sì kú àárẹ̀.	E ku ise iya Dare, e si ku aare.	remove_accents_and_underdots	greetings
+Ẹ pẹ̀lẹ́, ẹ kú àárẹ̀.	E pele, e ku aare.	remove_accents_and_underdots	greetings
+Ẹ ti gbìyànjú gidi gan, ẹ kú àárẹ̀.	E ti gbiyanju gidi gan, e ku aare.	remove_accents_and_underdots	greetings
+Ó tó kó rẹ̀yín, ẹ kú àárẹ̀.	O to ko reyin, e ku aare.	remove_accents_and_underdots	greetings
+Ẹ kú oríire ti ìyàwo ọmọ yín.	E ku oriire ti iyawo omo yin.	remove_accents_and_underdots	greetings
+Ẹ kú oríire ti ọkọ̀ tuntun tí ẹ ṣẹ̀ṣẹ̀ rà.	E ku oriire ti oko tuntun ti e sese ra.	remove_accents_and_underdots	greetings
+A kíi yín, ẹ kú oríire.	A kii yin, e ku oriire.	remove_accents_and_underdots	greetings
+A báa yín yọ̀ o, ẹ kú oríire ilé tuntun.	A baa yin yo o, e ku oriire ile tuntun.	remove_accents_and_underdots	greetings
+Ẹ kú oríire, ẹ sì kú àjàbọ́.	E ku oriire, e si ku ajabo.	remove_accents_and_underdots	greetings
+Ẹ kú ayẹyẹ ìfinijoyè òní o.	E ku ayeye ifinijoye oni o.	remove_accents_and_underdots	greetings
+Ẹ kú ayẹyẹ ìṣílé o.	E ku ayeye isile o.	remove_accents_and_underdots	greetings
+Ẹ kú oeíire Omidan Adébọ́lá, ẹ sì kú ayẹyẹ.	E ku oeiire Omidan Adebola, e si ku ayeye.	remove_accents_and_underdots	greetings
+O kú ayẹye ọjọ́ ìbí Olúwádámiláre.	O ku ayeye ojo ibi Oluwadamilare.	remove_accents_and_underdots	greetings
+Ẹ kú oríire, ẹ sì kú ayẹyẹ ìgbéga lẹ́nu iṣẹ́ o.	E ku oriire, e si ku ayeye igbega lenu ise o.	remove_accents_and_underdots	greetings
+Ẹ kú ojúmọ́ o, ẹ sì ku ọrọ̀-ajé.	E ku ojumo o, e si ku oro-aje.	remove_accents_and_underdots	greetings
+Ẹ káábọ̀ o, ẹ kú ọrọ̀-ajé òní.	E kaabo o, e ku oro-aje oni.	remove_accents_and_underdots	greetings
+Ìya alátẹ, ẹ mà ku ọrọ̀-ajé o.	Iya alate, e ma ku oro-aje o.	remove_accents_and_underdots	greetings
+Ẹ kú ọrọ̀-ajé ìya eléso, ṣé ajé wá?	E ku oro-aje iya eleso, se aje wa?	remove_accents_and_underdots	greetings
+Ẹ kú ọrọ̀-ajẹ́ ẹ̀yin ìya ọlọ́jà.	E ku oro-aje eyin iya oloja.	remove_accents_and_underdots	greetings
+Ẹ kú ẹwà o ìya onídìrí.	E ku ewa o iya onidiri.	remove_accents_and_underdots	greetings
+Ẹ kú ìjókòó o, ẹ sì kú ẹwà.	E ku ijokoo o, e si ku ewa.	remove_accents_and_underdots	greetings
+Ẹ kú ẹwà ẹ̀yin ọ̀ṣọ́rọ́ ọlọ́mọge.	E ku ewa eyin osoro olomoge.	remove_accents_and_underdots	greetings
+Ẹ̀ ń fírna ni? ẹ kú ẹwà o.	E n firna ni? e ku ewa o.	remove_accents_and_underdots	greetings
+Ojú yín mà gúnrégé kẹ, ẹ kú ẹwà.	Oju yin ma gunrege ke, e ku ewa.	remove_accents_and_underdots	greetings
+Ẹ káábọ̀, ẹ kú iṣẹ́.	E kaabo, e ku ise.	remove_accents_and_underdots	greetings
+Ẹ kú iṣẹ́ o bàba alágbẹ̀dẹ.	E ku ise o baba alagbede.	remove_accents_and_underdots	greetings
+Ṣé ẹ ti ṣetán? Ẹ kú iṣẹ́ o.	Se e ti setan? E ku ise o.	remove_accents_and_underdots	greetings
+Ẹ ti ẹ̀ ti gbìyàjú, ẹ kú iṣẹ.	E ti e ti gbiyaju, e ku ise.	remove_accents_and_underdots	greetings
+Mo ṣẹ̀ ní kí n wá wòyín ni, ẹ kú iṣẹ́.	Mo se ni ki n wa woyin ni, e ku ise.	remove_accents_and_underdots	greetings
+Ẹ pẹ̀lẹ́ o, ẹ kú àmúmọ́ra.	E pele o, e ku amumora.	remove_accents_and_underdots	greetings
+Mo báa yín kẹ́dùn, ẹ kú àmúmọ́ra.	Mo baa yin kedun, e ku amumora.	remove_accents_and_underdots	greetings
+Ẹ kú ọrọ̀ èyàn, ẹ sì kú àmúmọ́ra.	E ku oro eyan, e si ku amumora.	remove_accents_and_underdots	greetings
+Ìròyìn náà ṣẹ̀ kàn mi lára ni, ẹ kú àmúmọ́ra.	Iroyin naa se kan mi lara ni, e ku amumora.	remove_accents_and_underdots	greetings
+O kú àmúmọ́ra ti bàbá rẹ.	O ku amumora ti baba re.	remove_accents_and_underdots	greetings
+Ẹ kú ṣíṣe o, owó lẹ ná o.	E ku sise o, owo le na o.	remove_accents_and_underdots	greetings
+Ẹ kú ṣíṣe, Ọlọ́run á fọ́pọ̀ rọ́pò.	E ku sise, Olorun a fopo ropo.	remove_accents_and_underdots	greetings
+Ẹ kú ṣíṣe, èrè á pọ̀ níbẹ̀.	E ku sise, ere a po nibe.	remove_accents_and_underdots	greetings
+Ọ̀gá mi, ẹkú ìpalẹ̀mọ́, ẹ kú ṣíṣe.	Oga mi, eku ipalemo, e ku sise.	remove_accents_and_underdots	greetings
+Ẹ kú ṣíṣe ìyàwo ọmọ yín.	E ku sise iyawo omo yin.	remove_accents_and_underdots	greetings
+Ẹ kú àfọkànsìn, mo mọ rírì yín.	E ku afokansin, mo mo riri yin.	remove_accents_and_underdots	greetings
+Ẹ ṣeun, ẹ kú àfọkànsìn.	E seun, e ku afokansin.	remove_accents_and_underdots	greetings
+Ẹ kú àfọkànsìn ẹ̀yin ọmọ ẹgbẹ́.	E ku afokansin eyin omo egbe.	remove_accents_and_underdots	greetings
+Ẹ kú àfọkànsìn, mi ò mọ bí mi ò bá ṣe dúpẹ́.	E ku afokansin, mi o mo bi mi o ba se dupe.	remove_accents_and_underdots	greetings
+Mi ò mọ̀ pé ẹ tún lè rántí, ẹ kú àfọkànsìn.	Mi o mo pe e tun le ranti, e ku afokansin.	remove_accents_and_underdots	greetings
+Ọlọ́hun ṣeun o, ẹ kú ewu àárẹ̀ màmá.	Olohun seun o, e ku ewu aare mama.	remove_accents_and_underdots	greetings
+A dúpẹ́ pé ara yín ti yá, ẹ kú ewu àárẹ̀.	A dupe pe ara yin ti ya, e ku ewu aare.	remove_accents_and_underdots	greetings
+Ẹ kú ewu àárẹ̀, kò ní kù lẹ́yìn.	E ku ewu aare, ko ni ku leyin.	remove_accents_and_underdots	greetings
+Ẹ kú ewu àárẹ̀, a dúpẹ́ ẹ ò bá a lọ.	E ku ewu aare, a dupe e o ba a lo.	remove_accents_and_underdots	greetings
+Inú mi dùn pé ẹ tún fi ẹsẹ̀ ara yín rìn, ẹ kú ewu àárẹ̀.	Inu mi dun pe e tun fi ese ara yin rin, e ku ewu aare.	remove_accents_and_underdots	greetings
+Iṣẹ́ ńlá lẹ ṣe o, ẹ kú ìgbìyànjú.	Ise nla le se o, e ku igbiyanju.	remove_accents_and_underdots	greetings
+Ẹ kú ìgbìyànjú ẹ̀yin akẹ́kọ̀ọ́ wa.	E ku igbiyanju eyin akekoo wa.	remove_accents_and_underdots	greetings
+Ẹ kú ìgbìyànjú, ọlọ́hun á dé ìgbìyànju yín ládé.	E ku igbiyanju, olohun a de igbiyanju yin lade.	remove_accents_and_underdots	greetings
+Mi ò mọ̀ pé ó lè rẹwà báyìí, ẹ kú ìgbìyànjú.	Mi o mo pe o le rewa bayii, e ku igbiyanju.	remove_accents_and_underdots	greetings
+O káre ọmọ, o kú ìgbìyànjú.	O kare omo, o ku igbiyanju.	remove_accents_and_underdots	greetings
+Ẹ káábọ̀, ẹ kú ọjà.	E kaabo, e ku oja.	remove_accents_and_underdots	greetings
+Ẹ kú ọjà o, ṣájé wá?	E ku oja o, saje wa?	remove_accents_and_underdots	greetings
+Ẹ kú ọjà ìya oní gaàrí wa.	E ku oja iya oni gaari wa.	remove_accents_and_underdots	greetings
+Ìyá lájé wa, ẹ kú ọjà.	Iya laje wa, e ku oja.	remove_accents_and_underdots	greetings
+Ẹ kú ìrìn, ẹ sì ku ọjà.	E ku irin, e si ku oja.	remove_accents_and_underdots	greetings
+Ẹ kú àfaradà, gbogbo rẹ̀ yóò dáa.	E ku afarada, gbogbo re yoo daa.	remove_accents_and_underdots	greetings
+Mo kíi yín, ẹ kú àfaradà.	Mo kii yin, e ku afarada.	remove_accents_and_underdots	greetings
+Kò rọrùn rárá o, ẹ̀yin lẹ kú àfaradà.	Ko rorun rara o, eyin le ku afarada.	remove_accents_and_underdots	greetings
+Má bìnú ayaà mi, o kú àfaradà.	Ma binu ayaa mi, o ku afarada.	remove_accents_and_underdots	greetings
+Bá mi ṣe wọ́n pẹ̀lẹ́, wọ́n kú àfaradà.	Ba mi se won pele, won ku afarada.	remove_accents_and_underdots	greetings
+Ó tọ́jọ́ mẹ́ta, ẹ kú àbéére ẹni.	O tojo meta, e ku abeere eni.	remove_accents_and_underdots	greetings
+Ẹ kú ọjọ́ gbọọrọ, ẹ sì kú àìbéére ẹni.	E ku ojo gbooro, e si ku aibeere eni.	remove_accents_and_underdots	greetings
+Ẹ kú àìbéére ẹni, ṣé bóṣe yẹ kó rí nìyẹn?.	E ku aibeere eni, se bose ye ko ri niyen?.	remove_accents_and_underdots	greetings
+Ẹ kúàìbéére ẹni, àwá kúkú ń bère yín ní gbogbo ìgbà.	E kuaibeere eni, awa kuku n bere yin ni gbogbo igba.	remove_accents_and_underdots	greetings
+Ẹ kú àìbéére ẹni Iya Titó.	E ku aibeere eni Iya Tito.	remove_accents_and_underdots	greetings
+Ẹ kú àmójúba ọmọ tuntun yìí.	E ku amojuba omo tuntun yii.	remove_accents_and_underdots	greetings
+Ẹ kú àmójúbà iná o.	E ku amojuba ina o.	remove_accents_and_underdots	greetings
+Ẹ kú àmójúbà wa ẹ̀yin olólùfẹ wa.	E ku amojuba wa eyin ololufe wa.	remove_accents_and_underdots	greetings
+Ẹ káàsán ìya wa, ẹ kú àmójúbà ọmọ yín.	E kaasan iya wa, e ku amojuba omo yin.	remove_accents_and_underdots	greetings
+Ẹ kú oríire o, ẹ sì kú àmójúbà àwọn èyan yín.	E ku oriire o, e si ku amojuba awon eyan yin.	remove_accents_and_underdots	greetings
+Ẹ kú ìjókòó, ẹ sì kú àpèjẹ.	E ku ijokoo, e si ku apeje.	remove_accents_and_underdots	greetings
+Ẹ kú ìnáwó o, ẹ sì kú àpèjẹ.	E ku inawo o, e si ku apeje.	remove_accents_and_underdots	greetings
+Ẹ ṣeun tí ẹ pè mí bàbá, ẹ kú àpèjẹ.	E seun ti e pe mi baba, e ku apeje.	remove_accents_and_underdots	greetings
+Ẹ kú àpèjẹ, ìná ò ní tánwó yín.	E ku apeje, ina o ni tanwo yin.	remove_accents_and_underdots	greetings
+Ẹ kú àpèjẹ ẹ̀yin olóyè.	E ku apeje eyin oloye.	remove_accents_and_underdots	greetings
+Àjẹkì ni tòní, ẹ kú àsè.	Ajeki ni toni, e ku ase.	remove_accents_and_underdots	greetings
+Òórùn oúnjẹ yín ló gba gbogbo ilé kan yìí, ẹ kú àsè.	Oorun ounje yin lo gba gbogbo ile kan yii, e ku ase.	remove_accents_and_underdots	greetings
+Ẹ kú asè, ẹ ṣáà má já wa nímú.	E ku ase, e saa ma ja wa nimu.	remove_accents_and_underdots	greetings
+Ẹ kú àsè ẹ̀yin alásè wa.	E ku ase eyin alase wa.	remove_accents_and_underdots	greetings
+Ẹ kú àsè, ẹ sè é kó dùn.	E ku ase, e se e ko dun.	remove_accents_and_underdots	greetings
+Mo dúpẹ́ o, ẹ kú àtìlẹyìn.	Mo dupe o, e ku atileyin.	remove_accents_and_underdots	greetings
+Ẹ ṣeun, ẹ kú àtìlẹyìn.	E seun, e ku atileyin.	remove_accents_and_underdots	greetings
+Ẹ ṣeun tí ẹ wá, ẹ kú àtìlẹyìn.	E seun ti e wa, e ku atileyin.	remove_accents_and_underdots	greetings
+Ẹ kú àtìlẹyìn mi, irú ẹ̀ lẹ ó fi gbà á.	E ku atileyin mi, iru e le o fi gba a.	remove_accents_and_underdots	greetings
+Ẹ kú àtìlẹyìn bàba Ẹwà, mo mọ rírì yin.	E ku atileyin baba Ewa, mo mo riri yin.	remove_accents_and_underdots	greetings
+Kábíyèsi!́ Aláṣẹ ìkejì òrìṣà, ẹ kú oríkádún.	Kabiyesi! Alase ikeji orisa, e ku orikadun.	remove_accents_and_underdots	greetings
+O kú oríkádún ọ̀rẹ́ mi, wà á ṣe ọ̀pọ̀ ọdún láyé.	O ku orikadun ore mi, wa a se opo odun laye.	remove_accents_and_underdots	greetings
+Mo báa yín yọ̀, ẹ kú oríkádún, ọ̀pọ rẹ̀ lẹ ó ṣe.	Mo baa yin yo, e ku orikadun, opo re le o se.	remove_accents_and_underdots	greetings
+O kú oríkádún ọlọ́jọ́ ìbí, o ò ní sọnù.	O ku orikadun olojo ibi, o o ni sonu.	remove_accents_and_underdots	greetings
+Ẹ bá mi kí wọn, wọ́n kú oríkádún.	E ba mi ki won, won ku orikadun.	remove_accents_and_underdots	greetings
+Ẹ pẹ̀lẹ́, ẹ kú ìrọ́jú.	E pele, e ku iroju.	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ́jú, ọlọ́hun á kó o yín yọ.	E ku iroju, olohun a ko o yin yo.	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ́jú, ọlọ́hun yóò rán aláànú síi yín.	E ku iroju, olohun yoo ran alaanu sii yin.	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ́jú, ìgbà ọ̀tun yóò dé.	E ku iroju, igba otun yoo de.	remove_accents_and_underdots	greetings
+Ẹ kú ìrọ́jú bàbá àgbà, a ò ní rí irú rẹ̀ mọ́.	E ku iroju baba agba, a o ni ri iru re mo.	remove_accents_and_underdots	greetings
+Ẹ kú àjàbọ́, a ò ní rí irú rẹ̀ mọ́.	E ku ajabo, a o ni ri iru re mo.	remove_accents_and_underdots	greetings
+Ẹ kú oríire, ẹ sì kú àjàbọ́.	E ku oriire, e si ku ajabo.	remove_accents_and_underdots	greetings
+Orí ló kóo yín yọ o, ẹ kú àjàbọ́.	Ori lo koo yin yo o, e ku ajabo.	remove_accents_and_underdots	greetings
+Oríyọmí lorúkọ yín, ẹ kú àjàbọ́.	Oriyomi loruko yin, e ku ajabo.	remove_accents_and_underdots	greetings
+O kú àjàbọ́ ọ̀rẹ́ mi.	O ku ajabo ore mi.	remove_accents_and_underdots	greetings
+Olóòtọ́ ènìyàn ni yín, ẹ kú ìfarajìn.	Olooto eniyan ni yin, e ku ifarajin.	remove_accents_and_underdots	greetings
+Ẹ kú ìfarajì ẹ̀yin ọmọ lẹ́yìn Jésù.	E ku ifaraji eyin omo leyin Jesu.	remove_accents_and_underdots	greetings
+Sí ẹ̀yin òṣìṣẹ wa pàtàkì, ẹ kú ìfarajìn.	Si eyin osise wa pataki, e ku ifarajin.	remove_accents_and_underdots	greetings
+Ẹ kú ìfarajìn, ọlọ́run yóò san yín lẹ́san.	E ku ifarajin, olorun yoo san yin lesan.	remove_accents_and_underdots	greetings
+Gbogbo ìgbìyànju yín ni ọlọ́run rí, ẹ kú ìfarajìn.	Gbogbo igbiyanju yin ni olorun ri, e ku ifarajin.	remove_accents_and_underdots	greetings
