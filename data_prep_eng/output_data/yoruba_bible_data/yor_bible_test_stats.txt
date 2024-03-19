@@ -1,4 +1,4 @@
 Counters:
 total_sentences: 3083
-remove_accents_and_underdots: 3083
+remove_only_accents: 3083
 accents_and_underdots_percentage: 100.0

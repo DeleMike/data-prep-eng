@@ -30,3 +30,14 @@ def create_global_voices_train_dataset():
     yoruba_sentences = _extract_yoruba_sentences(absolute_path)
     
     remove_accents_and_underdots_from_global_voices(output_path, yoruba_sentences, statistics_file_path=statistics_file_path)
+    
+def create_global_voices_only_accents_dataset():
+    """
+    """
+    absolute_path = Path('.').resolve() / f'data_prep_eng/global_voices/global_voices.txt' 
+    output_path = Path('.').resolve() / f'data_prep_eng/output_data/global_voices_no_accents_only.tsv'
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/global_voices_no_accents_only_stats.txt"
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path)
+    
+    remove_accents_only_from_global_voices(output_path, yoruba_sentences, statistics_file_path=statistics_file_path)

@@ -153,7 +153,7 @@ def split_bible_combined_data():
     
      # for each of the contents in the 
     statistics_file_path_2 =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yor_bible_test_stats.txt"
-    output_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test.tsv"
+    output_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test_on_accents.tsv"
     
     yoruba_sentences_2 = []
     with open('data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test.txt', 'r', encoding='utf-8') as file:
@@ -165,4 +165,6 @@ def split_bible_combined_data():
     
     print(yoruba_sentences_2[0:3])
     
-    remove_accents_and_underdots_from_bible(output_path=output_file_path, yoruba_sentences=yoruba_sentences_2, statistics_file_path=statistics_file_path_2)
+    remove_accents_only_from_bible(output_path=output_file_path, yoruba_sentences=yoruba_sentences_2, statistics_file_path=statistics_file_path_2)
+    
+    # remove_accents_and_underdots_from_bible(output_path=output_file_path, yoruba_sentences=yoruba_sentences_2, statistics_file_path=statistics_file_path_2)
