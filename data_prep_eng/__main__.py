@@ -31,7 +31,7 @@ def main():
     # process yoruba bible by removing only all accents and underdots
     # create_no_accents_and_no_underdots_yoruba_dataset(combined_file_path=combined_yor_file_path)
 
-    # combine_data() # create dev dataset based on our 4 rules
+    combine_data() # create dev dataset based on our 4 rules
     # combine_data(type_of_dataset='test') # create test dataset based on our 4 rules
 
     # prepare menyo 20k data
@@ -58,7 +58,7 @@ def main():
     # create_global_voices_only_accents_dataset()
     # remove_accents_and_underdots()
     
-    split_bible_combined_data()
+    # split_bible_combined_data()
     
     # remove_accents_and_underdots_for_YAD_test()
     # remove_accents_only_for_YAD_test()
