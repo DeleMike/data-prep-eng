@@ -15,9 +15,9 @@ def prepare_mix_train_data():
     """
     # define the path to the training files
     files_to_combine = [
-        Path('.').resolve() / 'data_prep_eng/output_data/new_train.tsv',
+        Path('.').resolve() / 'data_prep_eng/output_data/yad_train.tsv',
         Path('.').resolve(
-        ) / 'data_prep_eng/output_data/yoruba_bible_data/processed_yoruba_bible.tsv',
+        ) / 'data_prep_eng/output_data/yoruba_bible_data/new_yoruba_bible_train_2.tsv',
         Path('.').resolve() / 'data_prep_eng/output_data/jw300.tsv'
     ]
     seed_value = 28

@@ -31,7 +31,7 @@ def main():
     # process yoruba bible by removing only all accents and underdots
     # create_no_accents_and_no_underdots_yoruba_dataset(combined_file_path=combined_yor_file_path)
 
-    combine_data() # create dev dataset based on our 4 rules
+    # combine_data() # create dev dataset based on our 4 rules
     # combine_data(type_of_dataset='test') # create test dataset based on our 4 rules
 
     # prepare menyo 20k data
@@ -44,7 +44,7 @@ def main():
     # create_jw300_train_dataset()
     
     # prepare mix
-    # prepare_mix_train_data()
+    prepare_mix_train_data()
     
     # prepare menyo train and dev without accents but leave underdots
     # create_menyo_train_with_no_accents_only()
