@@ -143,7 +143,7 @@ def create_menyo_train_dataset():
     """
     absolute_path = Path('.').resolve() / f'data_prep_eng/menyo20k_data/train.tsv'
     absolute_path_2 = Path('.').resolve() / f'data_prep_eng/menyo20k_data/dev.tsv'
-    output_path = Path('.').resolve() / f"data_prep_eng/output_data/new_train.tsv"
+    output_path = Path('.').resolve() / f"data_prep_eng/output_data/yad_train.tsv" # new train two uses only removal of 1 random word
     
     yoruba_sentences = _extract_yoruba_sentences(absolute_path)
     yoruba_sentences_2 = _extract_yoruba_sentences(absolute_path_2)

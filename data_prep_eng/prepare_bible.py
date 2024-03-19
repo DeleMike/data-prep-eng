@@ -106,65 +106,65 @@ def split_bible_combined_data():
     """90% for train, 10% for test"""
     # divide file by 90%
     # then test file to have 10% of contents
-    # file_path = '/mnt/disk/makindele/data_prep_eng/data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_combined.txt'
+    file_path = '/mnt/disk/makindele/data_prep_eng/data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_combined.txt'
     
-    # # Read the contents of the file
-    # with open(file_path, 'r', encoding='utf-8') as file:
-    #     data = file.readlines()
+    # Read the contents of the file
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = file.readlines()
     
-    # # Shuffle the data randomly
-    # random.shuffle(data)
+    # Shuffle the data randomly
+    random.shuffle(data)
     
-    # print(f'Length of file = {len(data)}')
-    # # Calculate the index to split the data
-    # split_index = int(0.9 * len(data))
+    print(f'Length of file = {len(data)}')
+    # Calculate the index to split the data
+    split_index = int(0.9 * len(data))
     
-    # # Split the data into training and testing sets
-    # train_data = data[:split_index]
-    # test_data = data[split_index:]
+    # Split the data into training and testing sets
+    train_data = data[:split_index]
+    test_data = data[split_index:]
     
-    # print(f'Length of train is = {len(train_data)}')
-    # print(f'Length of train is = {len(test_data)}')
+    print(f'Length of train is = {len(train_data)}')
+    print(f'Length of train is = {len(test_data)}')
     
     
-    # # Write the training data to a new file
-    # with open('data_prep_eng/output_data/yoruba_bible_data/unprocessed_yoruba_bible_train.txt', 'w', encoding='utf-8') as train_file:
-    #     train_file.writelines(train_data)
+    # Write the training data to a new file
+    with open('data_prep_eng/output_data/yoruba_bible_data/unprocessed_yoruba_bible_train.txt', 'w', encoding='utf-8') as train_file:
+        train_file.writelines(train_data)
     
     # # Write the testing data to a new file
     # with open('data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test.txt', 'w', encoding='utf-8') as test_file:
     #     test_file.writelines(test_data)
         
         
-    # # for each of the contents in the 
-    # statistics_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yor_bible_train_stats.txt"
-    # yoruba_sentences = []
-    # with open('data_prep_eng/output_data/yoruba_bible_data/unprocessed_yoruba_bible_train.txt', 'r', encoding='utf-8') as file:
-    #     txt_reader = csv.reader(file)
-
-    #     for row in txt_reader:
-    #         yoruba_sentences.append(row[0])
-            
-    
-    # print(yoruba_sentences[0:3])
-    
-    # process_and_save_yoruba_data_v2(yoruba_sentences, statistics_file_path=statistics_file_path)
-    
-    
-     # for each of the contents in the 
-    statistics_file_path_2 =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yor_bible_test_stats.txt"
-    output_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test_on_accents.tsv"
-    
-    yoruba_sentences_2 = []
-    with open('data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test.txt', 'r', encoding='utf-8') as file:
+    # for each of the contents in the 
+    statistics_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yor_bible_train_stats.txt"
+    yoruba_sentences = []
+    with open('data_prep_eng/output_data/yoruba_bible_data/unprocessed_yoruba_bible_train.txt', 'r', encoding='utf-8') as file:
         txt_reader = csv.reader(file)
 
         for row in txt_reader:
-            yoruba_sentences_2.append(row[0])
+            yoruba_sentences.append(row[0])
             
     
-    print(yoruba_sentences_2[0:3])
+    print(yoruba_sentences[0:3])
     
-    remove_accents_only_from_bible(output_path=output_file_path, yoruba_sentences=yoruba_sentences_2, statistics_file_path=statistics_file_path_2)
+    process_and_save_yoruba_data_v2(yoruba_sentences, statistics_file_path=statistics_file_path)
+    
+    
+    #  # for each of the contents in the 
+    # statistics_file_path_2 =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yor_bible_test_stats.txt"
+    # output_file_path =  Path('.').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test_on_accents.tsv"
+    
+    # yoruba_sentences_2 = []
+    # with open('data_prep_eng/output_data/yoruba_bible_data/yoruba_bible_test.txt', 'r', encoding='utf-8') as file:
+    #     txt_reader = csv.reader(file)
+
+    #     for row in txt_reader:
+    #         yoruba_sentences_2.append(row[0])
+            
+    
+    # print(yoruba_sentences_2[0:3])
+    
+    # remove_accents_only_from_bible(output_path=output_file_path, yoruba_sentences=yoruba_sentences_2, statistics_file_path=statistics_file_path_2)
     
     # remove_accents_and_underdots_from_bible(output_path=output_file_path, yoruba_sentences=yoruba_sentences_2, statistics_file_path=statistics_file_path_2)

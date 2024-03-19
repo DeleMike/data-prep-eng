@@ -282,7 +282,7 @@ def process_and_save_yoruba_data_v2(yoruba_sentences, statistics_file_path):
 
     # Define the output path
     output_path = Path('.').resolve(
-    ) / f"data_prep_eng/output_data/yoruba_bible_data/new_yoruba_bible_train.tsv"
+    ) / f"data_prep_eng/output_data/yoruba_bible_data/new_yoruba_bible_train_2.tsv"
     # output_path = Path('.').resolve() / f"data_prep_eng/output_data/train.tsv"
 
     with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
@@ -424,7 +424,6 @@ def remove_only_accents_and_underdots_on_yoruba_data(yoruba_sentences, statistic
             statistics_file.write(f"{key}: {value}\n")
 
     print(f"\nStatistics file created at: {statistics_file_path}")
-    
     
 def remove_only_accents_from_menyo(output_path, yoruba_sentences, statistics_file_path):
     """
