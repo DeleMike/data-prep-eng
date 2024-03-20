@@ -7,7 +7,7 @@ def extract_labels_to_text_file(type_of_dataset='test'):
     This will extract the data 'dcyo' from test.json or dev.json
     If it does not exist, then we will not extract labels
     """
-    file_path = Path('..').resolve() / f"data_prep_eng/output_data/{type_of_dataset}.json"
+    file_path = Path('..').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/{type_of_dataset}.json"
     file_content = ''
 
     try:
@@ -25,7 +25,7 @@ def extract_labels_to_text_file(type_of_dataset='test'):
         print(f'{type_of_dataset} does not exist. Ensure your {type_of_dataset} exist before running this.')
 
     try:
-        new_path =  file_path = Path('..').resolve() / f"data_prep_eng/output_data/{type_of_dataset}.txt"
+        new_path =  file_path = Path('..').resolve() / f"data_prep_eng/output_data/yoruba_bible_data/{type_of_dataset}.txt"
         with open(new_path, 'w', encoding='utf-8') as new_file:
             new_file.write(file_content.strip())
     except:
@@ -42,7 +42,11 @@ as `file_to_extract.txt`
 # extract_labels_to_text_file(type_of_dataset='menyo_train')
 # extract_labels_to_text_file(type_of_dataset='dev_with_no_accents')
 # extract_labels_to_text_file(type_of_dataset='dev_with_no_accents_and_underdots')
-extract_labels_to_text_file(type_of_dataset='global_voices')
+# extract_labels_to_text_file(type_of_dataset='global_voices')
+# extract_labels_to_text_file(type_of_dataset='greetings_test')
+extract_labels_to_text_file(type_of_dataset='yoruba_bible_test')
+
+
 
 
 

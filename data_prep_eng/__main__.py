@@ -44,7 +44,7 @@ def main():
     # create_jw300_train_dataset()
     
     # prepare mix
-    prepare_mix_train_data()
+    # prepare_mix_train_data()
     
     # prepare menyo train and dev without accents but leave underdots
     # create_menyo_train_with_no_accents_only()
@@ -66,6 +66,8 @@ def main():
     
     # create_greetings_test_dataset()
     # create_greetings_test_dataset_no_accent()
+    
+    
 
 
 if __name__ == "__main__":
