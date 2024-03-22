@@ -61,7 +61,7 @@ def main():
     # split_bible_combined_data()
     
     # remove_accents_and_underdots_for_YAD_test()
-    # remove_accents_only_for_YAD_test()
+    remove_accents_only_for_YAD_test()
     
     
     # create_greetings_test_dataset()
