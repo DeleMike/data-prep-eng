@@ -3,6 +3,7 @@ from data_prep_eng.prepare_jw300  import create_jw300_train_dataset
 from data_prep_eng.prepare_mix  import prepare_mix_train_data
 from data_prep_eng.prepare_global_vo  import create_global_voices_train_dataset,create_global_voices_only_accents_dataset
 from data_prep_eng.prepare_greetings  import create_greetings_test_dataset, create_greetings_test_dataset_no_accent, create_merge_yoruba_greetings, prepare_merge_greetings
+from data_prep_eng.prepare_msft  import prepare_msft_data
 
 
 from data_prep_eng.prepare_bible import split_bible_combined_data, combine_all_bible_data, create_new_yoruba_dataset, create_no_accents_and_no_underdots_yoruba_dataset
@@ -68,8 +69,9 @@ def main():
     # create_greetings_test_dataset_no_accent()
     
     # create_merge_yoruba_greetings()
-    prepare_merge_greetings()
+    # prepare_merge_greetings()
 
+    prepare_msft_data()
 
 if __name__ == "__main__":
     main()

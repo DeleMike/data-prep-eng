@@ -225,6 +225,78 @@ def process_and_save_greetings_merge_data(output_path, yoruba_sentences, statist
             statistics_file.write(f"{key}: {value}\n")
     print(f"\nStatistics file created at: {statistics_file_path}")
 
+def process_and_save_msft_data_with_no_diacritics(output_path, yoruba_sentences, statistics_file_path):
+    # Counters for verification
+    counters = {
+        'total_sentences': 0,
+        'remove_accents_and_underdots': 0,
+    }
+
+    # Define the output path
+    with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
+        tsv_writer = csv.writer(output_file, delimiter='\t')
+        tsv_writer.writerow(
+            ['Original Sentence', 'Modified Sentence', 'Case Rule Applied', 'Source of Data'])
+        for sentence in yoruba_sentences:
+            modified_sentence, removal_type = remove_accents_and_underdots(sentence), 'remove_accents_and_underdots'
+            counters['total_sentences'] += 1
+            counters[removal_type] += 1
+            tsv_writer.writerow([sentence, modified_sentence, removal_type, 'msft'])
+
+    # Calculate percentages
+    counters['accents_and_underdots_percentage'] = (
+        counters['remove_accents_and_underdots'] / counters['total_sentences']) * 100
+
+    # Print the counters
+    print("\nCounters:")
+    for key, value in counters.items():
+        print(f"{key}: {value}")
+    print(f"\nOutput file created at: {output_path}")
+    # Output file path for statistics
+
+    # Write counters to the statistics file
+    with open(statistics_file_path, 'w', encoding='utf-8') as statistics_file:
+        statistics_file.write("Counters:\n")
+        for key, value in counters.items():
+            statistics_file.write(f"{key}: {value}\n")
+    print(f"\nStatistics file created at: {statistics_file_path}")
+
+def process_and_save_msft_data_with_no_accents_only(output_path, yoruba_sentences, statistics_file_path):
+    # Counters for verification
+    counters = {
+        'total_sentences': 0,
+        'remove_only_accents': 0,
+    }
+
+    # Define the output path
+    with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
+        tsv_writer = csv.writer(output_file, delimiter='\t')
+        tsv_writer.writerow(
+            ['Original Sentence', 'Modified Sentence', 'Case Rule Applied', 'Source of Data'])
+        for sentence in yoruba_sentences:
+            modified_sentence, removal_type = remove_only_accents(sentence), 'remove_only_accents'
+            counters['total_sentences'] += 1
+            counters[removal_type] += 1
+            tsv_writer.writerow([sentence, modified_sentence, removal_type, 'msft'])
+
+    # Calculate percentages
+    counters['only_accents_percentage'] = (
+        counters['remove_only_accents'] / counters['total_sentences']) * 100
+
+    # Print the counters
+    print("\nCounters:")
+    for key, value in counters.items():
+        print(f"{key}: {value}")
+    print(f"\nOutput file created at: {output_path}")
+    # Output file path for statistics
+
+    # Write counters to the statistics file
+    with open(statistics_file_path, 'w', encoding='utf-8') as statistics_file:
+        statistics_file.write("Counters:\n")
+        for key, value in counters.items():
+            statistics_file.write(f"{key}: {value}\n")
+    print(f"\nStatistics file created at: {statistics_file_path}")
+
 
 def process_and_save_menyo_data_no_heuristics(output_path, yoruba_sentences, statistics_file_path):
     # Counters for verification
