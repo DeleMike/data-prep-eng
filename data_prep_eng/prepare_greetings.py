@@ -34,6 +34,43 @@ def create_greetings_test_dataset():
     
     remove_accents_and_underdots_from_greetings(output_path, yoruba_sentences[1:], statistics_file_path=statistics_file_path)
     
+def create_merge_yoruba_greetings():
+    """
+    """
+    absolute_path_1 = Path('.').resolve() / f'data_prep_eng/greetings/greet_dev.tsv' 
+    absolute_path_2 = Path('.').resolve() / f'data_prep_eng/greetings/greet_train.tsv' 
+    output_path = Path('.').resolve() / f'data_prep_eng/output_data/greeting_merge.tsv'
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path_1)
+    yoruba_sentences_2 = _extract_yoruba_sentences(absolute_path_2)
+    merged_yoruba_sentences = []
+   
+    merged_yoruba_sentences.extend(yoruba_sentences[1:])
+    merged_yoruba_sentences.extend(yoruba_sentences_2[1:])
+    
+    print('Yoruba sentences are : ', merged_yoruba_sentences)
+    print('Yoruba sentences length : ', len(merged_yoruba_sentences))
+    
+    with open(output_path, 'w', encoding='utf-8', newline='') as output_file:
+        tsv_writer = csv.writer(output_file, delimiter='\t')
+        tsv_writer.writerow(['Yoruba'])
+        for sentence in merged_yoruba_sentences:
+            tsv_writer.writerow([sentence])
+            
+
+def prepare_merge_greetings():
+    """
+    """
+    absolute_path = Path('.').resolve() / f'data_prep_eng/output_data/greeting_merge.tsv'
+    output_path = Path('.').resolve() / f'data_prep_eng/output_data/greeting_merge_processed.tsv'
+    statistics_file_path= Path('.').resolve() / f"data_prep_eng/output_data/greeting_merge_processed_stats.txt"
+    
+    yoruba_sentences = _extract_yoruba_sentences(absolute_path)[1:]
+
+    print('Yoruba sentences length : ', len(yoruba_sentences))
+    
+    process_and_save_greetings_merge_data(output_path, yoruba_sentences, statistics_file_path=statistics_file_path)
+ 
 def create_greetings_test_dataset_no_accent():
     """
     """
